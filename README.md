@@ -1,5 +1,4 @@
-
-# Car logos images 
+# Car Logos 
 This repository contains car manufacturers logos in `.jpg` or `.png` files.
 Data were crawled on `31.8.2019` from website Carlogos.org.
 
