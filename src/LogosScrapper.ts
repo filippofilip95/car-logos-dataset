@@ -82,8 +82,8 @@ class LogosScrapper extends BaseScrapper {
         await this.downloadFile(url, `./logos/${fileNameSlug}`);
 
         this.manufacturersLogos.push({
+          url,
           name: manufacturer.name,
-          url: logoUrl,
           slug: fileNameSlug,
         });
 
@@ -95,8 +95,11 @@ class LogosScrapper extends BaseScrapper {
   };
 
   protected saveJson() {
-    this.writeFileSync("./logos.json", JSON.stringify(this.manufacturersLogos));
-    console.log(`Results meta data saved to JSON.`);
+    this.writeFileSync(
+      "./logos.json",
+      JSON.stringify(this.manufacturersLogos, null, 2)
+    );
+    console.log(`Meta data of results saved to JSON.`);
   }
 
   public async run() {
