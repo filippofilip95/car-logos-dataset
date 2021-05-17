@@ -35,6 +35,8 @@ class LogosScrapper extends BaseScrapper {
         this.manufacturers.push({name, url});
       }
     });
+
+    console.log(`Recognized ${this.manufacturers.length} manufacturers.`);
   }
 
   protected async downloadLogos(): Promise<void> {
@@ -43,13 +45,17 @@ class LogosScrapper extends BaseScrapper {
 
     runners.forEach((runner) => queue.push(runner));
 
-    return new Promise((resolve, reject) =>
+    await new Promise<void>((resolve, reject) =>
       queue.start((error) => {
-        if (error) {
-          reject(error);
-        }
+        if (error) reject(error);
         resolve();
       })
+    );
+
+    console.log(
+      `Downloaded ${this.chalk.bold(
+        this.manufacturersLogos.length
+      )} manufacturers logos.`
     );
   }
 
@@ -64,36 +70,43 @@ class LogosScrapper extends BaseScrapper {
         let logoUrl = document(Selectors.ManufacturerLogo).attr("src");
 
         if (!logoUrl) {
-          throw new Error(`${msg} ${this.chalk.red("not found")}`);
+          throw new Error(`${msg}${this.chalk.red("not found")}`);
         }
 
         const extension = this.getFileExtension(logoUrl);
         const url = this.fixUrl(logoUrl);
-        const slug = this.slugify(manufacturer.name).toLowerCase();
+        const fileNameSlug = `${this.slugify(
+          manufacturer.name
+        ).toLowerCase()}.${extension}`;
 
-        await this.downloadFile(url, `./logos/${slug}.${extension}`);
+        await this.downloadFile(url, `./logos/${fileNameSlug}`);
 
-        this.manufacturersLogos.push({name: manufacturer.name, url: logoUrl});
-        console.log(`${msg} ${this.chalk.green("downloaded")}.`);
+        this.manufacturersLogos.push({
+          name: manufacturer.name,
+          url: logoUrl,
+          slug: fileNameSlug,
+        });
+
+        console.log(`${msg}${this.chalk.green("downloaded")}.`);
       } catch (e) {
-        console.log(e);
+        console.log(e.message);
       }
     };
   };
 
+  protected saveJson() {
+    this.writeFileSync("./logos.json", JSON.stringify(this.manufacturersLogos));
+    console.log(`Results meta data saved to JSON.`);
+  }
+
   public async run() {
     try {
       console.log("Started parsing.");
-      await this.recognizeManufacturers();
 
-      console.log(`Recognized ${this.manufacturers.length} manufacturers.`);
+      await this.recognizeManufacturers();
       await this.downloadLogos();
-      console.log(
-        `Downloaded ${this.chalk.bold(
-          this.manufacturersLogos.length
-        )} manufacturers logos.`
-      );
-      // TODO save to json
+      this.saveJson();
+
       console.log("Finished.");
     } catch (e) {
       console.error(e);

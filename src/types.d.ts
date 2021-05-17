@@ -5,4 +5,10 @@ type Manufacturer = {
 
 export type Manufacturers = Manufacturer[];
 
-export type ManufacturersLogos = Manufacturer[];
+type ManufacturerLogo = {
+  name: string;
+  slug: string;
+  url: string;
+};
+
+export type ManufacturersLogos = ManufacturerLogo[];

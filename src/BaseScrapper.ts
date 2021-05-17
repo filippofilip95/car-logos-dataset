@@ -29,6 +29,10 @@ class BaseScrapper {
     });
   }
 
+  protected writeFileSync(path: string, data: string) {
+    return fs.writeFileSync(path, data);
+  }
+
   protected getFileExtension(url: string) {
     return (url.match(/\.([^.]*?)(?=\?|#|$)/) || [])[1];
   }
