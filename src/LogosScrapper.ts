@@ -17,11 +17,11 @@ class LogosScrapper extends BaseScrapper {
   manufacturers: Manufacturers = [];
   manufacturersLogos: ManufacturersLogos = [];
 
-  private fixUrl(url: string) {
+  protected fixUrl(url: string) {
     return url.startsWith("http") ? url : `${BASE_URL}${url}`;
   }
 
-  private async recognizeManufacturers() {
+  protected async recognizeManufacturers() {
     const document = await this.loadDocument(Url.AllManufacturers);
     const text = document(Selectors.AllManufacturers);
 
@@ -37,7 +37,7 @@ class LogosScrapper extends BaseScrapper {
     });
   }
 
-  private async downloadLogos(): Promise<void> {
+  protected async downloadLogos(): Promise<void> {
     const queue = new this.queue({concurrency: 5});
     const runners = this.manufacturers.map(this.createLogoDownloader);
 
@@ -53,7 +53,7 @@ class LogosScrapper extends BaseScrapper {
     );
   }
 
-  private createLogoDownloader = (manufacturer: Manufacturer) => {
+  protected createLogoDownloader = (manufacturer: Manufacturer) => {
     return async () => {
       try {
         const msg = `Logo of ${this.chalk.bold(manufacturer.name)} `;
