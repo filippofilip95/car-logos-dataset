@@ -29,4 +29,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# node
+node_modules
+
+# idea
+.idea
+
+# yarn
+yarn-error.log
+
 # End of https://www.gitignore.io/api/macos
