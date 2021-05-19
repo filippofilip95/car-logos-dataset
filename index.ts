@@ -1,5 +1,10 @@
 import LogosScrapper from "./src/LogosScrapper";
+import ImageFormatter from "./src/ImageFormatter";
 
-const scrapper = new LogosScrapper();
+(async function main() {
+  const scrapper = new LogosScrapper();
+  const formatter = new ImageFormatter();
 
-scrapper.run();
+  await scrapper.run();
+  await formatter.run();
+})();

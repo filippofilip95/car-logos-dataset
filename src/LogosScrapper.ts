@@ -1,17 +1,6 @@
 import { Manufacturer, Manufacturers, ManufacturersLogos } from "./types";
 import BaseScrapper from "./BaseScrapper";
-
-const BASE_URL = "https://www.carlogos.org";
-
-const Url = {
-  AllManufacturers: `${BASE_URL}/car-brands-a-z`,
-  Manufacturer: (url: string) => `${BASE_URL}/${url}`,
-};
-
-const Selectors = {
-  AllManufacturers: ".a-z dd a",
-  ManufacturerLogo: `div.logo-content a img`,
-};
+import { BASE_URL, LogosPath, META_JSON_PATH, Selector, Url } from "./config";
 
 class LogosScrapper extends BaseScrapper {
   manufacturers: Manufacturers = [];
@@ -23,7 +12,7 @@ class LogosScrapper extends BaseScrapper {
 
   protected async recognizeManufacturers() {
     const document = await this.loadDocument(Url.AllManufacturers);
-    const text = document(Selectors.AllManufacturers);
+    const text = document(Selector.AllManufacturers);
 
     text.each((index, element) => {
       const manufacturerNode = document(element);
@@ -32,7 +21,7 @@ class LogosScrapper extends BaseScrapper {
       const name = manufacturerNode.text();
 
       if (url && name) {
-        this.manufacturers.push({name, url});
+        this.manufacturers.push({ name, url });
       }
     });
 
@@ -40,7 +29,7 @@ class LogosScrapper extends BaseScrapper {
   }
 
   protected async downloadLogos(): Promise<void> {
-    const queue = new this.queue({concurrency: 5});
+    const queue = new this.queue({ concurrency: 5 });
     const runners = this.manufacturers.map(this.createLogoDownloader);
 
     runners.forEach((runner) => queue.push(runner));
@@ -67,7 +56,7 @@ class LogosScrapper extends BaseScrapper {
           Url.Manufacturer(manufacturer.url)
         );
 
-        let logoUrl = document(Selectors.ManufacturerLogo).attr("src");
+        let logoUrl = document(Selector.ManufacturerLogo).attr("src");
 
         if (!logoUrl) {
           throw new Error(`${msg}${this.chalk.red("not found")}`);
@@ -79,7 +68,7 @@ class LogosScrapper extends BaseScrapper {
           manufacturer.name
         ).toLowerCase()}.${extension}`;
 
-        await this.downloadFile(url, `./logos/${fileNameSlug}`);
+        await this.downloadFile(url, `${LogosPath.Original}/${fileNameSlug}`);
 
         this.manufacturersLogos.push({
           url,
@@ -96,7 +85,7 @@ class LogosScrapper extends BaseScrapper {
 
   protected saveJson() {
     this.writeFileSync(
-      "./logos.json",
+      META_JSON_PATH,
       JSON.stringify(this.manufacturersLogos, null, 2)
     );
     console.log(`Meta data of results saved to JSON.`);
@@ -110,7 +99,7 @@ class LogosScrapper extends BaseScrapper {
       await this.downloadLogos();
       this.saveJson();
 
-      console.log("Finished.");
+      console.log("Finished parsing.");
     } catch (e) {
       console.error(e);
     }
