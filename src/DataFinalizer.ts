@@ -39,9 +39,9 @@ class DataFinalizer extends BaseClass {
   protected composeResultsData(): ManufacturerLogos {
     return this.results.logos.map((logo) => {
       const variations = this.getLogoVariations(logo.slug);
-      const image = {...logo.image, ...variations};
+      const image = { ...logo.image, ...variations };
 
-      return {...logo, image};
+      return { ...logo, image };
     });
   }
 
