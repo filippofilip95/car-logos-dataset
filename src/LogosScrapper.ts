@@ -1,10 +1,10 @@
 import { Manufacturer, Manufacturers, ManufacturersLogos } from "./types";
 import BaseScrapper from "./BaseScrapper";
-import { BASE_URL, LogosPath, META_JSON_PATH, Selector, Url } from "./config";
+import { BASE_URL, LogosPath, Selector, Url } from "./config";
 
 class LogosScrapper extends BaseScrapper {
   manufacturers: Manufacturers = [];
-  manufacturersLogos: ManufacturersLogos = [];
+  logos: ManufacturersLogos = [];
 
   protected fixUrl(url: string) {
     return url.startsWith("http") ? url : `${BASE_URL}${url}`;
@@ -42,9 +42,7 @@ class LogosScrapper extends BaseScrapper {
     );
 
     console.log(
-      `Downloaded ${this.chalk.bold(
-        this.manufacturersLogos.length
-      )} manufacturers logos.`
+      `Downloaded ${this.chalk.bold(this.logos.length)} manufacturers logos.`
     );
   }
 
@@ -55,25 +53,24 @@ class LogosScrapper extends BaseScrapper {
         const document = await this.loadDocument(
           Url.Manufacturer(manufacturer.url)
         );
-
-        let logoUrl = document(Selector.ManufacturerLogo).attr("src");
+        const logoUrl = document(Selector.ManufacturerLogo).attr("src");
 
         if (!logoUrl) {
           throw new Error(`${msg}${this.chalk.red("not found")}`);
         }
 
-        const extension = this.getFileExtension(logoUrl);
-        const url = this.fixUrl(logoUrl);
-        const fileNameSlug = `${this.slugify(
-          manufacturer.name
-        ).toLowerCase()}.${extension}`;
+        const sourceUrl = this.fixUrl(logoUrl);
+        const extension = this.getFileExtFromUrl(sourceUrl);
+        const slug = this.slugify(manufacturer.name).toLowerCase();
+        const fileName = `${slug}.${extension}`;
+        const targetLocation = `${LogosPath.Original}/${fileName}`;
 
-        await this.downloadFile(url, `${LogosPath.Original}/${fileNameSlug}`);
+        await this.downloadFile(sourceUrl, targetLocation);
 
-        this.manufacturersLogos.push({
-          url,
+        this.logos.push({
           name: manufacturer.name,
-          slug: fileNameSlug,
+          slug: slug,
+          image: { source: sourceUrl },
         });
 
         console.log(`${msg}${this.chalk.green("downloaded")}.`);
@@ -83,26 +80,19 @@ class LogosScrapper extends BaseScrapper {
     };
   };
 
-  protected saveJson() {
-    this.writeFileSync(
-      META_JSON_PATH,
-      JSON.stringify(this.manufacturersLogos, null, 2)
-    );
-    console.log(`Meta data of results saved to JSON.`);
-  }
-
   public async run() {
     try {
       console.log("Started parsing.");
 
       await this.recognizeManufacturers();
       await this.downloadLogos();
-      this.saveJson();
 
       console.log("Finished parsing.");
     } catch (e) {
       console.error(e);
     }
+
+    return this.logos;
   }
 }
 

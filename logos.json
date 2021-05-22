@@ -1,1872 +1,3742 @@
 [
   {
-    "url": "https://www.carlogos.org/logo/Hupmobile-logo.png",
     "name": "Abbott-Detroit",
-    "slug": "abbott-detroit.png"
+    "slug": "abbott-detroit",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hupmobile-logo.png",
+      "thumb": "abbott-detroit.png",
+      "optimized": "abbott-detroit.png",
+      "original": "abbott-detroit.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/ABT-Sportsline-logo-silver-640x250.jpg",
     "name": "ABT",
-    "slug": "abt.jpg"
+    "slug": "abt",
+    "image": {
+      "source": "https://www.carlogos.org/logo/ABT-Sportsline-logo-silver-640x250.jpg",
+      "thumb": "abt.png",
+      "optimized": "abt.png",
+      "original": "abt.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/AC-logo-640x550.jpg",
     "name": "AC",
-    "slug": "ac.jpg"
+    "slug": "ac",
+    "image": {
+      "source": "https://www.carlogos.org/logo/AC-logo-640x550.jpg",
+      "thumb": "ac.png",
+      "optimized": "ac.png",
+      "original": "ac.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Abarth-logo-640x540.jpg",
     "name": "Abarth",
-    "slug": "abarth.jpg"
+    "slug": "abarth",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Abarth-logo-640x540.jpg",
+      "thumb": "abarth.png",
+      "optimized": "abarth.png",
+      "original": "abarth.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Abadal-logo-640x550.jpg",
     "name": "Abadal",
-    "slug": "abadal.jpg"
+    "slug": "abadal",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Abadal-logo-640x550.jpg",
+      "thumb": "abadal.png",
+      "optimized": "abadal.png",
+      "original": "abadal.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Acura-logo-1990-640x406.jpg",
     "name": "Acura",
-    "slug": "acura.jpg"
+    "slug": "acura",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Acura-logo-1990-640x406.jpg",
+      "thumb": "acura.png",
+      "optimized": "acura.png",
+      "original": "acura.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Aixam-logo-2010-640x550.jpg",
     "name": "Aixam",
-    "slug": "aixam.jpg"
+    "slug": "aixam",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Aixam-logo-2010-640x550.jpg",
+      "thumb": "aixam.png",
+      "optimized": "aixam.png",
+      "original": "aixam.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Alpine-logo-640x341.jpg",
     "name": "Alpine",
-    "slug": "alpine.jpg"
+    "slug": "alpine",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Alpine-logo-640x341.jpg",
+      "thumb": "alpine.png",
+      "optimized": "alpine.png",
+      "original": "alpine.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Alpina-logo-640x550.jpg",
     "name": "Alpina",
-    "slug": "alpina.jpg"
+    "slug": "alpina",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Alpina-logo-640x550.jpg",
+      "thumb": "alpina.png",
+      "optimized": "alpina.png",
+      "original": "alpina.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Alfa-Romeo-logo-2015-640x550.jpg",
     "name": "Alfa Romeo",
-    "slug": "alfa-romeo.jpg"
+    "slug": "alfa-romeo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Alfa-Romeo-logo-2015-640x550.jpg",
+      "thumb": "alfa-romeo.png",
+      "optimized": "alfa-romeo.png",
+      "original": "alfa-romeo.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hillman-logo.png",
     "name": "Alta",
-    "slug": "alta.png"
+    "slug": "alta",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hillman-logo.png",
+      "thumb": "alta.png",
+      "optimized": "alta.png",
+      "original": "alta.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Alvis-logo-640x327.jpg",
     "name": "Alvis",
-    "slug": "alvis.jpg"
+    "slug": "alvis",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Alvis-logo-640x327.jpg",
+      "thumb": "alvis.png",
+      "optimized": "alvis.png",
+      "original": "alvis.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/American-Motors-logo-640x550.jpg",
     "name": "AMC",
-    "slug": "amc.jpg"
+    "slug": "amc",
+    "image": {
+      "source": "https://www.carlogos.org/logo/American-Motors-logo-640x550.jpg",
+      "thumb": "amc.png",
+      "optimized": "amc.png",
+      "original": "amc.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Apollo-Automobil-logo-640x550.jpg",
     "name": "Apollo",
-    "slug": "apollo.jpg"
+    "slug": "apollo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Apollo-Automobil-logo-640x550.jpg",
+      "thumb": "apollo.png",
+      "optimized": "apollo.png",
+      "original": "apollo.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Arash-logo-640x550.jpg",
     "name": "Arash",
-    "slug": "arash.jpg"
+    "slug": "arash",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Arash-logo-640x550.jpg",
+      "thumb": "arash.png",
+      "optimized": "arash.png",
+      "original": "arash.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/arcfox-logo-1250x220-show.png",
     "name": "Arcfox",
-    "slug": "arcfox.png"
+    "slug": "arcfox",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/arcfox-logo-1250x220-show.png",
+      "thumb": "arcfox.png",
+      "optimized": "arcfox.png",
+      "original": "arcfox.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Gilbern-logo.png",
     "name": "ARO",
-    "slug": "aro.png"
+    "slug": "aro",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Gilbern-logo.png",
+      "thumb": "aro.png",
+      "optimized": "aro.png",
+      "original": "aro.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Ariel-logo-2000-640x550.jpg",
     "name": "Ariel",
-    "slug": "ariel.jpg"
+    "slug": "ariel",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ariel-logo-2000-640x550.jpg",
+      "thumb": "ariel.png",
+      "optimized": "ariel.png",
+      "original": "ariel.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/arrival-logo-2600x350-show.png",
     "name": "Arrival",
-    "slug": "arrival.png"
+    "slug": "arrival",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/arrival-logo-2600x350-show.png",
+      "thumb": "arrival.png",
+      "optimized": "arrival.png",
+      "original": "arrival.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Arrinera-logo-640x486.jpg",
     "name": "Arrinera",
-    "slug": "arrinera.jpg"
+    "slug": "arrinera",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Arrinera-logo-640x486.jpg",
+      "thumb": "arrinera.png",
+      "optimized": "arrinera.png",
+      "original": "arrinera.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Artega-logo-640x550.jpg",
-    "name": "Artega",
-    "slug": "artega.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Askam-logo-640x124.jpg",
-    "name": "Askam",
-    "slug": "askam.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Ascari-logo-1995-640x550.jpg",
     "name": "Ascari",
-    "slug": "ascari.jpg"
+    "slug": "ascari",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ascari-logo-1995-640x550.jpg",
+      "thumb": "ascari.png",
+      "optimized": "ascari.png",
+      "original": "ascari.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/aspark-logo-1000x1000-show.png",
+    "name": "Artega",
+    "slug": "artega",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Artega-logo-640x550.jpg",
+      "thumb": "artega.png",
+      "optimized": "artega.png",
+      "original": "artega.jpg"
+    }
+  },
+  {
+    "name": "Askam",
+    "slug": "askam",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Askam-logo-640x124.jpg",
+      "thumb": "askam.png",
+      "optimized": "askam.png",
+      "original": "askam.jpg"
+    }
+  },
+  {
     "name": "Aspark",
-    "slug": "aspark.png"
+    "slug": "aspark",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/aspark-logo-1000x1000-show.png",
+      "thumb": "aspark.png",
+      "optimized": "aspark.png",
+      "original": "aspark.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Aston-Martin-logo-2003-640x286.jpg",
     "name": "Aston Martin",
-    "slug": "aston-martin.jpg"
+    "slug": "aston-martin",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Aston-Martin-logo-2003-640x286.jpg",
+      "thumb": "aston-martin.png",
+      "optimized": "aston-martin.png",
+      "original": "aston-martin.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Atalanta-Motors-logo-640x127.jpg",
     "name": "Atalanta",
-    "slug": "atalanta.jpg"
+    "slug": "atalanta",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Atalanta-Motors-logo-640x127.jpg",
+      "thumb": "atalanta.png",
+      "optimized": "atalanta.png",
+      "original": "atalanta.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Pierce-Arrow-logo.png",
     "name": "Auburn",
-    "slug": "auburn.png"
+    "slug": "auburn",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Pierce-Arrow-logo.png",
+      "thumb": "auburn.png",
+      "optimized": "auburn.png",
+      "original": "auburn.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Audi-Sport-logo-640x76.jpg",
-    "name": "Audi Sport",
-    "slug": "audi-sport.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Audi-logo-2009-640x334.jpg",
     "name": "Audi",
-    "slug": "audi.jpg"
+    "slug": "audi",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Audi-logo-2009-640x334.jpg",
+      "thumb": "audi.png",
+      "optimized": "audi.png",
+      "original": "audi.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Morris-logo.png",
+    "name": "Audi Sport",
+    "slug": "audi-sport",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Audi-Sport-logo-640x76.jpg",
+      "thumb": "audi-sport.png",
+      "optimized": "audi-sport.png",
+      "original": "audi-sport.jpg"
+    }
+  },
+  {
     "name": "Austin",
-    "slug": "austin.png"
+    "slug": "austin",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Morris-logo.png",
+      "thumb": "austin.png",
+      "optimized": "austin.png",
+      "original": "austin.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Autobianchi-logo-640x550.jpg",
     "name": "Autobianchi",
-    "slug": "autobianchi.jpg"
+    "slug": "autobianchi",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Autobianchi-logo-640x550.jpg",
+      "thumb": "autobianchi.png",
+      "optimized": "autobianchi.png",
+      "original": "autobianchi.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Autobacs-logo-640x462.jpg",
     "name": "Autobacs",
-    "slug": "autobacs.jpg"
+    "slug": "autobacs",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Autobacs-logo-640x462.jpg",
+      "thumb": "autobacs.png",
+      "optimized": "autobacs.png",
+      "original": "autobacs.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/BAC-logo-black-640x297.jpg",
     "name": "BAC",
-    "slug": "bac.jpg"
+    "slug": "bac",
+    "image": {
+      "source": "https://www.carlogos.org/logo/BAC-logo-black-640x297.jpg",
+      "thumb": "bac.png",
+      "optimized": "bac.png",
+      "original": "bac.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Axon-Automotive-logo-640x520.jpg",
     "name": "Axon",
-    "slug": "axon.jpg"
+    "slug": "axon",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Axon-Automotive-logo-640x520.jpg",
+      "thumb": "axon.png",
+      "optimized": "axon.png",
+      "original": "axon.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/BAIC-Motor-logo-640x168.jpg",
     "name": "BAIC Motor",
-    "slug": "baic-motor.jpg"
+    "slug": "baic-motor",
+    "image": {
+      "source": "https://www.carlogos.org/logo/BAIC-Motor-logo-640x168.jpg",
+      "thumb": "baic-motor.png",
+      "optimized": "baic-motor.png",
+      "original": "baic-motor.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Baojun-logo-2010-640x550.jpg",
-    "name": "Baojun",
-    "slug": "baojun.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/beiben-logo-900x1000-show.png",
     "name": "BeiBen",
-    "slug": "beiben.png"
+    "slug": "beiben",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/beiben-logo-900x1000-show.png",
+      "thumb": "beiben.png",
+      "optimized": "beiben.png",
+      "original": "beiben.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Austin-logo.png",
+    "name": "Baojun",
+    "slug": "baojun",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Baojun-logo-2010-640x550.jpg",
+      "thumb": "baojun.png",
+      "optimized": "baojun.png",
+      "original": "baojun.jpg"
+    }
+  },
+  {
     "name": "Berkeley",
-    "slug": "berkeley.png"
+    "slug": "berkeley",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Austin-logo.png",
+      "thumb": "berkeley.png",
+      "optimized": "berkeley.png",
+      "original": "berkeley.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Bentley-logo-640x324.jpg",
     "name": "Bentley",
-    "slug": "bentley.jpg"
+    "slug": "bentley",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Bentley-logo-640x324.jpg",
+      "thumb": "bentley.png",
+      "optimized": "bentley.png",
+      "original": "bentley.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Berliet-logo-640x550.jpg",
     "name": "Berliet",
-    "slug": "berliet.jpg"
+    "slug": "berliet",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Berliet-logo-640x550.jpg",
+      "thumb": "berliet.png",
+      "optimized": "berliet.png",
+      "original": "berliet.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Bertone-logo-640x388.jpg",
     "name": "Bertone",
-    "slug": "bertone.jpg"
+    "slug": "bertone",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Bertone-logo-640x388.jpg",
+      "thumb": "bertone.png",
+      "optimized": "bertone.png",
+      "original": "bertone.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/bestune-logo-2400x1200-show.png",
     "name": "Bestune",
-    "slug": "bestune.png"
+    "slug": "bestune",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/bestune-logo-2400x1200-show.png",
+      "thumb": "bestune.png",
+      "optimized": "bestune.png",
+      "original": "bestune.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/BharatBenz-logo-640x480.jpg",
-    "name": "BharatBenz",
-    "slug": "bharatbenz.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Bitter-logo-640x550.jpg",
     "name": "Bitter",
-    "slug": "bitter.jpg"
+    "slug": "bitter",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Bitter-logo-640x550.jpg",
+      "thumb": "bitter.png",
+      "optimized": "bitter.png",
+      "original": "bitter.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Bizzarrini-logo-640x550.jpg",
-    "name": "Bizzarrini",
-    "slug": "bizzarrini.jpg"
+    "name": "BharatBenz",
+    "slug": "bharatbenz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/BharatBenz-logo-640x480.jpg",
+      "thumb": "bharatbenz.png",
+      "optimized": "bharatbenz.png",
+      "original": "bharatbenz.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/bmw-logo-2020-blue-white-show.png",
     "name": "BMW",
-    "slug": "bmw.png"
+    "slug": "bmw",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/bmw-logo-2020-blue-white-show.png",
+      "thumb": "bmw.png",
+      "optimized": "bmw.png",
+      "original": "bmw.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/BMW-M-logo-640x231.jpg",
+    "name": "Bizzarrini",
+    "slug": "bizzarrini",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Bizzarrini-logo-640x550.jpg",
+      "thumb": "bizzarrini.png",
+      "optimized": "bizzarrini.png",
+      "original": "bizzarrini.jpg"
+    }
+  },
+  {
     "name": "BMW M",
-    "slug": "bmw-m.jpg"
+    "slug": "bmw-m",
+    "image": {
+      "source": "https://www.carlogos.org/logo/BMW-M-logo-640x231.jpg",
+      "thumb": "bmw-m.png",
+      "optimized": "bmw-m.png",
+      "original": "bmw-m.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Borgward-logo-2016-640x550.jpg",
-    "name": "Borgward",
-    "slug": "borgward.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Bowler-logo-640x238.jpg",
     "name": "Bowler",
-    "slug": "bowler.jpg"
+    "slug": "bowler",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Bowler-logo-640x238.jpg",
+      "thumb": "bowler.png",
+      "optimized": "bowler.png",
+      "original": "bowler.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Brabus-logo-640x281.jpg",
+    "name": "Borgward",
+    "slug": "borgward",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Borgward-logo-2016-640x550.jpg",
+      "thumb": "borgward.png",
+      "optimized": "borgward.png",
+      "original": "borgward.jpg"
+    }
+  },
+  {
     "name": "Brabus",
-    "slug": "brabus.jpg"
+    "slug": "brabus",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Brabus-logo-640x281.jpg",
+      "thumb": "brabus.png",
+      "optimized": "brabus.png",
+      "original": "brabus.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Brammo-logo-640x550.jpg",
     "name": "Brammo",
-    "slug": "brammo.jpg"
+    "slug": "brammo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Brammo-logo-640x550.jpg",
+      "thumb": "brammo.png",
+      "optimized": "brammo.png",
+      "original": "brammo.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Brilliance-logo-640x435.jpg",
     "name": "Brilliance",
-    "slug": "brilliance.jpg"
+    "slug": "brilliance",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Brilliance-logo-640x435.jpg",
+      "thumb": "brilliance.png",
+      "optimized": "brilliance.png",
+      "original": "brilliance.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/AC-logo.png",
     "name": "Bristol",
-    "slug": "bristol.png"
+    "slug": "bristol",
+    "image": {
+      "source": "https://www.carlogos.org/logo/AC-logo.png",
+      "thumb": "bristol.png",
+      "optimized": "bristol.png",
+      "original": "bristol.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Brooke-Cars-logo-640x234.jpg",
     "name": "Brooke",
-    "slug": "brooke.jpg"
+    "slug": "brooke",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Brooke-Cars-logo-640x234.jpg",
+      "thumb": "brooke.png",
+      "optimized": "brooke.png",
+      "original": "brooke.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Bufori-logo-640x202.jpg",
     "name": "Bufori",
-    "slug": "bufori.jpg"
+    "slug": "bufori",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Bufori-logo-640x202.jpg",
+      "thumb": "bufori.png",
+      "optimized": "bufori.png",
+      "original": "bufori.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Bugatti-logo-640x327.jpg",
     "name": "Bugatti",
-    "slug": "bugatti.jpg"
+    "slug": "bugatti",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Bugatti-logo-640x327.jpg",
+      "thumb": "bugatti.png",
+      "optimized": "bugatti.png",
+      "original": "bugatti.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Buick-logo-2002-640x200.jpg",
     "name": "Buick",
-    "slug": "buick.jpg"
+    "slug": "buick",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Buick-logo-2002-640x200.jpg",
+      "thumb": "buick.png",
+      "optimized": "buick.png",
+      "original": "buick.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/byton-logo-2100x600-show.png",
     "name": "Byton",
-    "slug": "byton.png"
+    "slug": "byton",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/byton-logo-2100x600-show.png",
+      "thumb": "byton.png",
+      "optimized": "byton.png",
+      "original": "byton.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/BYD-logo-2007-640x396.jpg",
     "name": "BYD",
-    "slug": "byd.jpg"
+    "slug": "byd",
+    "image": {
+      "source": "https://www.carlogos.org/logo/BYD-logo-2007-640x396.jpg",
+      "thumb": "byd.png",
+      "optimized": "byd.png",
+      "original": "byd.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Cadillac-logo-2014-640x250.jpg",
     "name": "Cadillac",
-    "slug": "cadillac.jpg"
+    "slug": "cadillac",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Cadillac-logo-2014-640x250.jpg",
+      "thumb": "cadillac.png",
+      "optimized": "cadillac.png",
+      "original": "cadillac.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/canoo-logo-1100x500-show.png",
-    "name": "Canoo",
-    "slug": "canoo.png"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/camc-logo-1600x450-show.png",
     "name": "CAMC",
-    "slug": "camc.png"
+    "slug": "camc",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/camc-logo-1600x450-show.png",
+      "thumb": "camc.png",
+      "optimized": "camc.png",
+      "original": "camc.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Caparo-2006-logo-640x238.jpg",
+    "name": "Canoo",
+    "slug": "canoo",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/canoo-logo-1100x500-show.png",
+      "thumb": "canoo.png",
+      "optimized": "canoo.png",
+      "original": "canoo.png"
+    }
+  },
+  {
     "name": "Caparo",
-    "slug": "caparo.jpg"
+    "slug": "caparo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Caparo-2006-logo-640x238.jpg",
+      "thumb": "caparo.png",
+      "optimized": "caparo.png",
+      "original": "caparo.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Carlsson-logo-640x550.jpg",
     "name": "Carlsson",
-    "slug": "carlsson.jpg"
+    "slug": "carlsson",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Carlsson-logo-640x550.jpg",
+      "thumb": "carlsson.png",
+      "optimized": "carlsson.png",
+      "original": "carlsson.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Caterham-logo-640x550.jpg",
     "name": "Caterham",
-    "slug": "caterham.jpg"
+    "slug": "caterham",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Caterham-logo-640x550.jpg",
+      "thumb": "caterham.png",
+      "optimized": "caterham.png",
+      "original": "caterham.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Changan-logo-2010-640x174.jpg",
     "name": "Changan",
-    "slug": "changan.jpg"
+    "slug": "changan",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Changan-logo-2010-640x174.jpg",
+      "thumb": "changan.png",
+      "optimized": "changan.png",
+      "original": "changan.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Changfeng-logo-640x417.jpg",
     "name": "Changfeng",
-    "slug": "changfeng.jpg"
+    "slug": "changfeng",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Changfeng-logo-640x417.jpg",
+      "thumb": "changfeng.png",
+      "optimized": "changfeng.png",
+      "original": "changfeng.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Chery-logo-2013-640x346.jpg",
     "name": "Chery",
-    "slug": "chery.jpg"
+    "slug": "chery",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Chery-logo-2013-640x346.jpg",
+      "thumb": "chery.png",
+      "optimized": "chery.png",
+      "original": "chery.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Corvette-logo-2014-640x431.jpg",
     "name": "Chevrolet Corvette",
-    "slug": "chevrolet-corvette.jpg"
+    "slug": "chevrolet-corvette",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Corvette-logo-2014-640x431.jpg",
+      "thumb": "chevrolet-corvette.png",
+      "optimized": "chevrolet-corvette.png",
+      "original": "chevrolet-corvette.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Chevrolet-logo-2013-640x281.jpg",
     "name": "Chevrolet",
-    "slug": "chevrolet.jpg"
+    "slug": "chevrolet",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Chevrolet-logo-2013-640x281.jpg",
+      "thumb": "chevrolet.png",
+      "optimized": "chevrolet.png",
+      "original": "chevrolet.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Chrysler-logo-2010-640x104.jpg",
     "name": "Chrysler",
-    "slug": "chrysler.jpg"
+    "slug": "chrysler",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Chrysler-logo-2010-640x104.jpg",
+      "thumb": "chrysler.png",
+      "optimized": "chrysler.png",
+      "original": "chrysler.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Intermeccanica-logo.png",
     "name": "Cisitalia",
-    "slug": "cisitalia.png"
+    "slug": "cisitalia",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Intermeccanica-logo.png",
+      "thumb": "cisitalia.png",
+      "optimized": "cisitalia.png",
+      "original": "cisitalia.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Citroen-logo-2009-640x550.jpg",
-    "name": "Citroën",
-    "slug": "citroen.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Cizeta-logo-640x347.jpg",
     "name": "Cizeta",
-    "slug": "cizeta.jpg"
+    "slug": "cizeta",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Cizeta-logo-640x347.jpg",
+      "thumb": "cizeta.png",
+      "optimized": "cizeta.png",
+      "original": "cizeta.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hupmobile-logo.png",
+    "name": "Citroën",
+    "slug": "citroen",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Citroen-logo-2009-640x550.jpg",
+      "thumb": "citroen.png",
+      "optimized": "citroen.png",
+      "original": "citroen.jpg"
+    }
+  },
+  {
     "name": "Cole",
-    "slug": "cole.png"
+    "slug": "cole",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hupmobile-logo.png",
+      "thumb": "cole.png",
+      "optimized": "cole.png",
+      "original": "cole.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Berliet-logo.png",
     "name": "Corre La Licorne",
-    "slug": "corre-la-licorne.png"
+    "slug": "corre-la-licorne",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Berliet-logo.png",
+      "thumb": "corre-la-licorne.png",
+      "optimized": "corre-la-licorne.png",
+      "original": "corre-la-licorne.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/DAF-logo-640x281.jpg",
     "name": "DAF",
-    "slug": "daf.jpg"
+    "slug": "daf",
+    "image": {
+      "source": "https://www.carlogos.org/logo/DAF-logo-640x281.jpg",
+      "thumb": "daf.png",
+      "optimized": "daf.png",
+      "original": "daf.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Dacia-logo-2008-640x550.jpg",
     "name": "Dacia",
-    "slug": "dacia.jpg"
+    "slug": "dacia",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Dacia-logo-2008-640x550.jpg",
+      "thumb": "dacia.png",
+      "optimized": "dacia.png",
+      "original": "dacia.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Daewoo-logo-640x404.jpg",
     "name": "Daewoo",
-    "slug": "daewoo.jpg"
+    "slug": "daewoo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Daewoo-logo-640x404.jpg",
+      "thumb": "daewoo.png",
+      "optimized": "daewoo.png",
+      "original": "daewoo.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Daihatsu-logo-1997-1280x233.png",
-    "name": "Daihatsu",
-    "slug": "daihatsu.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Daimler-logo-640x80.jpg",
     "name": "Daimler",
-    "slug": "daimler.jpg"
+    "slug": "daimler",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Daimler-logo-640x80.jpg",
+      "thumb": "daimler.png",
+      "optimized": "daimler.png",
+      "original": "daimler.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Datsun-logo-2013-640x344.jpg",
+    "name": "Daihatsu",
+    "slug": "daihatsu",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Daihatsu-logo-1997-1280x233.png",
+      "thumb": "daihatsu.png",
+      "optimized": "daihatsu.png",
+      "original": "daihatsu.png"
+    }
+  },
+  {
     "name": "Datsun",
-    "slug": "datsun.jpg"
+    "slug": "datsun",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Datsun-logo-2013-640x344.jpg",
+      "thumb": "datsun.png",
+      "optimized": "datsun.png",
+      "original": "datsun.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/David-Brown-logo-640x221.jpg",
     "name": "David Brown",
-    "slug": "david-brown.jpg"
+    "slug": "david-brown",
+    "image": {
+      "source": "https://www.carlogos.org/logo/David-Brown-logo-640x221.jpg",
+      "thumb": "david-brown.png",
+      "optimized": "david-brown.png",
+      "original": "david-brown.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Dartz-logo-yellow-640x550.jpg",
     "name": "Dartz",
-    "slug": "dartz.jpg"
+    "slug": "dartz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Dartz-logo-yellow-640x550.jpg",
+      "thumb": "dartz.png",
+      "optimized": "dartz.png",
+      "original": "dartz.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/De-Tomaso-logo-1960-640x550.jpg",
     "name": "De Tomaso",
-    "slug": "de-tomaso.jpg"
+    "slug": "de-tomaso",
+    "image": {
+      "source": "https://www.carlogos.org/logo/De-Tomaso-logo-1960-640x550.jpg",
+      "thumb": "de-tomaso.png",
+      "optimized": "de-tomaso.png",
+      "original": "de-tomaso.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/dayun-logo-1100x1100-show.png",
     "name": "Dayun",
-    "slug": "dayun.png"
+    "slug": "dayun",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/dayun-logo-1100x1100-show.png",
+      "thumb": "dayun.png",
+      "optimized": "dayun.png",
+      "original": "dayun.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Delage-logo-640x428.jpg",
     "name": "Delage",
-    "slug": "delage.jpg"
+    "slug": "delage",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Delage-logo-640x428.jpg",
+      "thumb": "delage.png",
+      "optimized": "delage.png",
+      "original": "delage.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Innocenti-logo.png",
-    "name": "Diatto",
-    "slug": "diatto.png"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/desoto-logo-650x650-show.png",
-    "name": "DeSoto",
-    "slug": "desoto.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Detroit-Electric-logo-640x550.jpg",
     "name": "Detroit Electric",
-    "slug": "detroit-electric.jpg"
+    "slug": "detroit-electric",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Detroit-Electric-logo-640x550.jpg",
+      "thumb": "detroit-electric.png",
+      "optimized": "detroit-electric.png",
+      "original": "detroit-electric.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Devel-Sixteen-logo-640x550.jpg",
+    "name": "Diatto",
+    "slug": "diatto",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Innocenti-logo.png",
+      "thumb": "diatto.png",
+      "optimized": "diatto.png",
+      "original": "diatto.png"
+    }
+  },
+  {
     "name": "Devel Sixteen",
-    "slug": "devel-sixteen.jpg"
+    "slug": "devel-sixteen",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Devel-Sixteen-logo-640x550.jpg",
+      "thumb": "devel-sixteen.png",
+      "optimized": "devel-sixteen.png",
+      "original": "devel-sixteen.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/DINA-logo-640x159.jpg",
+    "name": "DeSoto",
+    "slug": "desoto",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/desoto-logo-650x650-show.png",
+      "thumb": "desoto.png",
+      "optimized": "desoto.png",
+      "original": "desoto.png"
+    }
+  },
+  {
     "name": "DINA",
-    "slug": "dina.jpg"
+    "slug": "dina",
+    "image": {
+      "source": "https://www.carlogos.org/logo/DINA-logo-640x159.jpg",
+      "thumb": "dina.png",
+      "optimized": "dina.png",
+      "original": "dina.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/DKW-logo-black-640x550.jpg",
     "name": "DKW",
-    "slug": "dkw.jpg"
+    "slug": "dkw",
+    "image": {
+      "source": "https://www.carlogos.org/logo/DKW-logo-black-640x550.jpg",
+      "thumb": "dkw.png",
+      "optimized": "dkw.png",
+      "original": "dkw.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Dodge-logo-2011-640x90.jpg",
     "name": "Dodge",
-    "slug": "dodge.jpg"
+    "slug": "dodge",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Dodge-logo-2011-640x90.jpg",
+      "thumb": "dodge.png",
+      "optimized": "dodge.png",
+      "original": "dodge.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Viper-logo-640x550.jpg",
     "name": "Dodge Viper",
-    "slug": "dodge-viper.jpg"
+    "slug": "dodge-viper",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Viper-logo-640x550.jpg",
+      "thumb": "dodge-viper.png",
+      "optimized": "dodge-viper.png",
+      "original": "dodge-viper.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Dongfeng-logo-640x117.jpg",
     "name": "Dongfeng",
-    "slug": "dongfeng.jpg"
+    "slug": "dongfeng",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Dongfeng-logo-640x117.jpg",
+      "thumb": "dongfeng.png",
+      "optimized": "dongfeng.png",
+      "original": "dongfeng.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Donkervoort-logo-640x262.jpg",
-    "name": "Donkervoort",
-    "slug": "donkervoort.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/drako-logo-2100x400-show.png",
     "name": "Drako",
-    "slug": "drako.png"
+    "slug": "drako",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/drako-logo-2100x400-show.png",
+      "thumb": "drako.png",
+      "optimized": "drako.png",
+      "original": "drako.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/DS-logo-2009-640x486.jpg",
+    "name": "Donkervoort",
+    "slug": "donkervoort",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Donkervoort-logo-640x262.jpg",
+      "thumb": "donkervoort.png",
+      "optimized": "donkervoort.png",
+      "original": "donkervoort.jpg"
+    }
+  },
+  {
     "name": "DS",
-    "slug": "ds.jpg"
+    "slug": "ds",
+    "image": {
+      "source": "https://www.carlogos.org/logo/DS-logo-2009-640x486.jpg",
+      "thumb": "ds.png",
+      "optimized": "ds.png",
+      "original": "ds.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Eagle-automobile-logo-640x514.jpg",
     "name": "Eagle",
-    "slug": "eagle.jpg"
+    "slug": "eagle",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Eagle-automobile-logo-640x514.jpg",
+      "thumb": "eagle.png",
+      "optimized": "eagle.png",
+      "original": "eagle.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/duesenberg-logo-1000x600-show.png",
     "name": "Duesenberg",
-    "slug": "duesenberg.png"
+    "slug": "duesenberg",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/duesenberg-logo-1000x600-show.png",
+      "thumb": "duesenberg.png",
+      "optimized": "duesenberg.png",
+      "original": "duesenberg.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/EDAG-logo-640x158.jpg",
     "name": "EDAG",
-    "slug": "edag.jpg"
+    "slug": "edag",
+    "image": {
+      "source": "https://www.carlogos.org/logo/EDAG-logo-640x158.jpg",
+      "thumb": "edag.png",
+      "optimized": "edag.png",
+      "original": "edag.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Edsel-logo-640x550.jpg",
     "name": "Edsel",
-    "slug": "edsel.jpg"
+    "slug": "edsel",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Edsel-logo-640x550.jpg",
+      "thumb": "edsel.png",
+      "optimized": "edsel.png",
+      "original": "edsel.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Eicher-logo-640x323.jpg",
     "name": "Eicher",
-    "slug": "eicher.jpg"
+    "slug": "eicher",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Eicher-logo-640x323.jpg",
+      "thumb": "eicher.png",
+      "optimized": "eicher.png",
+      "original": "eicher.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Elemental-logo-640x218.jpg",
     "name": "Elemental",
-    "slug": "elemental.jpg"
+    "slug": "elemental",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Elemental-logo-640x218.jpg",
+      "thumb": "elemental.png",
+      "optimized": "elemental.png",
+      "original": "elemental.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/MK-Sportscars-logo.png",
     "name": "Elva",
-    "slug": "elva.png"
+    "slug": "elva",
+    "image": {
+      "source": "https://www.carlogos.org/logo/MK-Sportscars-logo.png",
+      "thumb": "elva.png",
+      "optimized": "elva.png",
+      "original": "elva.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Holden-logo.png",
-    "name": "Elfin",
-    "slug": "elfin.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/ERF-logo-640x363.jpg",
     "name": "ERF",
-    "slug": "erf.jpg"
+    "slug": "erf",
+    "image": {
+      "source": "https://www.carlogos.org/logo/ERF-logo-640x363.jpg",
+      "thumb": "erf.png",
+      "optimized": "erf.png",
+      "original": "erf.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Englon-logo-640x550.jpg",
     "name": "Englon",
-    "slug": "englon.jpg"
+    "slug": "englon",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Englon-logo-640x550.jpg",
+      "thumb": "englon.png",
+      "optimized": "englon.png",
+      "original": "englon.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/TechArt-logo.png",
+    "name": "Elfin",
+    "slug": "elfin",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Holden-logo.png",
+      "thumb": "elfin.png",
+      "optimized": "elfin.png",
+      "original": "elfin.png"
+    }
+  },
+  {
     "name": "Eterniti",
-    "slug": "eterniti.png"
+    "slug": "eterniti",
+    "image": {
+      "source": "https://www.carlogos.org/logo/TechArt-logo.png",
+      "thumb": "eterniti.png",
+      "optimized": "eterniti.png",
+      "original": "eterniti.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/exeed-logo-1200x200-show.png",
     "name": "Exeed",
-    "slug": "exeed.png"
+    "slug": "exeed",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/exeed-logo-1200x200-show.png",
+      "thumb": "exeed.png",
+      "optimized": "exeed.png",
+      "original": "exeed.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/9ff-logo-640x550.jpg",
     "name": "9ff",
-    "slug": "9ff.jpg"
+    "slug": "9ff",
+    "image": {
+      "source": "https://www.carlogos.org/logo/9ff-logo-640x550.jpg",
+      "thumb": "9ff.png",
+      "optimized": "9ff.png",
+      "original": "9ff.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Facel-Vega-logo-640x550.jpg",
-    "name": "Facel Vega",
-    "slug": "facel-vega.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Faraday-Future-logo-640x472.jpg",
     "name": "Faraday Future",
-    "slug": "faraday-future.jpg"
+    "slug": "faraday-future",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Faraday-Future-logo-640x472.jpg",
+      "thumb": "faraday-future.png",
+      "optimized": "faraday-future.png",
+      "original": "faraday-future.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/faw-jiefang-950x700-show.png",
-    "name": "FAW Jiefang",
-    "slug": "faw-jiefang.png"
+    "name": "Facel Vega",
+    "slug": "facel-vega",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Facel-Vega-logo-640x550.jpg",
+      "thumb": "facel-vega.png",
+      "optimized": "facel-vega.png",
+      "original": "facel-vega.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/FAW-logo-640x427.jpg",
     "name": "FAW",
-    "slug": "faw.jpg"
+    "slug": "faw",
+    "image": {
+      "source": "https://www.carlogos.org/logo/FAW-logo-640x427.jpg",
+      "thumb": "faw.png",
+      "optimized": "faw.png",
+      "original": "faw.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/ferrari-logo-750x1100-show.png",
+    "name": "FAW Jiefang",
+    "slug": "faw-jiefang",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/faw-jiefang-950x700-show.png",
+      "thumb": "faw-jiefang.png",
+      "optimized": "faw-jiefang.png",
+      "original": "faw-jiefang.png"
+    }
+  },
+  {
     "name": "Ferrari",
-    "slug": "ferrari.png"
+    "slug": "ferrari",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/ferrari-logo-750x1100-show.png",
+      "thumb": "ferrari.png",
+      "optimized": "ferrari.png",
+      "original": "ferrari.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Pininfarina-logo.png",
     "name": "Fioravanti",
-    "slug": "fioravanti.png"
+    "slug": "fioravanti",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Pininfarina-logo.png",
+      "thumb": "fioravanti.png",
+      "optimized": "fioravanti.png",
+      "original": "fioravanti.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Fiat-logo-2006-640x550.jpg",
     "name": "Fiat",
-    "slug": "fiat.jpg"
+    "slug": "fiat",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Fiat-logo-2006-640x550.jpg",
+      "thumb": "fiat.png",
+      "optimized": "fiat.png",
+      "original": "fiat.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Fisker-logo-2007-640x550.jpg",
-    "name": "Fisker",
-    "slug": "fisker.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Foden-logo-640x480.png",
     "name": "Foden",
-    "slug": "foden.png"
+    "slug": "foden",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Foden-logo-640x480.png",
+      "thumb": "foden.png",
+      "optimized": "foden.png",
+      "original": "foden.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Force-Motors-logo-640x424.jpg",
+    "name": "Fisker",
+    "slug": "fisker",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Fisker-logo-2007-640x550.jpg",
+      "thumb": "fisker.png",
+      "optimized": "fisker.png",
+      "original": "fisker.jpg"
+    }
+  },
+  {
     "name": "Force Motors",
-    "slug": "force-motors.jpg"
+    "slug": "force-motors",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Force-Motors-logo-640x424.jpg",
+      "thumb": "force-motors.png",
+      "optimized": "force-motors.png",
+      "original": "force-motors.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/ford-logo-2017-show.png",
     "name": "Ford",
-    "slug": "ford.png"
+    "slug": "ford",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/ford-logo-2017-show.png",
+      "thumb": "ford.png",
+      "optimized": "ford.png",
+      "original": "ford.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mustang-logo-2010-640x359.jpg",
-    "name": "Ford Mustang",
-    "slug": "ford-mustang.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Foton-logo-640x195.jpg",
     "name": "Foton",
-    "slug": "foton.jpg"
+    "slug": "foton",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Foton-logo-640x195.jpg",
+      "thumb": "foton.png",
+      "optimized": "foton.png",
+      "original": "foton.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Cole-logo.png",
-    "name": "Franklin",
-    "slug": "franklin.png"
+    "name": "Ford Mustang",
+    "slug": "ford-mustang",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mustang-logo-2010-640x359.jpg",
+      "thumb": "ford-mustang.png",
+      "optimized": "ford-mustang.png",
+      "original": "ford-mustang.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/FPV-emblem-blue-640x248.jpg",
     "name": "FPV",
-    "slug": "fpv.jpg"
+    "slug": "fpv",
+    "image": {
+      "source": "https://www.carlogos.org/logo/FPV-emblem-blue-640x248.jpg",
+      "thumb": "fpv.png",
+      "optimized": "fpv.png",
+      "original": "fpv.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Freightliner-logo-640x124.jpg",
+    "name": "Franklin",
+    "slug": "franklin",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Cole-logo.png",
+      "thumb": "franklin.png",
+      "optimized": "franklin.png",
+      "original": "franklin.png"
+    }
+  },
+  {
     "name": "Freightliner",
-    "slug": "freightliner.jpg"
+    "slug": "freightliner",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Freightliner-logo-640x124.jpg",
+      "thumb": "freightliner.png",
+      "optimized": "freightliner.png",
+      "original": "freightliner.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/fso-logo-1200x500-show.png",
     "name": "FSO",
-    "slug": "fso.png"
+    "slug": "fso",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/fso-logo-1200x500-show.png",
+      "thumb": "fso.png",
+      "optimized": "fso.png",
+      "original": "fso.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/GAC-Group-logo-640x125.jpg",
     "name": "GAC Group",
-    "slug": "gac-group.jpg"
+    "slug": "gac-group",
+    "image": {
+      "source": "https://www.carlogos.org/logo/GAC-Group-logo-640x125.jpg",
+      "thumb": "gac-group.png",
+      "optimized": "gac-group.png",
+      "original": "gac-group.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Gardner-Douglas-logo-640x269.jpg",
     "name": "Gardner Douglas",
-    "slug": "gardner-douglas.jpg"
+    "slug": "gardner-douglas",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Gardner-Douglas-logo-640x269.jpg",
+      "thumb": "gardner-douglas.png",
+      "optimized": "gardner-douglas.png",
+      "original": "gardner-douglas.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/GAZ-logo-2015-640x550.jpg",
     "name": "GAZ",
-    "slug": "gaz.jpg"
+    "slug": "gaz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/GAZ-logo-2015-640x550.jpg",
+      "thumb": "gaz.png",
+      "optimized": "gaz.png",
+      "original": "gaz.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Geely-logo-2014-640x370.jpg",
     "name": "Geely",
-    "slug": "geely.jpg"
+    "slug": "geely",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Geely-logo-2014-640x370.jpg",
+      "thumb": "geely.png",
+      "optimized": "geely.png",
+      "original": "geely.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Genesis-logo-640x248.jpg",
     "name": "Genesis",
-    "slug": "genesis.jpg"
+    "slug": "genesis",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Genesis-logo-640x248.jpg",
+      "thumb": "genesis.png",
+      "optimized": "genesis.png",
+      "original": "genesis.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Geo-logo-640x172.jpg",
     "name": "Geo",
-    "slug": "geo.jpg"
+    "slug": "geo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Geo-logo-640x172.jpg",
+      "thumb": "geo.png",
+      "optimized": "geo.png",
+      "original": "geo.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/geometry-logo-640x480.png",
-    "name": "Geometry",
-    "slug": "geometry.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Abadal-logo.png",
     "name": "Gilbern",
-    "slug": "gilbern.png"
+    "slug": "gilbern",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Abadal-logo.png",
+      "thumb": "gilbern.png",
+      "optimized": "gilbern.png",
+      "original": "gilbern.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Gilbern-logo.png",
+    "name": "Geometry",
+    "slug": "geometry",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/geometry-logo-640x480.png",
+      "thumb": "geometry.png",
+      "optimized": "geometry.png",
+      "original": "geometry.png"
+    }
+  },
+  {
     "name": "Gillet",
-    "slug": "gillet.png"
+    "slug": "gillet",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Gilbern-logo.png",
+      "thumb": "gillet.png",
+      "optimized": "gillet.png",
+      "original": "gillet.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/General-Motors-logo-2010-3300x3300.png",
-    "name": "General Motors",
-    "slug": "general-motors.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Ginetta-logo-640x550.jpg",
     "name": "Ginetta",
-    "slug": "ginetta.jpg"
+    "slug": "ginetta",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ginetta-logo-640x550.jpg",
+      "thumb": "ginetta.png",
+      "optimized": "ginetta.png",
+      "original": "ginetta.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/GMC-logo-640x145.jpg",
     "name": "GMC",
-    "slug": "gmc.jpg"
+    "slug": "gmc",
+    "image": {
+      "source": "https://www.carlogos.org/logo/GMC-logo-640x145.jpg",
+      "thumb": "gmc.png",
+      "optimized": "gmc.png",
+      "original": "gmc.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Gonow-logo-2010-640x135.jpg",
     "name": "Gonow",
-    "slug": "gonow.jpg"
+    "slug": "gonow",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Gonow-logo-2010-640x135.jpg",
+      "thumb": "gonow.png",
+      "optimized": "gonow.png",
+      "original": "gonow.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/golden-dragon-logo-900x700-show.png",
     "name": "Golden Dragon",
-    "slug": "golden-dragon.png"
+    "slug": "golden-dragon",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/golden-dragon-logo-900x700-show.png",
+      "thumb": "golden-dragon.png",
+      "optimized": "golden-dragon.png",
+      "original": "golden-dragon.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Great-Wall-logo-2007-640x550.jpg",
-    "name": "Great Wall",
-    "slug": "great-wall.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Grinnall-cars-logo-640x309.jpg",
     "name": "Grinnall",
-    "slug": "grinnall.jpg"
+    "slug": "grinnall",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Grinnall-cars-logo-640x309.jpg",
+      "thumb": "grinnall.png",
+      "optimized": "grinnall.png",
+      "original": "grinnall.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Gumpert-logo-640x550.jpg",
+    "name": "Great Wall",
+    "slug": "great-wall",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Great-Wall-logo-2007-640x550.jpg",
+      "thumb": "great-wall.png",
+      "optimized": "great-wall.png",
+      "original": "great-wall.jpg"
+    }
+  },
+  {
+    "name": "General Motors",
+    "slug": "general-motors",
+    "image": {
+      "source": "https://www.carlogos.org/logo/General-Motors-logo-2010-3300x3300.png",
+      "thumb": "general-motors.png",
+      "optimized": "general-motors.png",
+      "original": "general-motors.png"
+    }
+  },
+  {
     "name": "Gumpert",
-    "slug": "gumpert.jpg"
+    "slug": "gumpert",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Gumpert-logo-640x550.jpg",
+      "thumb": "gumpert.png",
+      "optimized": "gumpert.png",
+      "original": "gumpert.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hafei-logo-640x550.jpg",
     "name": "Hafei",
-    "slug": "hafei.jpg"
+    "slug": "hafei",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hafei-logo-640x550.jpg",
+      "thumb": "hafei.png",
+      "optimized": "hafei.png",
+      "original": "hafei.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Haima-logo-640x432.jpg",
-    "name": "Haima",
-    "slug": "haima.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Haval-logo-640x112.jpg",
     "name": "Haval",
-    "slug": "haval.jpg"
+    "slug": "haval",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Haval-logo-640x112.jpg",
+      "thumb": "haval.png",
+      "optimized": "haval.png",
+      "original": "haval.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hawtai-logo-640x550.jpg",
+    "name": "Haima",
+    "slug": "haima",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Haima-logo-640x432.jpg",
+      "thumb": "haima.png",
+      "optimized": "haima.png",
+      "original": "haima.jpg"
+    }
+  },
+  {
     "name": "Hawtai",
-    "slug": "hawtai.jpg"
+    "slug": "hawtai",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hawtai-logo-640x550.jpg",
+      "thumb": "hawtai.png",
+      "optimized": "hawtai.png",
+      "original": "hawtai.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hennessey-text-logo-1186x130.png",
     "name": "Hennessey",
-    "slug": "hennessey.png"
+    "slug": "hennessey",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hennessey-text-logo-1186x130.png",
+      "thumb": "hennessey.png",
+      "optimized": "hennessey.png",
+      "original": "hennessey.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Marcos-logo.png",
     "name": "Hillman",
-    "slug": "hillman.png"
+    "slug": "hillman",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Marcos-logo.png",
+      "thumb": "hillman.png",
+      "optimized": "hillman.png",
+      "original": "hillman.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/higer-logo-800x600-show.png",
-    "name": "Higer",
-    "slug": "higer.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/SEAT-logo.png",
     "name": "Hispano-Suiza",
-    "slug": "hispano-suiza.png"
+    "slug": "hispano-suiza",
+    "image": {
+      "source": "https://www.carlogos.org/logo/SEAT-logo.png",
+      "thumb": "hispano-suiza.png",
+      "optimized": "hispano-suiza.png",
+      "original": "hispano-suiza.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hino-logo-640x550.jpg",
     "name": "Hino",
-    "slug": "hino.jpg"
+    "slug": "hino",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hino-logo-640x550.jpg",
+      "thumb": "hino.png",
+      "optimized": "hino.png",
+      "original": "hino.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Holden-logo-2016-640x550.jpg",
+    "name": "Higer",
+    "slug": "higer",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/higer-logo-800x600-show.png",
+      "thumb": "higer.png",
+      "optimized": "higer.png",
+      "original": "higer.png"
+    }
+  },
+  {
     "name": "Holden",
-    "slug": "holden.jpg"
+    "slug": "holden",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Holden-logo-2016-640x550.jpg",
+      "thumb": "holden.png",
+      "optimized": "holden.png",
+      "original": "holden.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hommell-logo-640x550.jpg",
     "name": "Hommell",
-    "slug": "hommell.jpg"
+    "slug": "hommell",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hommell-logo-640x550.jpg",
+      "thumb": "hommell.png",
+      "optimized": "hommell.png",
+      "original": "hommell.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/honda-logo-1700x1150-show.png",
-    "name": "Honda",
-    "slug": "honda.png"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/hongqi-logo-2018-800x600-show.png",
-    "name": "Hongqi",
-    "slug": "hongqi.png"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/hongyan-logo-1200x1200-show.png",
     "name": "Hongyan",
-    "slug": "hongyan.png"
+    "slug": "hongyan",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/hongyan-logo-1200x1200-show.png",
+      "thumb": "hongyan.png",
+      "optimized": "hongyan.png",
+      "original": "hongyan.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Horch-logo-black-640x550.jpg",
+    "name": "Honda",
+    "slug": "honda",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/honda-logo-1700x1150-show.png",
+      "thumb": "honda.png",
+      "optimized": "honda.png",
+      "original": "honda.png"
+    }
+  },
+  {
     "name": "Horch",
-    "slug": "horch.jpg"
+    "slug": "horch",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Horch-logo-black-640x550.jpg",
+      "thumb": "horch.png",
+      "optimized": "horch.png",
+      "original": "horch.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/HSV-logo-640x207.jpg",
+    "name": "Hongqi",
+    "slug": "hongqi",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/hongqi-logo-2018-800x600-show.png",
+      "thumb": "hongqi.png",
+      "optimized": "hongqi.png",
+      "original": "hongqi.png"
+    }
+  },
+  {
     "name": "HSV",
-    "slug": "hsv.jpg"
+    "slug": "hsv",
+    "image": {
+      "source": "https://www.carlogos.org/logo/HSV-logo-640x207.jpg",
+      "thumb": "hsv.png",
+      "optimized": "hsv.png",
+      "original": "hsv.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hummer-logo-2000x205.png",
     "name": "Hummer",
-    "slug": "hummer.png"
+    "slug": "hummer",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hummer-logo-2000x205.png",
+      "thumb": "hummer.png",
+      "optimized": "hummer.png",
+      "original": "hummer.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Pierce-Arrow-logo.png",
     "name": "Hupmobile",
-    "slug": "hupmobile.png"
+    "slug": "hupmobile",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Pierce-Arrow-logo.png",
+      "thumb": "hupmobile.png",
+      "optimized": "hupmobile.png",
+      "original": "hupmobile.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hudson-logo-640x550.jpg",
     "name": "Hudson",
-    "slug": "hudson.jpg"
+    "slug": "hudson",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hudson-logo-640x550.jpg",
+      "thumb": "hudson.png",
+      "optimized": "hudson.png",
+      "original": "hudson.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Hyundai-logo-silver-640x401.jpg",
     "name": "Hyundai",
-    "slug": "hyundai.jpg"
+    "slug": "hyundai",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hyundai-logo-silver-640x401.jpg",
+      "thumb": "hyundai.png",
+      "optimized": "hyundai.png",
+      "original": "hyundai.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/IC-Bus-logo-640x550.jpg",
     "name": "IC Bus",
-    "slug": "ic-bus.jpg"
+    "slug": "ic-bus",
+    "image": {
+      "source": "https://www.carlogos.org/logo/IC-Bus-logo-640x550.jpg",
+      "thumb": "ic-bus.png",
+      "optimized": "ic-bus.png",
+      "original": "ic-bus.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Infiniti-logo-1989-640x308.jpg",
     "name": "Infiniti",
-    "slug": "infiniti.jpg"
+    "slug": "infiniti",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Infiniti-logo-1989-640x308.jpg",
+      "thumb": "infiniti.png",
+      "optimized": "infiniti.png",
+      "original": "infiniti.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Autobianchi-logo.png",
     "name": "Intermeccanica",
-    "slug": "intermeccanica.png"
+    "slug": "intermeccanica",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Autobianchi-logo.png",
+      "thumb": "intermeccanica.png",
+      "optimized": "intermeccanica.png",
+      "original": "intermeccanica.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Bizzarrini-logo.png",
     "name": "Innocenti",
-    "slug": "innocenti.png"
+    "slug": "innocenti",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Bizzarrini-logo.png",
+      "thumb": "innocenti.png",
+      "optimized": "innocenti.png",
+      "original": "innocenti.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/International-Harvester-logo-640x550.jpg",
     "name": "IH",
-    "slug": "ih.jpg"
+    "slug": "ih",
+    "image": {
+      "source": "https://www.carlogos.org/logo/International-Harvester-logo-640x550.jpg",
+      "thumb": "ih.png",
+      "optimized": "ih.png",
+      "original": "ih.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/International-Trucks-logo-640x550.jpg",
     "name": "International",
-    "slug": "international.jpg"
+    "slug": "international",
+    "image": {
+      "source": "https://www.carlogos.org/logo/International-Trucks-logo-640x550.jpg",
+      "thumb": "international.png",
+      "optimized": "international.png",
+      "original": "international.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Iran-Khodro-logo-640x550.jpg",
     "name": "IKCO",
-    "slug": "ikco.jpg"
+    "slug": "ikco",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Iran-Khodro-logo-640x550.jpg",
+      "thumb": "ikco.png",
+      "optimized": "ikco.png",
+      "original": "ikco.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/EDAG-logo.png",
     "name": "Isdera",
-    "slug": "isdera.png"
+    "slug": "isdera",
+    "image": {
+      "source": "https://www.carlogos.org/logo/EDAG-logo.png",
+      "thumb": "isdera.png",
+      "optimized": "isdera.png",
+      "original": "isdera.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Irizar-logo-640x189.jpg",
     "name": "Irizar",
-    "slug": "irizar.jpg"
+    "slug": "irizar",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Irizar-logo-640x189.jpg",
+      "thumb": "irizar.png",
+      "optimized": "irizar.png",
+      "original": "irizar.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Iso-logo-640x550.jpg",
-    "name": "Iso",
-    "slug": "iso.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Isuzu-logo-1991-640x106.jpg",
     "name": "Isuzu",
-    "slug": "isuzu.jpg"
+    "slug": "isuzu",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Isuzu-logo-1991-640x106.jpg",
+      "thumb": "isuzu.png",
+      "optimized": "isuzu.png",
+      "original": "isuzu.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Iveco-logo-silver-640x122.jpg",
+    "name": "Iso",
+    "slug": "iso",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Iso-logo-640x550.jpg",
+      "thumb": "iso.png",
+      "optimized": "iso.png",
+      "original": "iso.jpg"
+    }
+  },
+  {
     "name": "Iveco",
-    "slug": "iveco.jpg"
+    "slug": "iveco",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Iveco-logo-silver-640x122.jpg",
+      "thumb": "iveco.png",
+      "optimized": "iveco.png",
+      "original": "iveco.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/JAC-Motors-logo-2016-640x244.jpg",
     "name": "JAC",
-    "slug": "jac.jpg"
+    "slug": "jac",
+    "image": {
+      "source": "https://www.carlogos.org/logo/JAC-Motors-logo-2016-640x244.jpg",
+      "thumb": "jac.png",
+      "optimized": "jac.png",
+      "original": "jac.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Jaguar-logo-2012-640x287.jpg",
     "name": "Jaguar",
-    "slug": "jaguar.jpg"
+    "slug": "jaguar",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Jaguar-logo-2012-640x287.jpg",
+      "thumb": "jaguar.png",
+      "optimized": "jaguar.png",
+      "original": "jaguar.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Skoda-logo.png",
     "name": "Jawa",
-    "slug": "jawa.png"
+    "slug": "jawa",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Skoda-logo.png",
+      "thumb": "jawa.png",
+      "optimized": "jawa.png",
+      "original": "jawa.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/JBA-Motors-logo-640x205.jpg",
     "name": "JBA Motors",
-    "slug": "jba-motors.jpg"
+    "slug": "jba-motors",
+    "image": {
+      "source": "https://www.carlogos.org/logo/JBA-Motors-logo-640x205.jpg",
+      "thumb": "jba-motors.png",
+      "optimized": "jba-motors.png",
+      "original": "jba-motors.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Jeep-logo-green-640x258.jpg",
     "name": "Jeep",
-    "slug": "jeep.jpg"
+    "slug": "jeep",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Jeep-logo-green-640x258.jpg",
+      "thumb": "jeep.png",
+      "optimized": "jeep.png",
+      "original": "jeep.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/jetta-logo-2019-1300x1100-show.png",
     "name": "Jetta",
-    "slug": "jetta.png"
+    "slug": "jetta",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/jetta-logo-2019-1300x1100-show.png",
+      "thumb": "jetta.png",
+      "optimized": "jetta.png",
+      "original": "jetta.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Bristol-Cars-logo.png",
     "name": "Jensen",
-    "slug": "jensen.png"
+    "slug": "jensen",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Bristol-Cars-logo.png",
+      "thumb": "jensen.png",
+      "optimized": "jensen.png",
+      "original": "jensen.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Jiangling-logo-640x550.jpg",
     "name": "JMC",
-    "slug": "jmc.jpg"
+    "slug": "jmc",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Jiangling-logo-640x550.jpg",
+      "thumb": "jmc.png",
+      "optimized": "jmc.png",
+      "original": "jmc.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Kamaz-logo-640x550.jpg",
     "name": "Kamaz",
-    "slug": "kamaz.jpg"
+    "slug": "kamaz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Kamaz-logo-640x550.jpg",
+      "thumb": "kamaz.png",
+      "optimized": "kamaz.png",
+      "original": "kamaz.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Auburn-logo.png",
     "name": "Kaiser",
-    "slug": "kaiser.png"
+    "slug": "kaiser",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Auburn-logo.png",
+      "thumb": "kaiser.png",
+      "optimized": "kaiser.png",
+      "original": "kaiser.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Karma-logo-640x400.jpg",
     "name": "Karma",
-    "slug": "karma.jpg"
+    "slug": "karma",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Karma-logo-640x400.jpg",
+      "thumb": "karma.png",
+      "optimized": "karma.png",
+      "original": "karma.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/karlmann-king-1400x1000-show.png",
     "name": "Karlmann King",
-    "slug": "karlmann-king.png"
+    "slug": "karlmann-king",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/karlmann-king-1400x1000-show.png",
+      "thumb": "karlmann-king.png",
+      "optimized": "karlmann-king.png",
+      "original": "karlmann-king.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Keating-Supercars-logo-640x300.jpg",
     "name": "Keating",
-    "slug": "keating.jpg"
+    "slug": "keating",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Keating-Supercars-logo-640x300.jpg",
+      "thumb": "keating.png",
+      "optimized": "keating.png",
+      "original": "keating.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Kenworth-logo-640x550.jpg",
-    "name": "Kenworth",
-    "slug": "kenworth.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/king-long-logo-3900x800-show.png",
     "name": "King Long",
-    "slug": "king-long.png"
+    "slug": "king-long",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/king-long-logo-3900x800-show.png",
+      "thumb": "king-long.png",
+      "optimized": "king-long.png",
+      "original": "king-long.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Kia-logo-640x321.jpg",
     "name": "Kia",
-    "slug": "kia.jpg"
+    "slug": "kia",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Kia-logo-640x321.jpg",
+      "thumb": "kia.png",
+      "optimized": "kia.png",
+      "original": "kia.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Koenigsegg-logo-1994-640x550.jpg",
+    "name": "Kenworth",
+    "slug": "kenworth",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Kenworth-logo-640x550.jpg",
+      "thumb": "kenworth.png",
+      "optimized": "kenworth.png",
+      "original": "kenworth.jpg"
+    }
+  },
+  {
     "name": "Koenigsegg",
-    "slug": "koenigsegg.jpg"
+    "slug": "koenigsegg",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Koenigsegg-logo-1994-640x550.jpg",
+      "thumb": "koenigsegg.png",
+      "optimized": "koenigsegg.png",
+      "original": "koenigsegg.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/KTM-logo-640x200.jpg",
     "name": "KTM",
-    "slug": "ktm.jpg"
+    "slug": "ktm",
+    "image": {
+      "source": "https://www.carlogos.org/logo/KTM-logo-640x200.jpg",
+      "thumb": "ktm.png",
+      "optimized": "ktm.png",
+      "original": "ktm.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Lada-logo-silver-640x248.jpg",
-    "name": "Lada",
-    "slug": "lada.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Lagonda-logo-2014-640x190.jpg",
     "name": "Lagonda",
-    "slug": "lagonda.jpg"
+    "slug": "lagonda",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lagonda-logo-2014-640x190.jpg",
+      "thumb": "lagonda.png",
+      "optimized": "lagonda.png",
+      "original": "lagonda.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/lamborghini-logo-1000x1100-show.png",
+    "name": "Lada",
+    "slug": "lada",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lada-logo-silver-640x248.jpg",
+      "thumb": "lada.png",
+      "optimized": "lada.png",
+      "original": "lada.jpg"
+    }
+  },
+  {
     "name": "Lamborghini",
-    "slug": "lamborghini.png"
+    "slug": "lamborghini",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/lamborghini-logo-1000x1100-show.png",
+      "thumb": "lamborghini.png",
+      "optimized": "lamborghini.png",
+      "original": "lamborghini.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Land-Rover-logo-2011-640x335.jpg",
     "name": "Land Rover",
-    "slug": "land-rover.jpg"
+    "slug": "land-rover",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Land-Rover-logo-2011-640x335.jpg",
+      "thumb": "land-rover.png",
+      "optimized": "land-rover.png",
+      "original": "land-rover.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Lancia-logo-2007-640x550.jpg",
-    "name": "Lancia",
-    "slug": "lancia.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Landwind-logo-640x154.jpg",
-    "name": "Landwind",
-    "slug": "landwind.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Laraki-logo-640x273.jpg",
     "name": "Laraki",
-    "slug": "laraki.jpg"
+    "slug": "laraki",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Laraki-logo-640x273.jpg",
+      "thumb": "laraki.png",
+      "optimized": "laraki.png",
+      "original": "laraki.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Lexus-logo-1988-640x266.jpg",
+    "name": "Lancia",
+    "slug": "lancia",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lancia-logo-2007-640x550.jpg",
+      "thumb": "lancia.png",
+      "optimized": "lancia.png",
+      "original": "lancia.jpg"
+    }
+  },
+  {
     "name": "Lexus",
-    "slug": "lexus.jpg"
+    "slug": "lexus",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lexus-logo-1988-640x266.jpg",
+      "thumb": "lexus.png",
+      "optimized": "lexus.png",
+      "original": "lexus.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/lixiang-logo-1050x300-show.png",
-    "name": "Li Auto",
-    "slug": "li-auto.png"
+    "name": "Landwind",
+    "slug": "landwind",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Landwind-logo-640x154.jpg",
+      "thumb": "landwind.png",
+      "optimized": "landwind.png",
+      "original": "landwind.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Leyland-logo-640x550.jpg",
     "name": "Leyland",
-    "slug": "leyland.jpg"
+    "slug": "leyland",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Leyland-logo-640x550.jpg",
+      "thumb": "leyland.png",
+      "optimized": "leyland.png",
+      "original": "leyland.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Lifan-logo-640x116.jpg",
+    "name": "Li Auto",
+    "slug": "li-auto",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/lixiang-logo-1050x300-show.png",
+      "thumb": "li-auto.png",
+      "optimized": "li-auto.png",
+      "original": "li-auto.png"
+    }
+  },
+  {
     "name": "Lifan",
-    "slug": "lifan.jpg"
+    "slug": "lifan",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lifan-logo-640x116.jpg",
+      "thumb": "lifan.png",
+      "optimized": "lifan.png",
+      "original": "lifan.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Ligier-logo-640x392.jpg",
-    "name": "Ligier",
-    "slug": "ligier.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Lincoln-logo-2019-640x222.jpg",
     "name": "Lincoln",
-    "slug": "lincoln.jpg"
+    "slug": "lincoln",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lincoln-logo-2019-640x222.jpg",
+      "thumb": "lincoln.png",
+      "optimized": "lincoln.png",
+      "original": "lincoln.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Lloyd-logo-640x458.jpg",
+    "name": "Ligier",
+    "slug": "ligier",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ligier-logo-640x392.jpg",
+      "thumb": "ligier.png",
+      "optimized": "ligier.png",
+      "original": "ligier.jpg"
+    }
+  },
+  {
     "name": "Lloyd",
-    "slug": "lloyd.jpg"
+    "slug": "lloyd",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lloyd-logo-640x458.jpg",
+      "thumb": "lloyd.png",
+      "optimized": "lloyd.png",
+      "original": "lloyd.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Lister-Cars-logo-640x550.jpg",
-    "name": "Lister",
-    "slug": "lister.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Lobini-logo-640x304.jpg",
     "name": "Lobini",
-    "slug": "lobini.jpg"
+    "slug": "lobini",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lobini-logo-640x304.jpg",
+      "thumb": "lobini.png",
+      "optimized": "lobini.png",
+      "original": "lobini.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/lordstown-logo-2150x1100-show.png",
-    "name": "Lordstown",
-    "slug": "lordstown.png"
+    "name": "Lister",
+    "slug": "lister",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lister-Cars-logo-640x550.jpg",
+      "thumb": "lister.png",
+      "optimized": "lister.png",
+      "original": "lister.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/London-EV-Company-logo-640x299.jpg",
     "name": "LEVC",
-    "slug": "levc.jpg"
+    "slug": "levc",
+    "image": {
+      "source": "https://www.carlogos.org/logo/London-EV-Company-logo-640x299.jpg",
+      "thumb": "levc.png",
+      "optimized": "levc.png",
+      "original": "levc.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Lucid-Motors-logo-640x36.jpg",
+    "name": "Lordstown",
+    "slug": "lordstown",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/lordstown-logo-2150x1100-show.png",
+      "thumb": "lordstown.png",
+      "optimized": "lordstown.png",
+      "original": "lordstown.png"
+    }
+  },
+  {
     "name": "Lucid",
-    "slug": "lucid.jpg"
+    "slug": "lucid",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lucid-Motors-logo-640x36.jpg",
+      "thumb": "lucid.png",
+      "optimized": "lucid.png",
+      "original": "lucid.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Lotus-logo-2019-640x550.jpg",
     "name": "Lotus",
-    "slug": "lotus.jpg"
+    "slug": "lotus",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Lotus-logo-2019-640x550.jpg",
+      "thumb": "lotus.png",
+      "optimized": "lotus.png",
+      "original": "lotus.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Luxgen-logo-2009-640x391.jpg",
     "name": "Luxgen",
-    "slug": "luxgen.jpg"
+    "slug": "luxgen",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Luxgen-logo-2009-640x391.jpg",
+      "thumb": "luxgen.png",
+      "optimized": "luxgen.png",
+      "original": "luxgen.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/lynkco-logo-2150x400-show.png",
     "name": "Lynk & Co",
-    "slug": "lynk-and-co.png"
+    "slug": "lynk-and-co",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/lynkco-logo-2150x400-show.png",
+      "thumb": "lynk-and-co.png",
+      "optimized": "lynk-and-co.png",
+      "original": "lynk-and-co.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mack-logo-2014-640x314.jpg",
     "name": "Mack",
-    "slug": "mack.jpg"
+    "slug": "mack",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mack-logo-2014-640x314.jpg",
+      "thumb": "mack.png",
+      "optimized": "mack.png",
+      "original": "mack.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mahindra-logo-640x316.jpg",
     "name": "Mahindra",
-    "slug": "mahindra.jpg"
+    "slug": "mahindra",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mahindra-logo-640x316.jpg",
+      "thumb": "mahindra.png",
+      "optimized": "mahindra.png",
+      "original": "mahindra.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mansory-logo-640x60.jpg",
     "name": "Mansory",
-    "slug": "mansory.jpg"
+    "slug": "mansory",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mansory-logo-640x60.jpg",
+      "thumb": "mansory.png",
+      "optimized": "mansory.png",
+      "original": "mansory.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/MAN-logo-640x355.jpg",
-    "name": "MAN",
-    "slug": "man.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Ascari-logo.png",
     "name": "Marcos",
-    "slug": "marcos.png"
+    "slug": "marcos",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ascari-logo.png",
+      "thumb": "marcos.png",
+      "optimized": "marcos.png",
+      "original": "marcos.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Marlin-car-logo-640x324.jpg",
+    "name": "MAN",
+    "slug": "man",
+    "image": {
+      "source": "https://www.carlogos.org/logo/MAN-logo-640x355.jpg",
+      "thumb": "man.png",
+      "optimized": "man.png",
+      "original": "man.jpg"
+    }
+  },
+  {
     "name": "Marlin",
-    "slug": "marlin.jpg"
+    "slug": "marlin",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Marlin-car-logo-640x324.jpg",
+      "thumb": "marlin.png",
+      "optimized": "marlin.png",
+      "original": "marlin.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Maserati-logo-black-640x280.jpg",
     "name": "Maserati",
-    "slug": "maserati.jpg"
+    "slug": "maserati",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Maserati-logo-black-640x280.jpg",
+      "thumb": "maserati.png",
+      "optimized": "maserati.png",
+      "original": "maserati.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mastretta-logo-old-640x550.jpg",
-    "name": "Mastretta",
-    "slug": "mastretta.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Maxus-logo-2014-640x550.jpg",
-    "name": "Maxus",
-    "slug": "maxus.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Maybach-logo-640x353.jpg",
     "name": "Maybach",
-    "slug": "maybach.jpg"
+    "slug": "maybach",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Maybach-logo-640x353.jpg",
+      "thumb": "maybach.png",
+      "optimized": "maybach.png",
+      "original": "maybach.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/MAZ-logo-640x377.jpg",
+    "name": "Mastretta",
+    "slug": "mastretta",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mastretta-logo-old-640x550.jpg",
+      "thumb": "mastretta.png",
+      "optimized": "mastretta.png",
+      "original": "mastretta.jpg"
+    }
+  },
+  {
+    "name": "Maxus",
+    "slug": "maxus",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Maxus-logo-2014-640x550.jpg",
+      "thumb": "maxus.png",
+      "optimized": "maxus.png",
+      "original": "maxus.jpg"
+    }
+  },
+  {
     "name": "MAZ",
-    "slug": "maz.jpg"
+    "slug": "maz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/MAZ-logo-640x377.jpg",
+      "thumb": "maz.png",
+      "optimized": "maz.png",
+      "original": "maz.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mazda-logo-1997-640x550.jpg",
-    "name": "Mazda",
-    "slug": "mazda.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/McLaren-logo-2002-640x92.jpg",
     "name": "McLaren",
-    "slug": "mclaren.jpg"
+    "slug": "mclaren",
+    "image": {
+      "source": "https://www.carlogos.org/logo/McLaren-logo-2002-640x92.jpg",
+      "thumb": "mclaren.png",
+      "optimized": "mclaren.png",
+      "original": "mclaren.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mazzanti-Automobili-logo-2016-640x550.jpg",
-    "name": "Mazzanti",
-    "slug": "mazzanti.jpg"
+    "name": "Mazda",
+    "slug": "mazda",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mazda-logo-1997-640x550.jpg",
+      "thumb": "mazda.png",
+      "optimized": "mazda.png",
+      "original": "mazda.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/AMG-logo-black-640x62.jpg",
     "name": "Mercedes-AMG",
-    "slug": "mercedes-amg.jpg"
+    "slug": "mercedes-amg",
+    "image": {
+      "source": "https://www.carlogos.org/logo/AMG-logo-black-640x62.jpg",
+      "thumb": "mercedes-amg.png",
+      "optimized": "mercedes-amg.png",
+      "original": "mercedes-amg.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Melkus-logo-640x550.jpg",
     "name": "Melkus",
-    "slug": "melkus.jpg"
+    "slug": "melkus",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Melkus-logo-640x550.jpg",
+      "thumb": "melkus.png",
+      "optimized": "melkus.png",
+      "original": "melkus.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mercedes-Benz-logo-2011-640x369.jpg",
+    "name": "Mazzanti",
+    "slug": "mazzanti",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mazzanti-Automobili-logo-2016-640x550.jpg",
+      "thumb": "mazzanti.png",
+      "optimized": "mazzanti.png",
+      "original": "mazzanti.jpg"
+    }
+  },
+  {
     "name": "Mercedes-Benz",
-    "slug": "mercedes-benz.jpg"
+    "slug": "mercedes-benz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mercedes-Benz-logo-2011-640x369.jpg",
+      "thumb": "mercedes-benz.png",
+      "optimized": "mercedes-benz.png",
+      "original": "mercedes-benz.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mercury-logo-1980-640x550.jpg",
     "name": "Mercury",
-    "slug": "mercury.jpg"
+    "slug": "mercury",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mercury-logo-1980-640x550.jpg",
+      "thumb": "mercury.png",
+      "optimized": "mercury.png",
+      "original": "mercury.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Merkur-logo-black-640x294.jpg",
-    "name": "Merkur",
-    "slug": "merkur.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Mills-Extreme-Vehicles-logo-640x186.jpg",
     "name": "MEV",
-    "slug": "mev.jpg"
+    "slug": "mev",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mills-Extreme-Vehicles-logo-640x186.jpg",
+      "thumb": "mev.png",
+      "optimized": "mev.png",
+      "original": "mev.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/MG-logo-red-2010-640x550.jpg",
+    "name": "Merkur",
+    "slug": "merkur",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Merkur-logo-black-640x294.jpg",
+      "thumb": "merkur.png",
+      "optimized": "merkur.png",
+      "original": "merkur.jpg"
+    }
+  },
+  {
     "name": "MG",
-    "slug": "mg.jpg"
+    "slug": "mg",
+    "image": {
+      "source": "https://www.carlogos.org/logo/MG-logo-red-2010-640x550.jpg",
+      "thumb": "mg.png",
+      "optimized": "mg.png",
+      "original": "mg.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Microcar-logo-640x330.jpg",
-    "name": "Microcar",
-    "slug": "microcar.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Mini-logo-2001-640x270.jpg",
     "name": "Mini",
-    "slug": "mini.jpg"
+    "slug": "mini",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mini-logo-2001-640x270.jpg",
+      "thumb": "mini.png",
+      "optimized": "mini.png",
+      "original": "mini.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mitsubishi-logo-640x550.jpg",
+    "name": "Microcar",
+    "slug": "microcar",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Microcar-logo-640x330.jpg",
+      "thumb": "microcar.png",
+      "optimized": "microcar.png",
+      "original": "microcar.jpg"
+    }
+  },
+  {
     "name": "Mitsubishi",
-    "slug": "mitsubishi.jpg"
+    "slug": "mitsubishi",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mitsubishi-logo-640x550.jpg",
+      "thumb": "mitsubishi.png",
+      "optimized": "mitsubishi.png",
+      "original": "mitsubishi.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Mitsuoka-logo-640x550.jpg",
     "name": "Mitsuoka",
-    "slug": "mitsuoka.jpg"
+    "slug": "mitsuoka",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Mitsuoka-logo-640x550.jpg",
+      "thumb": "mitsuoka.png",
+      "optimized": "mitsuoka.png",
+      "original": "mitsuoka.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/mk-sportscars-logo-1000x600-show.png",
     "name": "MK",
-    "slug": "mk.png"
+    "slug": "mk",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/mk-sportscars-logo-1000x600-show.png",
+      "thumb": "mk.png",
+      "optimized": "mk.png",
+      "original": "mk.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Morgan-logo-640x178.jpg",
     "name": "Morgan",
-    "slug": "morgan.jpg"
+    "slug": "morgan",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Morgan-logo-640x178.jpg",
+      "thumb": "morgan.png",
+      "optimized": "morgan.png",
+      "original": "morgan.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/MG-logo.png",
     "name": "Morris",
-    "slug": "morris.png"
+    "slug": "morris",
+    "image": {
+      "source": "https://www.carlogos.org/logo/MG-logo.png",
+      "thumb": "morris.png",
+      "optimized": "morris.png",
+      "original": "morris.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Saleen-logo.png",
     "name": "Mosler",
-    "slug": "mosler.png"
+    "slug": "mosler",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Saleen-logo.png",
+      "thumb": "mosler.png",
+      "optimized": "mosler.png",
+      "original": "mosler.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Navistar-International-logo-640x104.jpg",
     "name": "Navistar",
-    "slug": "navistar.jpg"
+    "slug": "navistar",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Navistar-International-logo-640x104.jpg",
+      "thumb": "navistar.png",
+      "optimized": "navistar.png",
+      "original": "navistar.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/nevs-logo-2100x450-show.png",
     "name": "NEVS",
-    "slug": "nevs.png"
+    "slug": "nevs",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/nevs-logo-2100x450-show.png",
+      "thumb": "nevs.png",
+      "optimized": "nevs.png",
+      "original": "nevs.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/nio-logo-1800x700-show.png",
     "name": "NIO",
-    "slug": "nio.png"
+    "slug": "nio",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/nio-logo-1800x700-show.png",
+      "thumb": "nio.png",
+      "optimized": "nio.png",
+      "original": "nio.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/nikola-logo-2100x600-show.png",
     "name": "Nikola",
-    "slug": "nikola.png"
+    "slug": "nikola",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/nikola-logo-2100x600-show.png",
+      "thumb": "nikola.png",
+      "optimized": "nikola.png",
+      "original": "nikola.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/nissan-logo-2020-black-show.png",
     "name": "Nissan",
-    "slug": "nissan.png"
+    "slug": "nissan",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/nissan-logo-2020-black-show.png",
+      "thumb": "nissan.png",
+      "optimized": "nissan.png",
+      "original": "nissan.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Nismo-logo-640x79.jpg",
     "name": "Nissan Nismo",
-    "slug": "nissan-nismo.jpg"
+    "slug": "nissan-nismo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Nismo-logo-640x79.jpg",
+      "thumb": "nissan-nismo.png",
+      "optimized": "nissan-nismo.png",
+      "original": "nissan-nismo.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/GT-R-logo-640x454.jpg",
     "name": "Nissan GT-R",
-    "slug": "nissan-gt-r.jpg"
+    "slug": "nissan-gt-r",
+    "image": {
+      "source": "https://www.carlogos.org/logo/GT-R-logo-640x454.jpg",
+      "thumb": "nissan-gt-r.png",
+      "optimized": "nissan-gt-r.png",
+      "original": "nissan-gt-r.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Oldsmobile-logo-1996-640x260.jpg",
-    "name": "Oldsmobile",
-    "slug": "oldsmobile.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/ARO-logo.png",
-    "name": "Oltcit",
-    "slug": "oltcit.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Noble-logo-640x375.jpg",
     "name": "Noble",
-    "slug": "noble.jpg"
+    "slug": "noble",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Noble-logo-640x375.jpg",
+      "thumb": "noble.png",
+      "optimized": "noble.png",
+      "original": "noble.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Innocenti-logo.png",
+    "name": "Oltcit",
+    "slug": "oltcit",
+    "image": {
+      "source": "https://www.carlogos.org/logo/ARO-logo.png",
+      "thumb": "oltcit.png",
+      "optimized": "oltcit.png",
+      "original": "oltcit.png"
+    }
+  },
+  {
+    "name": "Oldsmobile",
+    "slug": "oldsmobile",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Oldsmobile-logo-1996-640x260.jpg",
+      "thumb": "oldsmobile.png",
+      "optimized": "oldsmobile.png",
+      "original": "oldsmobile.jpg"
+    }
+  },
+  {
     "name": "OSCA",
-    "slug": "osca.png"
+    "slug": "osca",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Innocenti-logo.png",
+      "thumb": "osca.png",
+      "optimized": "osca.png",
+      "original": "osca.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Opel-logo-2009-640x496.jpg",
     "name": "Opel",
-    "slug": "opel.jpg"
+    "slug": "opel",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Opel-logo-2009-640x496.jpg",
+      "thumb": "opel.png",
+      "optimized": "opel.png",
+      "original": "opel.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Paccar-logo-640x110.jpg",
     "name": "Paccar",
-    "slug": "paccar.jpg"
+    "slug": "paccar",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Paccar-logo-640x110.jpg",
+      "thumb": "paccar.png",
+      "optimized": "paccar.png",
+      "original": "paccar.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Pagani-logo-1992-640x343.jpg",
-    "name": "Pagani",
-    "slug": "pagani.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Facel-Vega-logo.png",
     "name": "Panhard",
-    "slug": "panhard.png"
+    "slug": "panhard",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Facel-Vega-logo.png",
+      "thumb": "panhard.png",
+      "optimized": "panhard.png",
+      "original": "panhard.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/packard-logo-650x650-show.png",
-    "name": "Packard",
-    "slug": "packard.png"
+    "name": "Pagani",
+    "slug": "pagani",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Pagani-logo-1992-640x343.jpg",
+      "thumb": "pagani.png",
+      "optimized": "pagani.png",
+      "original": "pagani.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Panoz-logo-640x550.jpg",
-    "name": "Panoz",
-    "slug": "panoz.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Pegaso-logo-black-640x550.jpg",
     "name": "Pegaso",
-    "slug": "pegaso.jpg"
+    "slug": "pegaso",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Pegaso-logo-black-640x550.jpg",
+      "thumb": "pegaso.png",
+      "optimized": "pegaso.png",
+      "original": "pegaso.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Perodua-logo-2008-640x434.jpg",
+    "name": "Panoz",
+    "slug": "panoz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Panoz-logo-640x550.jpg",
+      "thumb": "panoz.png",
+      "optimized": "panoz.png",
+      "original": "panoz.jpg"
+    }
+  },
+  {
+    "name": "Packard",
+    "slug": "packard",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/packard-logo-650x650-show.png",
+      "thumb": "packard.png",
+      "optimized": "packard.png",
+      "original": "packard.png"
+    }
+  },
+  {
     "name": "Perodua",
-    "slug": "perodua.jpg"
+    "slug": "perodua",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Perodua-logo-2008-640x434.jpg",
+      "thumb": "perodua.png",
+      "optimized": "perodua.png",
+      "original": "perodua.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Peterbilt-logo-640x325.jpg",
     "name": "Peterbilt",
-    "slug": "peterbilt.jpg"
+    "slug": "peterbilt",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Peterbilt-logo-640x325.jpg",
+      "thumb": "peterbilt.png",
+      "optimized": "peterbilt.png",
+      "original": "peterbilt.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Peugeot-logo-2010-640x451.jpg",
     "name": "Peugeot",
-    "slug": "peugeot.jpg"
+    "slug": "peugeot",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Peugeot-logo-2010-640x451.jpg",
+      "thumb": "peugeot.png",
+      "optimized": "peugeot.png",
+      "original": "peugeot.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/PGO-logo-640x550.jpg",
     "name": "PGO",
-    "slug": "pgo.jpg"
+    "slug": "pgo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/PGO-logo-640x550.jpg",
+      "thumb": "pgo.png",
+      "optimized": "pgo.png",
+      "original": "pgo.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Cole-logo.png",
     "name": "Pierce-Arrow",
-    "slug": "pierce-arrow.png"
+    "slug": "pierce-arrow",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Cole-logo.png",
+      "thumb": "pierce-arrow.png",
+      "optimized": "pierce-arrow.png",
+      "original": "pierce-arrow.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Pininfarina-logo-640x232.jpg",
     "name": "Pininfarina",
-    "slug": "pininfarina.jpg"
+    "slug": "pininfarina",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Pininfarina-logo-640x232.jpg",
+      "thumb": "pininfarina.png",
+      "optimized": "pininfarina.png",
+      "original": "pininfarina.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Plymouth-logo-640x550.jpg",
-    "name": "Plymouth",
-    "slug": "plymouth.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Polestar-logo-640x505.jpg",
     "name": "Polestar",
-    "slug": "polestar.jpg"
+    "slug": "polestar",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Polestar-logo-640x505.jpg",
+      "thumb": "polestar.png",
+      "optimized": "polestar.png",
+      "original": "polestar.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Pontiac-logo-640x440.jpg",
+    "name": "Plymouth",
+    "slug": "plymouth",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Plymouth-logo-640x550.jpg",
+      "thumb": "plymouth.png",
+      "optimized": "plymouth.png",
+      "original": "plymouth.jpg"
+    }
+  },
+  {
     "name": "Pontiac",
-    "slug": "pontiac.jpg"
+    "slug": "pontiac",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Pontiac-logo-640x440.jpg",
+      "thumb": "pontiac.png",
+      "optimized": "pontiac.png",
+      "original": "pontiac.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Premier-logo-640x242.jpg",
-    "name": "Premier",
-    "slug": "premier.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/porsche-logo-2100x1100-show.png",
-    "name": "Porsche",
-    "slug": "porsche.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Praga-logo-blue-640x284.jpg",
     "name": "Praga",
-    "slug": "praga.jpg"
+    "slug": "praga",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Praga-logo-blue-640x284.jpg",
+      "thumb": "praga.png",
+      "optimized": "praga.png",
+      "original": "praga.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Prodrive-logo-640x103.jpg",
+    "name": "Premier",
+    "slug": "premier",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Premier-logo-640x242.jpg",
+      "thumb": "premier.png",
+      "optimized": "premier.png",
+      "original": "premier.jpg"
+    }
+  },
+  {
     "name": "Prodrive",
-    "slug": "prodrive.jpg"
+    "slug": "prodrive",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Prodrive-logo-640x103.jpg",
+      "thumb": "prodrive.png",
+      "optimized": "prodrive.png",
+      "original": "prodrive.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Proton-logo-2016-640x550.jpg",
+    "name": "Porsche",
+    "slug": "porsche",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/porsche-logo-2100x1100-show.png",
+      "thumb": "porsche.png",
+      "optimized": "porsche.png",
+      "original": "porsche.png"
+    }
+  },
+  {
     "name": "Proton",
-    "slug": "proton.jpg"
+    "slug": "proton",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Proton-logo-2016-640x550.jpg",
+      "thumb": "proton.png",
+      "optimized": "proton.png",
+      "original": "proton.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Qoros-logo-2007-640x454.jpg",
     "name": "Qoros",
-    "slug": "qoros.jpg"
+    "slug": "qoros",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Qoros-logo-2007-640x454.jpg",
+      "thumb": "qoros.png",
+      "optimized": "qoros.png",
+      "original": "qoros.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Radical-Sportscars-logo-640x215.jpg",
-    "name": "Radical",
-    "slug": "radical.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/RAM-logo-2009-640x550.jpg",
     "name": "RAM",
-    "slug": "ram.jpg"
+    "slug": "ram",
+    "image": {
+      "source": "https://www.carlogos.org/logo/RAM-logo-2009-640x550.jpg",
+      "thumb": "ram.png",
+      "optimized": "ram.png",
+      "original": "ram.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Rambler-logo-640x550.jpg",
+    "name": "Radical",
+    "slug": "radical",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Radical-Sportscars-logo-640x215.jpg",
+      "thumb": "radical.png",
+      "optimized": "radical.png",
+      "original": "radical.jpg"
+    }
+  },
+  {
     "name": "Rambler",
-    "slug": "rambler.jpg"
+    "slug": "rambler",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Rambler-logo-640x550.jpg",
+      "thumb": "rambler.png",
+      "optimized": "rambler.png",
+      "original": "rambler.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Ranz-logo-640x268.jpg",
     "name": "Ranz",
-    "slug": "ranz.jpg"
+    "slug": "ranz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ranz-logo-640x268.jpg",
+      "thumb": "ranz.png",
+      "optimized": "ranz.png",
+      "original": "ranz.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Renault-Samsung-Motors-logo-640x368.jpg",
-    "name": "Renault Samsung",
-    "slug": "renault-samsung.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Renault-logo-2015-640x550.jpg",
     "name": "Renault",
-    "slug": "renault.jpg"
+    "slug": "renault",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Renault-logo-2015-640x550.jpg",
+      "thumb": "renault.png",
+      "optimized": "renault.png",
+      "original": "renault.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Rezvani-logo-640x345.jpg",
+    "name": "Renault Samsung",
+    "slug": "renault-samsung",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Renault-Samsung-Motors-logo-640x368.jpg",
+      "thumb": "renault-samsung.png",
+      "optimized": "renault-samsung.png",
+      "original": "renault-samsung.jpg"
+    }
+  },
+  {
     "name": "Rezvani",
-    "slug": "rezvani.jpg"
+    "slug": "rezvani",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Rezvani-logo-640x345.jpg",
+      "thumb": "rezvani.png",
+      "optimized": "rezvani.png",
+      "original": "rezvani.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Marcos-logo.png",
     "name": "Riley",
-    "slug": "riley.png"
+    "slug": "riley",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Marcos-logo.png",
+      "thumb": "riley.png",
+      "optimized": "riley.png",
+      "original": "riley.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Rimac-logo-2016-640x550.jpg",
     "name": "Rimac",
-    "slug": "rimac.jpg"
+    "slug": "rimac",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Rimac-logo-2016-640x550.jpg",
+      "thumb": "rimac.png",
+      "optimized": "rimac.png",
+      "original": "rimac.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Rinspeed-logo-640x65.jpg",
     "name": "Rinspeed",
-    "slug": "rinspeed.jpg"
+    "slug": "rinspeed",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Rinspeed-logo-640x65.jpg",
+      "thumb": "rinspeed.png",
+      "optimized": "rinspeed.png",
+      "original": "rinspeed.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/rivian-logo-black-1300x1150-show.png",
     "name": "Rivian",
-    "slug": "rivian.png"
+    "slug": "rivian",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/rivian-logo-black-1300x1150-show.png",
+      "thumb": "rivian.png",
+      "optimized": "rivian.png",
+      "original": "rivian.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Rolls-Royce-logo-640x550.jpg",
     "name": "Rolls-Royce",
-    "slug": "rolls-royce.jpg"
+    "slug": "rolls-royce",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Rolls-Royce-logo-640x550.jpg",
+      "thumb": "rolls-royce.png",
+      "optimized": "rolls-royce.png",
+      "original": "rolls-royce.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Roewe-logo-2006-640x550.jpg",
-    "name": "Roewe",
-    "slug": "roewe.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Ronart-Cars-logo-640x385.jpg",
     "name": "Ronart",
-    "slug": "ronart.jpg"
+    "slug": "ronart",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ronart-Cars-logo-640x385.jpg",
+      "thumb": "ronart.png",
+      "optimized": "ronart.png",
+      "original": "ronart.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Rover-logo-2003-640x550.jpg",
-    "name": "Rover",
-    "slug": "rover.jpg"
+    "name": "Roewe",
+    "slug": "roewe",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Roewe-logo-2006-640x550.jpg",
+      "thumb": "roewe.png",
+      "optimized": "roewe.png",
+      "original": "roewe.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Rossion-logo-640x550.jpg",
     "name": "Rossion",
-    "slug": "rossion.jpg"
+    "slug": "rossion",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Rossion-logo-640x550.jpg",
+      "thumb": "rossion.png",
+      "optimized": "rossion.png",
+      "original": "rossion.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Ruf-logo-640x282.jpg",
+    "name": "Rover",
+    "slug": "rover",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Rover-logo-2003-640x550.jpg",
+      "thumb": "rover.png",
+      "optimized": "rover.png",
+      "original": "rover.jpg"
+    }
+  },
+  {
     "name": "RUF",
-    "slug": "ruf.jpg"
+    "slug": "ruf",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ruf-logo-640x282.jpg",
+      "thumb": "ruf.png",
+      "optimized": "ruf.png",
+      "original": "ruf.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Saab-logo-2013-640x143.jpg",
     "name": "Saab",
-    "slug": "saab.jpg"
+    "slug": "saab",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Saab-logo-2013-640x143.jpg",
+      "thumb": "saab.png",
+      "optimized": "saab.png",
+      "original": "saab.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/SAIC-Motor-logo-640x550.jpg",
     "name": "SAIC Motor",
-    "slug": "saic-motor.jpg"
+    "slug": "saic-motor",
+    "image": {
+      "source": "https://www.carlogos.org/logo/SAIC-Motor-logo-640x550.jpg",
+      "thumb": "saic-motor.png",
+      "optimized": "saic-motor.png",
+      "original": "saic-motor.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Saipa-logo-640x550.jpg",
     "name": "Saipa",
-    "slug": "saipa.jpg"
+    "slug": "saipa",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Saipa-logo-640x550.jpg",
+      "thumb": "saipa.png",
+      "optimized": "saipa.png",
+      "original": "saipa.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Scania-logo-640x169.jpg",
-    "name": "Scania",
-    "slug": "scania.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Hennessey-logo.png",
     "name": "Saleen",
-    "slug": "saleen.png"
+    "slug": "saleen",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Hennessey-logo.png",
+      "thumb": "saleen.png",
+      "optimized": "saleen.png",
+      "original": "saleen.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Saturn-logo-1985-640x550.jpg",
+    "name": "Scania",
+    "slug": "scania",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Scania-logo-640x169.jpg",
+      "thumb": "scania.png",
+      "optimized": "scania.png",
+      "original": "scania.jpg"
+    }
+  },
+  {
     "name": "Saturn",
-    "slug": "saturn.jpg"
+    "slug": "saturn",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Saturn-logo-1985-640x550.jpg",
+      "thumb": "saturn.png",
+      "optimized": "saturn.png",
+      "original": "saturn.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Scion-logo-2003-640x442.jpg",
     "name": "Scion",
-    "slug": "scion.jpg"
+    "slug": "scion",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Scion-logo-2003-640x442.jpg",
+      "thumb": "scion.png",
+      "optimized": "scion.png",
+      "original": "scion.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Setra-logo-640x135.jpg",
-    "name": "Setra",
-    "slug": "setra.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/shacman-logo-1400x1400-show.png",
     "name": "Shacman",
-    "slug": "shacman.png"
+    "slug": "shacman",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/shacman-logo-1400x1400-show.png",
+      "thumb": "shacman.png",
+      "optimized": "shacman.png",
+      "original": "shacman.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Simca-logo-640x550.jpg",
     "name": "Simca",
-    "slug": "simca.jpg"
+    "slug": "simca",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Simca-logo-640x550.jpg",
+      "thumb": "simca.png",
+      "optimized": "simca.png",
+      "original": "simca.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/SEAT-logo-2012-640x508.jpg",
+    "name": "Setra",
+    "slug": "setra",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Setra-logo-640x135.jpg",
+      "thumb": "setra.png",
+      "optimized": "setra.png",
+      "original": "setra.jpg"
+    }
+  },
+  {
     "name": "SEAT",
-    "slug": "seat.jpg"
+    "slug": "seat",
+    "image": {
+      "source": "https://www.carlogos.org/logo/SEAT-logo-2012-640x508.jpg",
+      "thumb": "seat.png",
+      "optimized": "seat.png",
+      "original": "seat.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Marcos-logo.png",
     "name": "Singer",
-    "slug": "singer.png"
+    "slug": "singer",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Marcos-logo.png",
+      "thumb": "singer.png",
+      "optimized": "singer.png",
+      "original": "singer.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/singulato-logo-1050x400-show.png",
     "name": "Singulato",
-    "slug": "singulato.png"
+    "slug": "singulato",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/singulato-logo-1050x400-show.png",
+      "thumb": "singulato.png",
+      "optimized": "singulato.png",
+      "original": "singulato.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Sisu-logo-640x550.jpg",
     "name": "Sisu",
-    "slug": "sisu.jpg"
+    "slug": "sisu",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Sisu-logo-640x550.jpg",
+      "thumb": "sisu.png",
+      "optimized": "sisu.png",
+      "original": "sisu.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/sinotruk-logo-1100x1100-show.png",
     "name": "Sinotruk",
-    "slug": "sinotruk.png"
+    "slug": "sinotruk",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/sinotruk-logo-1100x1100-show.png",
+      "thumb": "sinotruk.png",
+      "optimized": "sinotruk.png",
+      "original": "sinotruk.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Skoda-logo-2016-640x550.jpg",
     "name": "Škoda",
-    "slug": "skoda.jpg"
+    "slug": "skoda",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Skoda-logo-2016-640x550.jpg",
+      "thumb": "skoda.png",
+      "optimized": "skoda.png",
+      "original": "skoda.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Smart-logo-1994-640x550.jpg",
     "name": "Smart",
-    "slug": "smart.jpg"
+    "slug": "smart",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Smart-logo-1994-640x550.jpg",
+      "thumb": "smart.png",
+      "optimized": "smart.png",
+      "original": "smart.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/GTA-Motor-logo-640x550.jpg",
     "name": "Spania GTA",
-    "slug": "spania-gta.jpg"
+    "slug": "spania-gta",
+    "image": {
+      "source": "https://www.carlogos.org/logo/GTA-Motor-logo-640x550.jpg",
+      "thumb": "spania-gta.png",
+      "optimized": "spania-gta.png",
+      "original": "spania-gta.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Soueast-logo-1995-640x459.jpg",
-    "name": "Soueast",
-    "slug": "soueast.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Spirra-logo-640x529.jpg",
     "name": "Spirra",
-    "slug": "spirra.jpg"
+    "slug": "spirra",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Spirra-logo-640x529.jpg",
+      "thumb": "spirra.png",
+      "optimized": "spirra.png",
+      "original": "spirra.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Spyker-logo-black-640x335.jpg",
+    "name": "Soueast",
+    "slug": "soueast",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Soueast-logo-1995-640x459.jpg",
+      "thumb": "soueast.png",
+      "optimized": "soueast.png",
+      "original": "soueast.jpg"
+    }
+  },
+  {
     "name": "Spyker",
-    "slug": "spyker.jpg"
+    "slug": "spyker",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Spyker-logo-black-640x335.jpg",
+      "thumb": "spyker.png",
+      "optimized": "spyker.png",
+      "original": "spyker.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/SsangYong-logo-640x422.jpg",
     "name": "SsangYong",
-    "slug": "ssangyong.jpg"
+    "slug": "ssangyong",
+    "image": {
+      "source": "https://www.carlogos.org/logo/SsangYong-logo-640x422.jpg",
+      "thumb": "ssangyong.png",
+      "optimized": "ssangyong.png",
+      "original": "ssangyong.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Sterling-logo-640x367.jpg",
     "name": "Sterling",
-    "slug": "sterling.jpg"
+    "slug": "sterling",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Sterling-logo-640x367.jpg",
+      "thumb": "sterling.png",
+      "optimized": "sterling.png",
+      "original": "sterling.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/SSC-logo-640x550.jpg",
-    "name": "SSC",
-    "slug": "ssc.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Studebaker-logo-640x550.jpg",
     "name": "Studebaker",
-    "slug": "studebaker.jpg"
+    "slug": "studebaker",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Studebaker-logo-640x550.jpg",
+      "thumb": "studebaker.png",
+      "optimized": "studebaker.png",
+      "original": "studebaker.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Subaru-logo-2003-640x358.jpg",
+    "name": "SSC",
+    "slug": "ssc",
+    "image": {
+      "source": "https://www.carlogos.org/logo/SSC-logo-640x550.jpg",
+      "thumb": "ssc.png",
+      "optimized": "ssc.png",
+      "original": "ssc.jpg"
+    }
+  },
+  {
     "name": "Subaru",
-    "slug": "subaru.jpg"
+    "slug": "subaru",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Subaru-logo-2003-640x358.jpg",
+      "thumb": "subaru.png",
+      "optimized": "subaru.png",
+      "original": "subaru.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/stutz-logo-800x600-show.png",
-    "name": "Stutz",
-    "slug": "stutz.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Suzuki-logo-640x285.jpg",
-    "name": "Suzuki",
-    "slug": "suzuki.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Suffolk-Sportscars-logo-640x315.jpg",
     "name": "Suffolk",
-    "slug": "suffolk.jpg"
+    "slug": "suffolk",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Suffolk-Sportscars-logo-640x315.jpg",
+      "thumb": "suffolk.png",
+      "optimized": "suffolk.png",
+      "original": "suffolk.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Talbot-logo-640x550.jpg",
+    "name": "Suzuki",
+    "slug": "suzuki",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Suzuki-logo-640x285.jpg",
+      "thumb": "suzuki.png",
+      "optimized": "suzuki.png",
+      "original": "suzuki.jpg"
+    }
+  },
+  {
     "name": "Talbot",
-    "slug": "talbot.jpg"
+    "slug": "talbot",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Talbot-logo-640x550.jpg",
+      "thumb": "talbot.png",
+      "optimized": "talbot.png",
+      "original": "talbot.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Tata-logo-2000-640x550.jpg",
     "name": "Tata",
-    "slug": "tata.jpg"
+    "slug": "tata",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Tata-logo-2000-640x550.jpg",
+      "thumb": "tata.png",
+      "optimized": "tata.png",
+      "original": "tata.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Tatra-logo-640x550.jpg",
+    "name": "Stutz",
+    "slug": "stutz",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/stutz-logo-800x600-show.png",
+      "thumb": "stutz.png",
+      "optimized": "stutz.png",
+      "original": "stutz.png"
+    }
+  },
+  {
     "name": "Tatra",
-    "slug": "tatra.jpg"
+    "slug": "tatra",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Tatra-logo-640x550.jpg",
+      "thumb": "tatra.png",
+      "optimized": "tatra.png",
+      "original": "tatra.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/TechArt-logo-640x395.jpg",
-    "name": "TechArt",
-    "slug": "techart.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/tesla-logo-2200x2800-show.png",
     "name": "Tesla",
-    "slug": "tesla.png"
+    "slug": "tesla",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/tesla-logo-2200x2800-show.png",
+      "thumb": "tesla.png",
+      "optimized": "tesla.png",
+      "original": "tesla.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Toyota-Crown-logo-640x550.jpg",
-    "name": "Toyota Crown",
-    "slug": "toyota-crown.jpg"
+    "name": "TechArt",
+    "slug": "techart",
+    "image": {
+      "source": "https://www.carlogos.org/logo/TechArt-logo-640x395.jpg",
+      "thumb": "techart.png",
+      "optimized": "techart.png",
+      "original": "techart.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/toyota-alphard-logo-500x600-show.png",
     "name": "Toyota Alphard",
-    "slug": "toyota-alphard.png"
+    "slug": "toyota-alphard",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/toyota-alphard-logo-500x600-show.png",
+      "thumb": "toyota-alphard.png",
+      "optimized": "toyota-alphard.png",
+      "original": "toyota-alphard.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/toyota-century-logo-900x1000-show.png",
-    "name": "Toyota Century",
-    "slug": "toyota-century.png"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/toyota-logo-2019-3700x1200-show.png",
     "name": "Toyota",
-    "slug": "toyota.png"
+    "slug": "toyota",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/toyota-logo-2019-3700x1200-show.png",
+      "thumb": "toyota.png",
+      "optimized": "toyota.png",
+      "original": "toyota.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Tramontana-logo-black-640x384.jpg",
+    "name": "Toyota Crown",
+    "slug": "toyota-crown",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Toyota-Crown-logo-640x550.jpg",
+      "thumb": "toyota-crown.png",
+      "optimized": "toyota-crown.png",
+      "original": "toyota-crown.jpg"
+    }
+  },
+  {
     "name": "Tramontana",
-    "slug": "tramontana.jpg"
+    "slug": "tramontana",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Tramontana-logo-black-640x384.jpg",
+      "thumb": "tramontana.png",
+      "optimized": "tramontana.png",
+      "original": "tramontana.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Trion-logo-640x404.jpg",
     "name": "Trion",
-    "slug": "trion.jpg"
+    "slug": "trion",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Trion-logo-640x404.jpg",
+      "thumb": "trion.png",
+      "optimized": "trion.png",
+      "original": "trion.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Triumph-logo-640x550.jpg",
-    "name": "Triumph",
-    "slug": "triumph.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Troller-logo-640x108.jpg",
     "name": "Troller",
-    "slug": "troller.jpg"
+    "slug": "troller",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Troller-logo-640x108.jpg",
+      "thumb": "troller.png",
+      "optimized": "troller.png",
+      "original": "troller.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/TVR-logo-640x224.jpg",
+    "name": "Triumph",
+    "slug": "triumph",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Triumph-logo-640x550.jpg",
+      "thumb": "triumph.png",
+      "optimized": "triumph.png",
+      "original": "triumph.jpg"
+    }
+  },
+  {
     "name": "TVR",
-    "slug": "tvr.jpg"
+    "slug": "tvr",
+    "image": {
+      "source": "https://www.carlogos.org/logo/TVR-logo-640x224.jpg",
+      "thumb": "tvr.png",
+      "optimized": "tvr.png",
+      "original": "tvr.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/tucker-logo-700x900-show.png",
-    "name": "Tucker",
-    "slug": "tucker.png"
+    "name": "Toyota Century",
+    "slug": "toyota-century",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/toyota-century-logo-900x1000-show.png",
+      "thumb": "toyota-century.png",
+      "optimized": "toyota-century.png",
+      "original": "toyota-century.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/UAZ-logo-640x364.jpg",
     "name": "UAZ",
-    "slug": "uaz.jpg"
+    "slug": "uaz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/UAZ-logo-640x364.jpg",
+      "thumb": "uaz.png",
+      "optimized": "uaz.png",
+      "original": "uaz.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/UD-Trucks-logo-640x508.jpg",
     "name": "UD",
-    "slug": "ud.jpg"
+    "slug": "ud",
+    "image": {
+      "source": "https://www.carlogos.org/logo/UD-Trucks-logo-640x508.jpg",
+      "thumb": "ud.png",
+      "optimized": "ud.png",
+      "original": "ud.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Spyker-logo.png",
-    "name": "Vandenbrink",
-    "slug": "vandenbrink.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Ultima-Sports-logo-640x149.jpg",
     "name": "Ultima",
-    "slug": "ultima.jpg"
+    "slug": "ultima",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ultima-Sports-logo-640x149.jpg",
+      "thumb": "ultima.png",
+      "optimized": "ultima.png",
+      "original": "ultima.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Vauxhall-logo-2008-red-640x478.jpg",
+    "name": "Vandenbrink",
+    "slug": "vandenbrink",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Spyker-logo.png",
+      "thumb": "vandenbrink.png",
+      "optimized": "vandenbrink.png",
+      "original": "vandenbrink.png"
+    }
+  },
+  {
+    "name": "Tucker",
+    "slug": "tucker",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/tucker-logo-700x900-show.png",
+      "thumb": "tucker.png",
+      "optimized": "tucker.png",
+      "original": "tucker.png"
+    }
+  },
+  {
     "name": "Vauxhall",
-    "slug": "vauxhall.jpg"
+    "slug": "vauxhall",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Vauxhall-logo-2008-red-640x478.jpg",
+      "thumb": "vauxhall.png",
+      "optimized": "vauxhall.png",
+      "original": "vauxhall.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Vector-Motors-logo-640x480.jpg",
     "name": "Vector",
-    "slug": "vector.jpg"
+    "slug": "vector",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Vector-Motors-logo-640x480.jpg",
+      "thumb": "vector.png",
+      "optimized": "vector.png",
+      "original": "vector.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Ligier-logo.png",
     "name": "Venturi",
-    "slug": "venturi.png"
+    "slug": "venturi",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Ligier-logo.png",
+      "thumb": "venturi.png",
+      "optimized": "venturi.png",
+      "original": "venturi.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Vencer-logo-640x479.jpg",
-    "name": "Vencer",
-    "slug": "vencer.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Venucia-logo-2017-640x260.jpg",
     "name": "Venucia",
-    "slug": "venucia.jpg"
+    "slug": "venucia",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Venucia-logo-2017-640x260.jpg",
+      "thumb": "venucia.png",
+      "optimized": "venucia.png",
+      "original": "venucia.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/vinfast-logo-900x850-show.png",
-    "name": "VinFast",
-    "slug": "vinfast.png"
+    "name": "Vencer",
+    "slug": "vencer",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Vencer-logo-640x479.jpg",
+      "thumb": "vencer.png",
+      "optimized": "vencer.png",
+      "original": "vencer.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Volkswagen-logo-2019-640x500.jpg",
     "name": "Volkswagen",
-    "slug": "volkswagen.jpg"
+    "slug": "volkswagen",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Volkswagen-logo-2019-640x500.jpg",
+      "thumb": "volkswagen.png",
+      "optimized": "volkswagen.png",
+      "original": "volkswagen.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/W-Motors-logo-640x550.jpg",
-    "name": "W Motors",
-    "slug": "w-motors.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Volvo-logo-2014-640x550.jpg",
-    "name": "Volvo",
-    "slug": "volvo.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Wanderer-logo-black-640x311.jpg",
     "name": "Wanderer",
-    "slug": "wanderer.jpg"
+    "slug": "wanderer",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Wanderer-logo-black-640x311.jpg",
+      "thumb": "wanderer.png",
+      "optimized": "wanderer.png",
+      "original": "wanderer.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Wartburg-logo-640x167.jpg",
+    "name": "Volvo",
+    "slug": "volvo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Volvo-logo-2014-640x550.jpg",
+      "thumb": "volvo.png",
+      "optimized": "volvo.png",
+      "original": "volvo.jpg"
+    }
+  },
+  {
+    "name": "W Motors",
+    "slug": "w-motors",
+    "image": {
+      "source": "https://www.carlogos.org/logo/W-Motors-logo-640x550.jpg",
+      "thumb": "w-motors.png",
+      "optimized": "w-motors.png",
+      "original": "w-motors.jpg"
+    }
+  },
+  {
+    "name": "VinFast",
+    "slug": "vinfast",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/vinfast-logo-900x850-show.png",
+      "thumb": "vinfast.png",
+      "optimized": "vinfast.png",
+      "original": "vinfast.png"
+    }
+  },
+  {
     "name": "Wartburg",
-    "slug": "wartburg.jpg"
+    "slug": "wartburg",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Wartburg-logo-640x167.jpg",
+      "thumb": "wartburg.png",
+      "optimized": "wartburg.png",
+      "original": "wartburg.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/weltmeister-logo-1200x900-show.png",
     "name": "Weltmeister",
-    "slug": "weltmeister.png"
+    "slug": "weltmeister",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/weltmeister-logo-1200x900-show.png",
+      "thumb": "weltmeister.png",
+      "optimized": "weltmeister.png",
+      "original": "weltmeister.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/wey-logo-800x1100-show.png",
     "name": "WEY",
-    "slug": "wey.png"
+    "slug": "wey",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/wey-logo-800x1100-show.png",
+      "thumb": "wey.png",
+      "optimized": "wey.png",
+      "original": "wey.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Western-Star-logo-640x419.jpg",
     "name": "Western Star",
-    "slug": "western-star.jpg"
+    "slug": "western-star",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Western-Star-logo-640x419.jpg",
+      "thumb": "western-star.png",
+      "optimized": "western-star.png",
+      "original": "western-star.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Westfield-logo-640x550.jpg",
     "name": "Westfield",
-    "slug": "westfield.jpg"
+    "slug": "westfield",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Westfield-logo-640x550.jpg",
+      "thumb": "westfield.png",
+      "optimized": "westfield.png",
+      "original": "westfield.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Wiesmann-logo-640x550.jpg",
     "name": "Wiesmann",
-    "slug": "wiesmann.jpg"
+    "slug": "wiesmann",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Wiesmann-logo-640x550.jpg",
+      "thumb": "wiesmann.png",
+      "optimized": "wiesmann.png",
+      "original": "wiesmann.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Willys-Overland-logo-640x550.jpg",
-    "name": "Willys-Overland",
-    "slug": "willys-overland.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/workhorse-logo-1400x650-show.png",
     "name": "Workhorse",
-    "slug": "workhorse.png"
+    "slug": "workhorse",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/workhorse-logo-1400x650-show.png",
+      "thumb": "workhorse.png",
+      "optimized": "workhorse.png",
+      "original": "workhorse.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/xpeng-logo-1050x200-show.png",
+    "name": "Willys-Overland",
+    "slug": "willys-overland",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Willys-Overland-logo-640x550.jpg",
+      "thumb": "willys-overland.png",
+      "optimized": "willys-overland.png",
+      "original": "willys-overland.jpg"
+    }
+  },
+  {
     "name": "XPeng",
-    "slug": "xpeng.png"
+    "slug": "xpeng",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/xpeng-logo-1050x200-show.png",
+      "thumb": "xpeng.png",
+      "optimized": "xpeng.png",
+      "original": "xpeng.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Wuling-logo-640x542.jpg",
     "name": "Wuling",
-    "slug": "wuling.jpg"
+    "slug": "wuling",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Wuling-logo-640x542.jpg",
+      "thumb": "wuling.png",
+      "optimized": "wuling.png",
+      "original": "wuling.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Yulon-logo-640x142.jpg",
     "name": "Yulon",
-    "slug": "yulon.jpg"
+    "slug": "yulon",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Yulon-logo-640x142.jpg",
+      "thumb": "yulon.png",
+      "optimized": "yulon.png",
+      "original": "yulon.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/yutong-logo-2100x1300-show.png",
-    "name": "Yutong",
-    "slug": "yutong.png"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/ZAZ-logo-640x294.jpg",
-    "name": "ZAZ",
-    "slug": "zaz.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/logo/Gilbern-logo.png",
     "name": "Zastava",
-    "slug": "zastava.png"
+    "slug": "zastava",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Gilbern-logo.png",
+      "thumb": "zastava.png",
+      "optimized": "zastava.png",
+      "original": "zastava.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Zenos-Cars-logo-640x466.jpg",
+    "name": "Yutong",
+    "slug": "yutong",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/yutong-logo-2100x1300-show.png",
+      "thumb": "yutong.png",
+      "optimized": "yutong.png",
+      "original": "yutong.png"
+    }
+  },
+  {
+    "name": "ZAZ",
+    "slug": "zaz",
+    "image": {
+      "source": "https://www.carlogos.org/logo/ZAZ-logo-640x294.jpg",
+      "thumb": "zaz.png",
+      "optimized": "zaz.png",
+      "original": "zaz.jpg"
+    }
+  },
+  {
     "name": "Zenos",
-    "slug": "zenos.jpg"
+    "slug": "zenos",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Zenos-Cars-logo-640x466.jpg",
+      "thumb": "zenos.png",
+      "optimized": "zenos.png",
+      "original": "zenos.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Zenvo-logo-2009-640x550.jpg",
-    "name": "Zenvo",
-    "slug": "zenvo.jpg"
-  },
-  {
-    "url": "https://www.carlogos.org/car-logos/zhongtong-logo-1400x1100-show.png",
     "name": "Zhongtong",
-    "slug": "zhongtong.png"
+    "slug": "zhongtong",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/zhongtong-logo-1400x1100-show.png",
+      "thumb": "zhongtong.png",
+      "optimized": "zhongtong.png",
+      "original": "zhongtong.png"
+    }
   },
   {
-    "url": "https://www.carlogos.org/car-logos/zhinuo-logo-800x600-show.png",
-    "name": "Zinoro",
-    "slug": "zinoro.png"
+    "name": "Zenvo",
+    "slug": "zenvo",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Zenvo-logo-2009-640x550.jpg",
+      "thumb": "zenvo.png",
+      "optimized": "zenvo.png",
+      "original": "zenvo.jpg"
+    }
   },
   {
-    "url": "https://www.carlogos.org/logo/Zotye-logo-640x146.jpg",
     "name": "Zotye",
-    "slug": "zotye.jpg"
+    "slug": "zotye",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Zotye-logo-640x146.jpg",
+      "thumb": "zotye.png",
+      "optimized": "zotye.png",
+      "original": "zotye.jpg"
+    }
+  },
+  {
+    "name": "Zinoro",
+    "slug": "zinoro",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/zhinuo-logo-800x600-show.png",
+      "thumb": "zinoro.png",
+      "optimized": "zinoro.png",
+      "original": "zinoro.png"
+    }
   }
 ]

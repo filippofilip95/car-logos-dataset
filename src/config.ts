@@ -4,7 +4,7 @@ export const BASE_URL = "https://www.carlogos.org";
 
 export const THUMB_HEIGHT = 256;
 
-export const META_JSON_PATH = path.resolve("./logos/optimized") + "/logos.json";
+export const META_JSON_PATH = path.resolve("./logos.json");
 
 export const LogosPath = {
   Optimized: path.resolve("./logos/optimized"),

@@ -1,10 +1,9 @@
 import LogosScrapper from "./src/LogosScrapper";
-import ImageFormatter from "./src/ImageFormatter";
+import LogosOptimizer from "./src/LogosOptimizer";
+import LogosDataFinalizer from "./src/LogosDataFinalizer";
 
 (async function main() {
-  const scrapper = new LogosScrapper();
-  const formatter = new ImageFormatter();
-
-  await scrapper.run();
-  await formatter.run();
+  const logos = await new LogosScrapper().run();
+  const optimized = await new LogosOptimizer().run();
+  await new LogosDataFinalizer({logos, optimized}).run();
 })();

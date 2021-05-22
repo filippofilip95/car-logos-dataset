@@ -29,12 +29,20 @@ class BaseScrapper {
     });
   }
 
-  protected writeFileSync(path: string, data: string) {
-    return fs.writeFileSync(path, data);
+  protected getFileExtFromUrl(url: string) {
+    return (url.match(/\.([^.]*?)(?=\?|#|$)/) || [])[1];
   }
 
-  protected getFileExtension(url: string) {
-    return (url.match(/\.([^.]*?)(?=\?|#|$)/) || [])[1];
+  protected getFileNameFromPath(path: string) {
+    return path.split(".")[0];
+  }
+
+  protected getFileExtFromPath(path: string) {
+    return path.split(".")[1];
+  }
+
+  protected writeJsonFileSync(path: string, data: string) {
+    return fs.writeFileSync(path, data);
   }
 }
 
