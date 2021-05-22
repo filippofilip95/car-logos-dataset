@@ -50,6 +50,12 @@ You can use this dataset mainly in two ways:
     - In this case useful for you is the item property `thumb`, `optimized` and `original`
     - These properties are urls for direct embedding of image.
     
+## Contributing
+
+Crawler and optimization script is included in `/src/` folder and it's written with `Node.js` and `TypeScript`
+
+If you would like to improve it feel free to open Issue or Pull Request
+
 ## License
 
 - [MIT](https://choosealicense.com/licenses/mit/)
