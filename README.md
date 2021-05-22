@@ -39,17 +39,18 @@ This file contains description of each logo with few properties.
 ```
 
 ## Usage
+
 You can use this dataset mainly in two ways:
 
 1. **Download repository** and use images and JSON file as you wish.
-    - In this case useful for you is the item property `localThumb`, `localOptimized` and `localOriginal`. 
-    - These properties are representing relative path from JSON file to image.
+   - In this case useful for you is the item property `localThumb`, `localOptimized` and `localOriginal`.
+   - These properties are representing relative path from JSON file to image.
     
-    
+
 2. **Embed logo via url** from a repository.
-    - In this case useful for you is the item property `thumb`, `optimized` and `original`
-    - These properties are urls for direct embedding of image.
-    
+   - In this case useful for you is the item property `thumb`, `optimized` and `original`
+   - These properties are urls for direct embedding of image.
+
 ## Contributing
 
 Crawler and optimization script is included in `/src/` folder and it's written with `Node.js` and `TypeScript`

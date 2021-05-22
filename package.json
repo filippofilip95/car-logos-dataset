@@ -2,11 +2,11 @@
   "name": "car-logos-dataset",
   "version": "2",
   "repository": "git@github.com:filippofilip95/car-logos-dataset.git",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "author": "filippofilip",
   "license": "MIT",
   "scripts": {
-    "start": "yarn ts-node index.ts",
+    "start": "yarn ts-node src/index.ts",
     "prettify": "yarn prettier --write ."
   },
   "dependencies": {

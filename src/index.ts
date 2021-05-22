@@ -1,6 +1,6 @@
-import LogoScrapper from "./src/LogoScrapper";
-import ImageOptimizer from "./src/ImageOptimizer";
-import DataFinalizer from "./src/DataFinalizer";
+import LogoScrapper from "./LogoScrapper";
+import ImageOptimizer from "./ImageOptimizer";
+import DataFinalizer from "./DataFinalizer";
 
 (async function main() {
   const logos = await new LogoScrapper().run();
