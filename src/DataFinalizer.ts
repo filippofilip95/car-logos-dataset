@@ -1,6 +1,6 @@
-import { PreFinalizedResults } from "./types";
+import { ManufacturerLogos, PreFinalizedResults } from "./types";
 import BaseClass from "./BaseClass";
-import { META_JSON_PATH, PublicAccessUrl } from "./config";
+import { LocalAccessPath, META_JSON_PATH, PublicAccessUrl } from "./config";
 
 class DataFinalizer extends BaseClass {
   results: PreFinalizedResults;
@@ -30,10 +30,13 @@ class DataFinalizer extends BaseClass {
       thumb: PublicAccessUrl.Thumb(thumb),
       optimized: PublicAccessUrl.Optimized(thumb),
       original: PublicAccessUrl.Original(thumb),
+      localThumb: LocalAccessPath.Thumb(thumb),
+      localOptimized: LocalAccessPath.Optimized(thumb),
+      localOriginal: LocalAccessPath.Original(thumb),
     };
   }
 
-  protected composeResultsData() {
+  protected composeResultsData(): ManufacturerLogos {
     return this.results.logos.map((logo) => {
       const variations = this.getLogoVariations(logo.slug);
       const image = {...logo.image, ...variations};
@@ -52,7 +55,7 @@ class DataFinalizer extends BaseClass {
 
       console.log(`Done data saved to ${META_JSON_PATH}.`);
     } catch (e) {
-      console.error(e)
+      console.error(e);
     }
   }
 }

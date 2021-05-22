@@ -18,8 +18,11 @@ export type ManufacturersLogos = CoreManufacturerLogo[];
 export type ManufacturerLogo = {
   image: {
     original: string;
+    localOriginal: string;
     thumb: string;
+    localThumb: string;
     optimized: string;
+    localOptimized: string;
   };
 } & CoreManufacturerLogo;
 

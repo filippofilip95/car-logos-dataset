@@ -9,10 +9,16 @@ export const THUMB_HEIGHT = 256;
 
 export const META_JSON_PATH = path.resolve("./logos/data.json");
 
-export const LogosPath = {
+export const LogosTargetLocation = {
   Optimized: path.resolve("./logos/optimized"),
   Thumbs: path.resolve("./logos/thumb"),
   Original: path.resolve("./logos/original"),
+};
+
+export const LocalAccessPath = {
+  Optimized: (file: string) => `./optimized/${file}`,
+  Thumb: (file: string) => `./thumb/${file}`,
+  Original: (file: string) => `./original/${file}`,
 };
 
 export const PublicAccessUrl = {

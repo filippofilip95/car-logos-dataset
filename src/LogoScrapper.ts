@@ -1,6 +1,6 @@
 import { Manufacturer, Manufacturers, ManufacturersLogos } from "./types";
 import BaseClass from "./BaseClass";
-import { BASE_URL, LogosPath, Selector, Url } from "./config";
+import { BASE_URL, LogosTargetLocation, Selector, Url } from "./config";
 
 class LogoScrapper extends BaseClass {
   manufacturers: Manufacturers = [];
@@ -63,7 +63,7 @@ class LogoScrapper extends BaseClass {
         const extension = this.getFileExtFromUrl(sourceUrl);
         const slug = this.slugify(manufacturer.name).toLowerCase();
         const fileName = `${slug}.${extension}`;
-        const targetLocation = `${LogosPath.Original}/${fileName}`;
+        const targetLocation = `${LogosTargetLocation.Original}/${fileName}`;
 
         await this.downloadFile(sourceUrl, targetLocation);
 

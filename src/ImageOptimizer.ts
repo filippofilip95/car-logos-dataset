@@ -1,6 +1,6 @@
 import sharp from "sharp";
 import * as fs from "fs";
-import { LogosPath, THUMB_HEIGHT } from "./config";
+import { LogosTargetLocation, THUMB_HEIGHT } from "./config";
 import BaseClass from "./BaseClass";
 
 class ImageOptimizer extends BaseClass {
@@ -19,14 +19,16 @@ class ImageOptimizer extends BaseClass {
   } as const;
 
   constructor() {
-    super()
+    super();
     this.loadOriginals();
   }
 
   protected loadOriginals() {
-    const dirContent = fs.readdirSync(LogosPath.Original);
+    const dirContent = fs.readdirSync(LogosTargetLocation.Original);
 
-    this.originals = dirContent.filter((path) => !!this.getFileExtFromPath(path));
+    this.originals = dirContent.filter(
+      (path) => !!this.getFileExtFromPath(path)
+    );
   }
 
   protected async optimizeImages() {
@@ -35,9 +37,9 @@ class ImageOptimizer extends BaseClass {
       const targetFile = `${name}.png`;
 
       try {
-        await sharp(`${LogosPath.Original}/${logo}`)
+        await sharp(`${LogosTargetLocation.Original}/${logo}`)
           .png(this.optimizeOpts)
-          .toFile(`${LogosPath.Optimized}/${targetFile}`);
+          .toFile(`${LogosTargetLocation.Optimized}/${targetFile}`);
 
         this.optimized.push(targetFile);
       } catch (e) {
@@ -54,10 +56,10 @@ class ImageOptimizer extends BaseClass {
       const targetFile = logo;
 
       try {
-        await sharp(`${LogosPath.Optimized}/${logo}`)
+        await sharp(`${LogosTargetLocation.Optimized}/${logo}`)
           .png(this.optimizeOpts)
           .resize(this.resizeOpts)
-          .toFile(`${LogosPath.Thumbs}/${targetFile}`);
+          .toFile(`${LogosTargetLocation.Thumbs}/${targetFile}`);
 
         this.thumbs.push(targetFile);
       } catch (e) {
