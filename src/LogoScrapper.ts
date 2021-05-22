@@ -1,8 +1,8 @@
 import { Manufacturer, Manufacturers, ManufacturersLogos } from "./types";
-import BaseScrapper from "./BaseScrapper";
+import BaseClass from "./BaseClass";
 import { BASE_URL, LogosPath, Selector, Url } from "./config";
 
-class LogosScrapper extends BaseScrapper {
+class LogoScrapper extends BaseClass {
   manufacturers: Manufacturers = [];
   logos: ManufacturersLogos = [];
 
@@ -96,4 +96,4 @@ class LogosScrapper extends BaseScrapper {
   }
 }
 
-export default LogosScrapper;
+export default LogoScrapper;

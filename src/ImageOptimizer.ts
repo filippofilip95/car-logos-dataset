@@ -1,8 +1,9 @@
 import sharp from "sharp";
 import * as fs from "fs";
 import { LogosPath, THUMB_HEIGHT } from "./config";
+import BaseClass from "./BaseClass";
 
-class LogosOptimizer {
+class ImageOptimizer extends BaseClass {
   originals: string[] = [];
   optimized: string[] = [];
   thumbs: string[] = [];
@@ -18,16 +19,14 @@ class LogosOptimizer {
   } as const;
 
   constructor() {
+    super()
     this.loadOriginals();
   }
 
   protected loadOriginals() {
     const dirContent = fs.readdirSync(LogosPath.Original);
 
-    this.originals = dirContent.filter((path) => {
-      const [_, extension] = path.split(".");
-      return extension;
-    });
+    this.originals = dirContent.filter((path) => !!this.getFileExtFromPath(path));
   }
 
   protected async optimizeImages() {
@@ -46,7 +45,7 @@ class LogosOptimizer {
       }
     }
 
-    console.log("Images optimized.");
+    console.log("Original images optimized.");
   }
 
   protected async makeThumbs() {
@@ -71,7 +70,7 @@ class LogosOptimizer {
 
   public async run() {
     try {
-      console.log("Started Image processing.");
+      console.log("Started image processing.");
 
       await this.optimizeImages();
       await this.makeThumbs();
@@ -89,4 +88,4 @@ class LogosOptimizer {
   }
 }
 
-export default LogosOptimizer;
+export default ImageOptimizer;

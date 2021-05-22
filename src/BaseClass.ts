@@ -6,7 +6,7 @@ import queue from "queue";
 import chalk from "chalk";
 import slugify from "slugify";
 
-class BaseScrapper {
+abstract class BaseClass {
   queue = queue;
   chalk = chalk;
   slugify = slugify;
@@ -46,4 +46,4 @@ class BaseScrapper {
   }
 }
 
-export default BaseScrapper;
+export default BaseClass;

@@ -1,9 +1,9 @@
-import LogosScrapper from "./src/LogosScrapper";
-import LogosOptimizer from "./src/LogosOptimizer";
-import LogosDataFinalizer from "./src/LogosDataFinalizer";
+import LogoScrapper from "./src/LogoScrapper";
+import ImageOptimizer from "./src/ImageOptimizer";
+import DataFinalizer from "./src/DataFinalizer";
 
 (async function main() {
-  const logos = await new LogosScrapper().run();
-  const optimized = await new LogosOptimizer().run();
-  await new LogosDataFinalizer({logos, optimized}).run();
+  const logos = await new LogoScrapper().run();
+  const images = await new ImageOptimizer().run();
+  await new DataFinalizer({ logos, images }).run();
 })();

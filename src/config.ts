@@ -2,14 +2,25 @@ import path from "path";
 
 export const BASE_URL = "https://www.carlogos.org";
 
+export const BASE_PUBLIC_ACCESS_URL =
+  "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master";
+
 export const THUMB_HEIGHT = 256;
 
-export const META_JSON_PATH = path.resolve("./logos.json");
+export const META_JSON_PATH = path.resolve("./logos/data.json");
 
 export const LogosPath = {
   Optimized: path.resolve("./logos/optimized"),
-  Thumbs: path.resolve("./logos/thumbs"),
+  Thumbs: path.resolve("./logos/thumb"),
   Original: path.resolve("./logos/original"),
+};
+
+export const PublicAccessUrl = {
+  Thumb: (file: string) => `${BASE_PUBLIC_ACCESS_URL}/logos/thumb/${file}`,
+  Original: (file: string) =>
+    `${BASE_PUBLIC_ACCESS_URL}/logos/original/${file}`,
+  Optimized: (file: string) =>
+    `${BASE_PUBLIC_ACCESS_URL}/logos/optimized/${file}`,
 };
 
 export const Url = {

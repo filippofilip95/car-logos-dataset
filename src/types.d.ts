@@ -5,7 +5,7 @@ type Manufacturer = {
 
 export type Manufacturers = Manufacturer[];
 
-type ManufacturerLogo = {
+export type CoreManufacturerLogo = {
   name: string;
   slug: string;
   image: {
@@ -13,14 +13,23 @@ type ManufacturerLogo = {
   };
 };
 
-export type ManufacturersLogos = ManufacturerLogo[];
+export type ManufacturersLogos = CoreManufacturerLogo[];
 
-type OptimizedManufacturerLogo = {
+export type ManufacturerLogo = {
   image: {
     original: string;
     thumb: string;
     optimized: string;
   };
-} & ManufacturerLogo;
+} & CoreManufacturerLogo;
 
-export type OptimizedManufacturerLogos = OptimizedManufacturerLogo[];
+export type ManufacturerLogos = ManufacturerLogo[];
+
+export type PreFinalizedResults = {
+  logos: ManufacturersLogos;
+  images: {
+    originals: string[];
+    optimized: string[];
+    thumbs: string[];
+  };
+};
