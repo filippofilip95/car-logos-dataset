@@ -1,6 +1,6 @@
 # Car Logos Dataset
 
-This repository contains collection of images of **374 car manufacturers logos**.
+This repository contains image collection of **374 car manufacturers logos**.
 
 Each logo has three size variations (original, optimized, thumbnail).
 
