@@ -28,11 +28,11 @@ class DataFinalizer extends BaseClass {
 
     return {
       thumb: PublicAccessUrl.Thumb(thumb),
-      optimized: PublicAccessUrl.Optimized(thumb),
-      original: PublicAccessUrl.Original(thumb),
+      optimized: PublicAccessUrl.Optimized(optimized),
+      original: PublicAccessUrl.Original(original),
       localThumb: LocalAccessPath.Thumb(thumb),
-      localOptimized: LocalAccessPath.Optimized(thumb),
-      localOriginal: LocalAccessPath.Original(thumb),
+      localOptimized: LocalAccessPath.Optimized(optimized),
+      localOriginal: LocalAccessPath.Original(original),
     };
   }
 

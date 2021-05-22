@@ -30,10 +30,10 @@ This file contains description of each logo with few properties.
       "source": "https://www.carlogos.org/logo/Volkswagen-logo-2019-640x500.jpg",
       "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/volkswagen.png",
       "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/volkswagen.png",
-      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/volkswagen.png",
+      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/volkswagen.jpg",
       "localThumb": "./thumb/volkswagen.png",
       "localOptimized": "./optimized/volkswagen.png",
-      "localOriginal": "./original/volkswagen.png"
+      "localOriginal": "./original/volkswagen.jpg"
     }
   },
 ```
@@ -43,9 +43,9 @@ This file contains description of each logo with few properties.
 You can use this dataset mainly in two ways:
 
 1. **Download repository** and use images and JSON file as you wish.
+
    - In this case useful for you is the item property `localThumb`, `localOptimized` and `localOriginal`.
    - These properties are representing relative path from JSON file to image.
-    
 
 2. **Embed logo via url** from a repository.
    - In this case useful for you is the item property `thumb`, `optimized` and `original`
