@@ -1,6 +1,6 @@
 {
   "name": "car-logos-dataset",
-  "version": "1",
+  "version": "2",
   "repository": "git@github.com:filippofilip95/car-logos-dataset.git",
   "main": "index.ts",
   "author": "filippofilip",

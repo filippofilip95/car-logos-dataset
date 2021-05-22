@@ -1,43 +1,56 @@
-# Car Logos
+# Car Logos Dataset
 
-This repository contains car manufacturers logos in `.jpg` or `.png` files.
-Data were crawled on `31.8.2019` from website [Carlogos.org](https://www.carlogos.org/)
+This repository contains images of **374 car manufacturers logos**.
 
-## Why
+Each logo has three size variations (original, optimized, thumbnail).
 
-I needed these logos for own use in a software project.
-I decided to publish my crawled data because they may help you with building software, where you need to embed or use this kind of images.
+Logo images were crawled on `22.5.2021` from website [Carlogos.org](https://www.carlogos.org/) and processed afterwards for better usability.
 
 ## Content
 
-The repository contains folder `images` with car logos images.
-These data are described in JSON file `car-logos.json`
+#### Logos are included in these folders:
 
-### Data example
+- `/logos/optimized/` (includes optimized logos with small file size but good quality)
+- `/logos/thumb/` (includes thumbnails of logos with height of 256px)
+- `/logos/original/` (includes original crawled images)
 
-```
-{
-  "name": "Volkswagen",
-  "url": "https://www.carlogos.org/logo/Volkswagen-logo-2015-1920x1080.png",
-  "fileName": "Volkswagen.png"
-}
-```
+#### Logo files are also described with JSON file
 
-_url property is original address from where was image downloaded_
+- `/logos/data.json`
 
-## Embedding
+This file contains description of each logo with few properties.
 
-If you wish to embed image you can do it with URL from this repository.
-
-### Usage
+#### Example of item:
 
 ```
-const fileName = 'Volkswagen.png'
-
-const logoUrl = `https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/images/${fileName}`
+  {
+    "name": "Volkswagen",
+    "slug": "volkswagen",
+    "image": {
+      "source": "https://www.carlogos.org/logo/Volkswagen-logo-2019-640x500.jpg",
+      "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/volkswagen.png",
+      "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/volkswagen.png",
+      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/volkswagen.png",
+      "localThumb": "./thumb/volkswagen.png",
+      "localOptimized": "./optimized/volkswagen.png",
+      "localOriginal": "./original/volkswagen.png"
+    }
+  },
 ```
 
+## Usage
+You can use this dataset mainly in two ways:
+
+1. **Download repository** and use images and JSON file as you wish.
+    - In this case useful for you is the item property `localThumb`, `localOptimized` and `localOriginal`. 
+    - These properties are representing relative path from JSON file to image.
+    
+    
+2. **Embed logo via url** from a repository.
+    - In this case useful for you is the item property `thumb`, `optimized` and `original`
+    - These properties are urls for direct embedding of image.
+    
 ## License
 
 - [MIT](https://choosealicense.com/licenses/mit/)
-- All images are the property of their respective owners. If you found any image copyrighted to yours, Please contact us, so we can remove it.
+- All images are the property of their respective owners.
