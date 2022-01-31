@@ -12,7 +12,7 @@
   "dependencies": {
     "chalk": "^4.1.1",
     "cheerio": "^1.0.0-rc.9",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.1.1",
     "queue": "^6.0.2",
     "sharp": "^0.28.2",
     "slugify": "^1.5.3",
