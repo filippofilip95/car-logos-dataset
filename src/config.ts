@@ -37,4 +37,5 @@ export const Url = {
 export const Selector = {
   AllManufacturers: ".a-z dd a",
   ManufacturerLogo: `div.logo-content a img`,
+  ManufacturerLogoWithHistory: `div.logo-art div.present a img`,
 };

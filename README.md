@@ -1,10 +1,10 @@
 # Car Logos Dataset
 
-This [repository](https://github.com/filippofilip95/car-logos-dataset) contains image collection of **374 car manufacturers logos**.
+This [repository](https://github.com/filippofilip95/car-logos-dataset) contains image collection of **383 car manufacturers logos**.
 
 Each logo has three size variations (original, optimized, thumbnail).
 
-Logo images were crawled on `22.5.2021` from website [Carlogos.org](https://www.carlogos.org/) and processed afterwards for better usability.
+Logo images were crawled on `15.11.2023` from website [Carlogos.org](https://www.carlogos.org/) and processed afterwards for better usability.
 
 ## Content
 

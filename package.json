@@ -6,9 +6,11 @@
   "author": "filippofilip",
   "license": "MIT",
   "scripts": {
-    "start": "yarn ts-node src/index.ts",
+    "start": "ts-node src/index.ts",
     "prettify": "yarn prettier --write ."
   },
+  "type": "module",
+
   "dependencies": {
     "chalk": "^4.1.1",
     "cheerio": "^1.0.0-rc.9",
@@ -23,6 +25,6 @@
     "@types/node-fetch": "^2.5.10",
     "@types/sharp": "^0.28.1",
     "prettier": "2.3.0",
-    "ts-node": "^9.1.1"
+    "ts-node": "^10.9.1"
   }
 }
