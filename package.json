@@ -16,7 +16,7 @@
     "cheerio": "^1.0.0-rc.9",
     "node-fetch": "^3.1.1",
     "queue": "^6.0.2",
-    "sharp": "^0.28.2",
+    "sharp": "^0.32.6",
     "slugify": "^1.5.3",
     "tsc": "^2.0.3",
     "typescript": "^4.2.4"
