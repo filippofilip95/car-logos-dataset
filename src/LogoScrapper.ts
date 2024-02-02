@@ -49,12 +49,15 @@ class LogoScrapper extends BaseClass {
   protected createLogoDownloader = (manufacturer: Manufacturer) => {
     return async () => {
       try {
-        const msg = `Logo of ${this.chalk.bold(manufacturer.name)} `;
+        const msg = `Logo of ${this.chalk.bold(manufacturer.name)} - ${manufacturer.url} `;
         const document = await this.loadDocument(
           Url.Manufacturer(manufacturer.url)
         );
-        const logoUrl = document(Selector.ManufacturerLogo).attr("src");
+        let logoUrl = document(Selector.ManufacturerLogo).attr("src");
 
+        if (!logoUrl) {
+          logoUrl = document(Selector.ManufacturerLogoWithHistory).attr("src");
+        }
         if (!logoUrl) {
           throw new Error(`${msg}${this.chalk.red("not found")}`);
         }
