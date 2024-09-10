@@ -59,7 +59,7 @@ class LogoScrapper extends BaseClass {
           const selector = LogoSelectors[key as keyof typeof LogoSelectors];
           logoUrl = document(selector).attr("src");
           if (logoUrl) break;
-          }
+        }
 
         if (!logoUrl) {
           throw new Error(`${msg}${this.chalk.red("not found")}`);
