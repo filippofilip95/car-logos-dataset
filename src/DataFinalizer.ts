@@ -51,9 +51,12 @@ class DataFinalizer extends BaseClass {
     try {
       const results = this.composeResultsData();
 
-      this.writeJsonFileSync(META_JSON_PATH, JSON.stringify(results, null, 2));
+      // Sort the results by 'name' key alphabetically
+      const sortedResults = results.sort((a, b) => a.name.localeCompare(b.name));
 
-      console.log(`Done data saved to ${META_JSON_PATH}.`);
+      this.writeJsonFileSync(META_JSON_PATH, JSON.stringify(sortedResults, null, 2));
+
+      console.log(`Done, data saved to ${META_JSON_PATH}.`);
     } catch (e) {
       console.error(e);
     }
