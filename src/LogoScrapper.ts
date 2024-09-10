@@ -1,6 +1,6 @@
 import { Manufacturer, Manufacturers, ManufacturersLogos } from "./types";
 import BaseClass from "./BaseClass";
-import { BASE_URL, LogosTargetLocation, Selector, Url } from "./config";
+import { BASE_URL, LogosTargetLocation, AllManufacturersSelector, LogoSelectors, Url } from "./config";
 
 class LogoScrapper extends BaseClass {
   manufacturers: Manufacturers = [];
@@ -12,7 +12,7 @@ class LogoScrapper extends BaseClass {
 
   protected async recognizeManufacturers() {
     const document = await this.loadDocument(Url.AllManufacturers);
-    const text = document(Selector.AllManufacturers);
+    const text = document(AllManufacturersSelector);
 
     text.each((index, element) => {
       const manufacturerNode = document(element);
@@ -53,11 +53,14 @@ class LogoScrapper extends BaseClass {
         const document = await this.loadDocument(
           Url.Manufacturer(manufacturer.url)
         );
-        let logoUrl = document(Selector.ManufacturerLogo).attr("src");
 
-        if (!logoUrl) {
-          logoUrl = document(Selector.ManufacturerLogoWithHistory).attr("src");
-        }
+        let logoUrl = '';
+        for (const key in LogoSelectors) {
+          const selector = LogoSelectors[key as keyof typeof LogoSelectors];
+          logoUrl = document(selector).attr("src");
+          if (logoUrl) break;
+          }
+
         if (!logoUrl) {
           throw new Error(`${msg}${this.chalk.red("not found")}`);
         }
