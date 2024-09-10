@@ -1,6 +1,6 @@
 import { Manufacturer, Manufacturers, ManufacturersLogos } from "./types";
 import BaseClass from "./BaseClass";
-import { BASE_URL, LogosTargetLocation, AllManufacturersSelector, LogoSelectors, Url } from "./config";
+import { BASE_URL, LogosTargetLocation, Selectors, Url } from "./config";
 
 class LogoScrapper extends BaseClass {
   manufacturers: Manufacturers = [];
@@ -12,7 +12,7 @@ class LogoScrapper extends BaseClass {
 
   protected async recognizeManufacturers() {
     const document = await this.loadDocument(Url.AllManufacturers);
-    const text = document(AllManufacturersSelector);
+    const text = document(Selectors.AllManufacturers);
 
     text.each((index, element) => {
       const manufacturerNode = document(element);
@@ -55,8 +55,10 @@ class LogoScrapper extends BaseClass {
         );
 
         let logoUrl = '';
-        for (const key in LogoSelectors) {
-          const selector = LogoSelectors[key as keyof typeof LogoSelectors];
+        let logoSelectors = Selectors.Logos;
+
+        for (const key in logoSelectors) {
+          const selector = logoSelectors[key as keyof typeof logoSelectors];
           logoUrl = document(selector).attr("src");
           if (logoUrl) break;
         }

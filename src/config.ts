@@ -34,11 +34,12 @@ export const Url = {
   Manufacturer: (url: string) => `${BASE_URL}/${url}`,
 };
 
-export const AllManufacturersSelector = ".a-z dd a"
-
-export const LogoSelectors = {
-  ManufacturerLogo: `div.logo-content a img`,
-  ManufacturerLogoAlt: `div.logo-art div.content p img`,
-  ManufacturerLogoWithHistory: `div.logo-art div.present a img`,
-  ManufacturerLogoCurrent: `div.logo-art div.current p.shadow a img`,
+export const Selectors = {
+  AllManufacturers: ".a-z dd a",
+  Logos: {
+    ManufacturerLogo: `div.logo-content a img`,
+    ManufacturerLogoAlt: `div.logo-art div.content p img`,
+    ManufacturerLogoWithHistory: `div.logo-art div.present a img`,
+    ManufacturerLogoCurrent: `div.logo-art div.current p.shadow a img`,
+  }
 };
