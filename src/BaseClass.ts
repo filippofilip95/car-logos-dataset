@@ -11,11 +11,25 @@ abstract class BaseClass {
     chalk = chalk;
     slugify = slugify;
 
-    protected async loadDocument(url: string): Promise<CheerioAPI> {
-        const response = await fetch(url);
-        const text = await response.text();
-
-        return cheerio.load(text);
+    protected async loadDocument(url: string, retries: number = 3): Promise<CheerioAPI> {
+        let attempts = 0;
+        while (attempts < retries) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`Request failed with status: ${response.status}`);
+                }
+                const text = await response.text();
+                return cheerio.load(text);
+            } catch (error) {
+                attempts++;
+                if (attempts >= retries) {
+                    console.error(`${this.chalk.red("Failed after " + retries + " attempts:")} ${url} - ${error.message}`);
+                }
+                console.log(`Attempt ${attempts} failed. ${this.chalk.yellow("Retrying...")}`);
+            }
+        }
+        throw new Error
     }
 
     protected async downloadFile(url: string, path: string) {
