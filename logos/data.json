@@ -1001,6 +1001,19 @@
     }
   },
   {
+    "name": "Cupra",
+    "slug": "cupra",
+    "image": {
+      "source": "https://www.carlogos.org/car-logos/cupra-logo-2100x1350-show.png",
+      "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/cupra.png",
+      "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/cupra.png",
+      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/cupra.png",
+      "localThumb": "./thumb/cupra.png",
+      "localOptimized": "./optimized/cupra.png",
+      "localOriginal": "./original/cupra.png"
+    }
+  },
+  {
     "name": "Corre La Licorne",
     "slug": "corre-la-licorne",
     "image": {
