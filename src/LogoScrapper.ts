@@ -10,6 +10,22 @@ class LogoScrapper extends BaseClass {
     return url.startsWith("http") ? url : `${BASE_URL}${url}`;
   }
 
+  protected async chooseUrl(sourceUrl: string, fallbackUrl: string) {
+    let res = await fetch(sourceUrl);
+    let usedUrl = sourceUrl;
+
+    if (res.status === 404) {
+      res = await fetch(fallbackUrl);
+      usedUrl = fallbackUrl;
+    }
+
+    if (!res.ok) {
+      throw new Error(`No valid URL: ${res.status} ${res.statusText}`);
+    }
+
+    return usedUrl;
+  }
+
   protected async recognizeManufacturers() {
     const document = await this.loadDocument(Url.AllManufacturers);
     const text = document(Selectors.AllManufacturers);
@@ -55,11 +71,22 @@ class LogoScrapper extends BaseClass {
         );
 
         let logoUrl = '';
+        let logoUrlFallback = '';
         let logoSelectors = Selectors.Logos;
 
         for (const key in logoSelectors) {
           const selector = logoSelectors[key as keyof typeof logoSelectors];
-          logoUrl = document(selector).attr("src");
+          logoUrl = logoUrlFallback = document(selector).attr("src");
+
+          if (logoUrl && !logoUrl.endsWith("png")) {
+            let parent = document(selector).parent("a");
+            if (parent.length > 0) {
+              if (parent.attr("href").endsWith("png")) {
+                logoUrl = parent.attr("href");
+              }
+            }
+          }
+
           if (logoUrl) break;
         }
 
@@ -68,17 +95,20 @@ class LogoScrapper extends BaseClass {
         }
 
         const sourceUrl = this.fixUrl(logoUrl);
-        const extension = this.getFileExtFromUrl(sourceUrl);
+        const sourceUrlFallback = this.fixUrl(logoUrlFallback);
+        const usedUrl = await this.chooseUrl(sourceUrl, sourceUrlFallback);
+
+        const extension = this.getFileExtFromUrl(usedUrl);
         const slug = this.slugify(manufacturer.name).toLowerCase();
         const fileName = `${slug}.${extension}`;
         const targetLocation = `${LogosTargetLocation.Original}/${fileName}`;
 
-        await this.downloadFile(sourceUrl, targetLocation);
+        await this.downloadFile(usedUrl, targetLocation);
 
         this.logos.push({
           name: manufacturer.name,
           slug: slug,
-          image: { source: sourceUrl },
+          image: { source: usedUrl },
         });
 
         console.log(`${msg}${this.chalk.green("downloaded")}.`);
