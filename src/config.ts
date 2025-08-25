@@ -38,10 +38,8 @@ export const Selectors = {
   AllManufacturers: ".a-z dd a",
   Logos: {
     ManufacturerLogo: `div.logo-content a img`,
-    // ManufacturerLogoAltTransparent: `div.logo-art div.content p:first-child a`,
     ManufacturerLogoAlt: `div.logo-art div.content p img`,
     ManufacturerLogoWithHistory: `div.logo-art div.present a img`,
     ManufacturerLogoCurrent: `div.logo-art div.current p.shadow a img`,
   }
 };
-// 
