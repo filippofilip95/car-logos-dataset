@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Cupra",
+    "slug": "cupra",
+    "fileName": "cupra.png"
+  },
+  {
+    "name": "Jetour",
+    "slug": "jetour",
+    "fileName": "jetour.png"
+  },
+  {
+    "name": "Omoda",
+    "slug": "omoda",
+    "fileName": "omoda.png"
+  },
+  {
+    "name": "SEV",
+    "slug": "sev",
+    "fileName": "sev.png"
+  }
+]

@@ -1,6 +1,6 @@
 {
   "name": "car-logos-dataset",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "A comprehensive collection of 383 car manufacturer logos with multiple size variations and metadata",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "start": "tsx src/index.ts",
+    "start": "NODE_OPTIONS=\"--max-old-space-size=4096\" tsx src/index.ts",
     "prettify": "prettier --write ."
   },
   "dependencies": {
