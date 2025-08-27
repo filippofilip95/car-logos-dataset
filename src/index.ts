@@ -1,9 +1,12 @@
 import LogoScrapper from "./LogoScrapper";
+import LocalLogosLoader from "./LocalLogosLoader";
 import ImageOptimizer from "./ImageOptimizer";
 import DataFinalizer from "./DataFinalizer";
 
 (async function () {
-  const logos = await new LogoScrapper().run();
+  const scrapedLogos = await new LogoScrapper().run();
+  const customLogos = await new LocalLogosLoader().run();
+  const allLogos = [...scrapedLogos, ...customLogos];
   const images = await new ImageOptimizer().run();
-  await new DataFinalizer({logos, images}).run();
+  await new DataFinalizer({logos: allLogos, images}).run();
 })();
