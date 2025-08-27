@@ -1001,19 +1001,6 @@
     }
   },
   {
-    "name": "Cupra",
-    "slug": "cupra",
-    "image": {
-      "source": "https://www.carlogos.org/car-logos/cupra-logo-2100x1350-show.png",
-      "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/cupra.png",
-      "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/cupra.png",
-      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/cupra.png",
-      "localThumb": "./thumb/cupra.png",
-      "localOptimized": "./optimized/cupra.png",
-      "localOriginal": "./original/cupra.png"
-    }
-  },
-  {
     "name": "Corre La Licorne",
     "slug": "corre-la-licorne",
     "image": {
@@ -1024,6 +1011,19 @@
       "localThumb": "./thumb/corre-la-licorne.png",
       "localOptimized": "./optimized/corre-la-licorne.png",
       "localOriginal": "./original/corre-la-licorne.jpg"
+    }
+  },
+  {
+    "name": "Cupra",
+    "slug": "cupra",
+    "image": {
+      "source": "/Users/filip.popranec/Develop/car-logos-dataset/local-logos/cupra.png",
+      "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/cupra.png",
+      "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/cupra.png",
+      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/cupra.png",
+      "localThumb": "./thumb/cupra.png",
+      "localOptimized": "./optimized/cupra.png",
+      "localOriginal": "./original/cupra.png"
     }
   },
   {
@@ -2457,6 +2457,19 @@
     }
   },
   {
+    "name": "Jetour",
+    "slug": "jetour",
+    "image": {
+      "source": "/Users/filip.popranec/Develop/car-logos-dataset/local-logos/jetour.png",
+      "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/jetour.png",
+      "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/jetour.png",
+      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/jetour.png",
+      "localThumb": "./thumb/jetour.png",
+      "localOptimized": "./optimized/jetour.png",
+      "localOriginal": "./original/jetour.png"
+    }
+  },
+  {
     "name": "Jetta",
     "slug": "jetta",
     "image": {
@@ -3419,6 +3432,19 @@
     }
   },
   {
+    "name": "Omoda",
+    "slug": "omoda",
+    "image": {
+      "source": "/Users/filip.popranec/Develop/car-logos-dataset/local-logos/omoda.png",
+      "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/omoda.png",
+      "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/omoda.png",
+      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/omoda.png",
+      "localThumb": "./thumb/omoda.png",
+      "localOptimized": "./optimized/omoda.png",
+      "localOriginal": "./original/omoda.png"
+    }
+  },
+  {
     "name": "Opel",
     "slug": "opel",
     "image": {
@@ -4053,6 +4079,19 @@
       "localThumb": "./thumb/setra.png",
       "localOptimized": "./optimized/setra.png",
       "localOriginal": "./original/setra.png"
+    }
+  },
+  {
+    "name": "SEV",
+    "slug": "sev",
+    "image": {
+      "source": "/Users/filip.popranec/Develop/car-logos-dataset/local-logos/sev.png",
+      "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/sev.png",
+      "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/sev.png",
+      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/sev.png",
+      "localThumb": "./thumb/sev.png",
+      "localOptimized": "./optimized/sev.png",
+      "localOriginal": "./original/sev.png"
     }
   },
   {
