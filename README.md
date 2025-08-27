@@ -1,10 +1,10 @@
 # Car Logos Dataset 🚗
 
-A comprehensive collection of **383 car manufacturer logos** with multiple size variations and metadata. This dataset provides high-quality logos in different formats, making it perfect for automotive-related applications, research, or design projects.
+A comprehensive collection of **387 car manufacturer logos** with multiple size variations and metadata. This dataset provides high-quality logos in different formats, making it perfect for automotive-related applications, research, or design projects.
 
 ## 📦 Features
 
-- 383 unique car manufacturer logos
+- 387 unique car manufacturer logos
 - Three size variations for each logo:
     - Original high-resolution images
     - Optimized versions (smaller file size, maintained quality)
@@ -36,6 +36,8 @@ npm install
 # Run the crawler and processor
 npm start
 ```
+
+**⚠️ Processing Time:** The script processes 387 logos through image optimization which takes 3-8 minutes. The Node.js memory has been optimized for this workload. If running through automation tools, ensure sufficient timeout allowance.
 
 ## 📝 Usage Examples
 

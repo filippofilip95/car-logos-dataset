@@ -9,7 +9,7 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "start": "tsx src/index.ts",
+    "start": "NODE_OPTIONS=\"--max-old-space-size=4096\" tsx src/index.ts",
     "prettify": "prettier --write ."
   },
   "dependencies": {
