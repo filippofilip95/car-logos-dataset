@@ -21,6 +21,9 @@ A comprehensive collection of **387 car manufacturer logos** with multiple size 
   /thumb/       # 256px height thumbnails
   /original/    # Original crawled images
   data.json     # Metadata for all logos
+/local-logos    # Custom/local logos with metadata
+  metadata.json # Local logos metadata
+  *.png         # Local logo files (Cupra, Jetour, Omoda, SEV)
 /src            # Source code for crawler and processing
 ```
 
