@@ -11,7 +11,7 @@ A comprehensive collection of **387 car manufacturer logos** with multiple size 
     - Thumbnails (256px height)
 - Detailed JSON metadata for each logo
 - MIT licensed (logos remain property of respective owners)
-- Regular updates (Last crawled: November 28, 2024)
+- Regular updates (Last crawled: August 27, 2025)
 
 ## 📂 Repository Structure
 
