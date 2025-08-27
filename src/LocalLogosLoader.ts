@@ -4,7 +4,7 @@ import { ManufacturersLogos } from "./types";
 import BaseClass from "./BaseClass";
 import { LogosTargetLocation } from "./config";
 
-interface CustomLogoEntry {
+interface LocalLogoEntry {
   name: string;
   slug: string;
   fileName: string;
@@ -12,8 +12,8 @@ interface CustomLogoEntry {
 
 class LocalLogosLoader extends BaseClass {
   logos: ManufacturersLogos = [];
-  private customLogosDir = path.resolve("./custom-logos");
-  private customLogosMetaPath = path.resolve("./custom-logos/metadata.json");
+  private localLogosDir = path.resolve("./local-logos");
+  private localLogosMetaPath = path.resolve("./local-logos/metadata.json");
 
   protected async copyLogoToTargets(sourceFile: string, fileName: string): Promise<void> {
     const originalTarget = path.join(LogosTargetLocation.Original, fileName);
@@ -27,39 +27,39 @@ class LocalLogosLoader extends BaseClass {
     console.log(`Copied ${fileName} to original directory`);
   }
 
-  protected loadCustomLogosMetadata(): CustomLogoEntry[] {
-    if (!fs.existsSync(this.customLogosMetaPath)) {
-      console.log("No custom logos metadata found, skipping custom logo loading.");
+  protected loadLocalLogosMetadata(): LocalLogoEntry[] {
+    if (!fs.existsSync(this.localLogosMetaPath)) {
+      console.log("No local logos metadata found, skipping local logo loading.");
       return [];
     }
 
     try {
-      const metadataContent = fs.readFileSync(this.customLogosMetaPath, 'utf-8');
+      const metadataContent = fs.readFileSync(this.localLogosMetaPath, 'utf-8');
       const metadata = JSON.parse(metadataContent);
       
       if (!Array.isArray(metadata)) {
-        throw new Error("Custom logos metadata must be an array");
+        throw new Error("Local logos metadata must be an array");
       }
 
       return metadata;
     } catch (error) {
-      console.error(`Error loading custom logos metadata: ${error.message}`);
+      console.error(`Error loading local logos metadata: ${error.message}`);
       return [];
     }
   }
 
-  protected async processCustomLogos(): Promise<void> {
-    const customEntries = this.loadCustomLogosMetadata();
+  protected async processLocalLogos(): Promise<void> {
+    const localEntries = this.loadLocalLogosMetadata();
     
-    if (customEntries.length === 0) {
+    if (localEntries.length === 0) {
       return;
     }
 
-    console.log(`Processing ${customEntries.length} custom logo(s)`);
+    console.log(`Processing ${localEntries.length} local logo(s)`);
 
-    for (const entry of customEntries) {
+    for (const entry of localEntries) {
       try {
-        const sourceFile = path.join(this.customLogosDir, entry.fileName);
+        const sourceFile = path.join(this.localLogosDir, entry.fileName);
         
         await this.copyLogoToTargets(sourceFile, entry.fileName);
 
@@ -69,26 +69,26 @@ class LocalLogosLoader extends BaseClass {
           image: { source: sourceFile }
         });
 
-        console.log(`${this.chalk.green("Processed custom logo:")} ${entry.name}`);
+        console.log(`${this.chalk.green("Processed local logo:")} ${entry.name}`);
       } catch (error) {
-        console.error(`${this.chalk.red("Failed to process custom logo:")} ${entry.name} - ${error.message}`);
+        console.error(`${this.chalk.red("Failed to process local logo:")} ${entry.name} - ${error.message}`);
       }
     }
   }
 
   public async run(): Promise<ManufacturersLogos> {
     try {
-      console.log("Loading custom logos...");
+      console.log("Loading local logos...");
       
-      if (!fs.existsSync(this.customLogosDir)) {
-        console.log("No custom-logos directory found, skipping custom logo loading.");
+      if (!fs.existsSync(this.localLogosDir)) {
+        console.log("No local-logos directory found, skipping local logo loading.");
         return this.logos;
       }
 
-      await this.processCustomLogos();
+      await this.processLocalLogos();
 
       if (this.logos.length > 0) {
-        console.log(`Loaded ${this.chalk.bold(this.logos.length)} custom logo(s).`);
+        console.log(`Loaded ${this.chalk.bold(this.logos.length)} local logo(s).`);
       }
     } catch (error) {
       console.error("Error in LocalLogosLoader:", error);

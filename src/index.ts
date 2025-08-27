@@ -5,8 +5,8 @@ import DataFinalizer from "./DataFinalizer";
 
 (async function () {
   const scrapedLogos = await new LogoScrapper().run();
-  const customLogos = await new LocalLogosLoader().run();
-  const allLogos = [...scrapedLogos, ...customLogos];
+  const localLogos = await new LocalLogosLoader().run();
+  const allLogos = [...scrapedLogos, ...localLogos];
   const images = await new ImageOptimizer().run();
   await new DataFinalizer({logos: allLogos, images}).run();
 })();
