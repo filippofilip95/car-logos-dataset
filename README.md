@@ -97,7 +97,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔍 Data Source
 
-Logo images are crawled from [Carlogos.org](https://www.carlogos.org/) and processed for optimal usage.
+- **Main Dataset**: Logo images are crawled from [Carlogos.org](https://www.carlogos.org/) and processed for optimal usage
+- **Local Logos**: Custom logos are added directly to the repository in the `local-logos/` directory for brands not available in the main crawl source
 
 ## 📫 Support
 
