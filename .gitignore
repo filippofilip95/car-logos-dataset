@@ -38,4 +38,7 @@ node_modules
 # yarn
 yarn-error.log
 
+# Swift
+.build
+
 # End of https://www.gitignore.io/api/macos
