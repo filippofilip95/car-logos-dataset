@@ -2,6 +2,8 @@
 
 A comprehensive collection of **387 car manufacturer logos** with multiple size variations and metadata. This dataset provides high-quality logos in different formats, making it perfect for automotive-related applications, research, or design projects.
 
+Maintained by [Digitaliko](https://www.digitaliko.com/work/car-logos-dataset), a Slovak studio building custom software and AI agents.
+
 ## 📦 Features
 
 - 387 unique car manufacturer logos
