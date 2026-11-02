@@ -18,5 +18,15 @@
     "name": "SEV",
     "slug": "sev",
     "fileName": "sev.png"
+  },
+  {
+    "name": "Checker",
+    "slug": "checker",
+    "fileName": "checker.png"
+  },
+  {
+    "name": "ZAP",
+    "slug": "zap",
+    "fileName": "zap.png"
   }
 ]
