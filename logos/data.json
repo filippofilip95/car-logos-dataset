@@ -897,6 +897,19 @@
     }
   },
   {
+    "name": "Checker",
+    "slug": "checker",
+    "image": {
+      "source": "./local-logos/checker.png",
+      "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/checker.png",
+      "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/checker.png",
+      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/checker.png",
+      "localThumb": "./thumb/checker.png",
+      "localOptimized": "./optimized/checker.png",
+      "localOriginal": "./original/checker.png"
+    }
+  },
+  {
     "name": "Chery",
     "slug": "chery",
     "image": {
@@ -4924,6 +4937,19 @@
       "localThumb": "./thumb/zarooq-motors.png",
       "localOptimized": "./optimized/zarooq-motors.png",
       "localOriginal": "./original/zarooq-motors.png"
+    }
+  },
+  {
+    "name": "ZAP",
+    "slug": "zap",
+    "image": {
+      "source": "./local-logos/zap.png",
+      "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/zap.png",
+      "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/zap.png",
+      "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/zap.png",
+      "localThumb": "./thumb/zap.png",
+      "localOptimized": "./optimized/zap.png",
+      "localOriginal": "./original/zap.png"
     }
   },
   {
