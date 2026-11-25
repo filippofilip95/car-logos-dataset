@@ -133,9 +133,9 @@ Fair use: the logos are trademarks of their owners, for identification only (see
 
 ## Hosted API (Cloudflare Worker)
 
-`api/` holds a small read-only JSON API over the same data: a Cloudflare Python Worker with FastAPI. It reads `data.json` from jsDelivr (pinned to `DATA_VERSION` in `api/wrangler.jsonc`) and returns brands with their jsDelivr image URLs; it never serves the images itself.
+`api/` holds a small read-only JSON API over the same data: a Cloudflare Python Worker with FastAPI. It reads `data.json` from jsDelivr (pinned to `DATA_VERSION` in `api/wrangler.jsonc`) and returns brands with image URLs on a CDN (jsDelivr by default, or an R2 bucket behind your own domain via `IMAGE_BASE`); it never serves the images itself.
 
-Endpoints: `/brands` (`?limit&offset`), `/brands/{slug}`, `/search?q=`, `/random?count=1..20`, `/docs`. Responses are JSON, CORS open, `noindex`.
+Endpoints: `/brands` (`?limit&offset`), `/brands/{slug}`, `/search?q=`, `/random?count=1..20`, `/docs`, `/llms.txt`. Responses are JSON, CORS open, `noindex`, rate limited to 60 requests a minute per IP.
 
 Run your own copy:
 

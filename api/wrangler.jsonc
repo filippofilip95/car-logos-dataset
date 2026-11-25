@@ -8,8 +8,25 @@
 	],
 	"vars": {
 		// release tag of data.json on jsDelivr (without the leading v); bump with each dataset release
-		"DATA_VERSION": "2.7.1"
+		"DATA_VERSION": "2.7.1",
+		// where image URLs point; {version} = DATA_VERSION. jsDelivr until the R2 domain is live, then
+		// "https://img.harborix.com/v{version}" (jsDelivr stays the fallback: switch back by redeploying)
+		"IMAGE_BASE": "https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v{version}/logos"
 	},
+	// 60 requests a minute per client IP (Workers Rate Limiting binding); 429 JSON above that
+	"ratelimits": [
+		{
+			"name": "RATE_LIMITER",
+			"namespace_id": "1001",
+			"simple": { "limit": 60, "period": 60 }
+		}
+	],
+	// logo images, uploaded by scripts/sync-r2.mjs under v<version>/{thumb,optimized,original}/ and
+	// served from the custom domain img.harborix.com. The API does not read it; create it once with
+	// `npx wrangler r2 bucket create car-logos` before the first deploy.
+	"r2_buckets": [
+		{ "binding": "IMAGES", "bucket_name": "car-logos" }
+	],
 	"observability": {
 		"enabled": true
 	}
