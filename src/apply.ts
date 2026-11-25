@@ -5,6 +5,7 @@ import ImageOptimizer from "./ImageOptimizer";
 import { LocalAccessPath, LogosTargetLocation, META_JSON_PATH, PublicAccessUrl } from "./config";
 import { assertNoShrink, currentLogoCount, upsert } from "./guard";
 import { ManufacturerLogos } from "./types";
+import { withPublicUrls } from "./urls";
 
 // npm run apply -- <crawlDir> [--add a,b] [--replace c,d] [--local e,f]
 //   --add      new brands from the crawl
@@ -78,6 +79,7 @@ async function main() {
   }
 
   assertNoShrink(data.length, currentLogoCount());
+  data = withPublicUrls(data);
   fs.writeFileSync(META_JSON_PATH, JSON.stringify(data, null, 2));
   console.log(`data.json: ${data.length} logos`);
 }

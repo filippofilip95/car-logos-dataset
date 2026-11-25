@@ -3,7 +3,9 @@ import fs from "fs";
 import path from "path";
 
 const root = process.cwd();
-const BASE = "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/";
+const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
+// Image URLs are pinned to the release tag; `npm version` regenerates them (npm run urls).
+const BASE = `https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v${pkg.version}/`;
 const errors = [];
 const err = (m) => errors.push(m);
 
@@ -25,7 +27,7 @@ for (const logo of data) {
     ["original", "localOriginal", "original"],
   ]) {
     const url = img[remote] || "";
-    if (!url.startsWith(`${BASE}logos/${dir}/`)) err(`${id}: ${remote} URL is off: ${url}`);
+    if (!url.startsWith(`${BASE}logos/${dir}/`)) err(`${id}: ${remote} URL is off (run npm run urls): ${url}`);
     const rel = url.slice(BASE.length);
     if (!fs.existsSync(path.join(root, rel))) err(`${id}: ${rel} does not exist`);
     if (img[local] !== `./${rel.slice("logos/".length)}`) err(`${id}: ${local} does not match ${remote}`);
@@ -46,7 +48,6 @@ for (const entry of meta) {
   if (!slugs.has(entry.slug)) err(`local-logos/metadata.json: ${entry.slug} is not in data.json`);
 }
 
-const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
 const n = data.length;
 if (!new RegExp(`\\b${n} car manufacturer logos`).test(pkg.description)) err(`package.json description does not say ${n} logos`);
 const readme = fs.readFileSync(path.join(root, "README.md"), "utf8");
