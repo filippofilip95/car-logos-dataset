@@ -11,6 +11,7 @@
   "scripts": {
     "start": "NODE_OPTIONS=\"--max-old-space-size=4096\" tsx src/index.ts",
     "validate": "node scripts/validate.mjs",
+    "test": "tsx --test src/guard.test.ts",
     "prettify": "prettier --write ."
   },
   "dependencies": {

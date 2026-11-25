@@ -1,6 +1,7 @@
 import { ManufacturerLogos, PreFinalizedResults } from "./types";
 import BaseClass from "./BaseClass";
 import { LocalAccessPath, META_JSON_PATH, PublicAccessUrl } from "./config";
+import { assertNoShrink, currentLogoCount } from "./guard";
 
 class DataFinalizer extends BaseClass {
   results: PreFinalizedResults;
@@ -53,6 +54,8 @@ class DataFinalizer extends BaseClass {
 
       // Sort the results by 'name' key alphabetically
       const sortedResults = results.sort((a, b) => a.name.localeCompare(b.name));
+
+      assertNoShrink(sortedResults.length, currentLogoCount());
 
       this.writeJsonFileSync(META_JSON_PATH, JSON.stringify(sortedResults, null, 2));
 
