@@ -52,6 +52,9 @@ const n = data.length;
 if (!new RegExp(`\\b${n} car manufacturer logos`).test(pkg.description)) err(`package.json description does not say ${n} logos`);
 const readme = fs.readFileSync(path.join(root, "README.md"), "utf8");
 if (!readme.includes(`**${n} car manufacturer logos**`)) err(`README.md does not say ${n} logos`);
+const llms = fs.readFileSync(path.join(root, "llms.txt"), "utf8");
+if (!llms.includes(`${n} car manufacturer logos`)) err(`llms.txt does not say ${n} logos`);
+if (!llms.includes(`${BASE}logos/data.json`)) err(`llms.txt does not link ${BASE}logos/data.json`);
 
 if (errors.length) {
   console.error(errors.join("\n"));

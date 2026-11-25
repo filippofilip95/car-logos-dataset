@@ -82,7 +82,7 @@ def test_pick_bounds():
 
 
 def test_every_response_has_headers(client):
-    for path in ["/", "/brands", "/brands/nope", "/search?q=sk", "/random", "/robots.txt", "/docs", "/openapi.json"]:
+    for path in ["/", "/brands", "/brands/nope", "/search?q=sk", "/random", "/robots.txt", "/llms.txt", "/llms-full.txt", "/docs", "/openapi.json"]:
         r = client.get(path)
         assert r.headers["x-robots-tag"] == "noindex, nofollow", path
         assert r.headers["access-control-allow-origin"] == "*", path
@@ -142,3 +142,21 @@ def test_upstream_failure_is_json_502(monkeypatch):
     api._memo.clear()
     r = TestClient(api.app).get("/brands")
     assert r.status_code == 502 and r.json()["error"] == "dataset unavailable"
+
+
+def test_llms_txt(client):
+    r = client.get("/llms.txt")
+    assert r.status_code == 200 and r.headers["content-type"].startswith("text/plain")
+    lines = r.text.splitlines()
+    assert lines[0] == "# Car Logos Dataset API" and lines[2].startswith("> ")
+    for want in ["/docs)", "/openapi.json)", "/brands?", "/search?q=", "/random?", "@v2.7.1/logos/data.json)",
+                 "github.com/filippofilip95/car-logos-dataset)", "carlogos.org", "trademarks"]:
+        assert want in r.text, want
+    assert "## API" in r.text and "## Optional" in r.text
+
+
+def test_llms_full_txt(client):
+    r = client.get("/llms-full.txt")
+    assert r.status_code == 200 and r.text.startswith("# ")
+    for path in ["/brands", "/brands/{slug}", "/search?q=", "/random?count="]:
+        assert f"## GET http://testserver{path}" in r.text, path

@@ -13,6 +13,7 @@ A dataset of 435 car manufacturer logos (original, optimized, 256 px thumb) plus
 - `local-logos/`: logos the source does not publish, with `metadata.json` (source link per file).
 - `src/`: TypeScript run with `tsx`. Crawler (`index.ts`, `LogoScrapper.ts`), diff report (`report.ts`, `diff.ts`), apply into `logos/` (`apply.ts`), image processing (`ImageOptimizer.ts`), URL generator (`urls.ts`, `config.ts`), shrink guard (`guard.ts`), tests (`*.test.ts`).
 - `scripts/validate.mjs`: checks `data.json` against the files on disk.
+- `llms.txt`: llmstxt.org summary of the dataset with the pinned CDN URL; bump its version with each release (validate checks it).
 - `api/`: the hosted read-only API (FastAPI on a Cloudflare Python Worker), its own uv project.
 
 ## Commands
@@ -49,6 +50,6 @@ Run `npm run validate` and `npm test` before every commit.
 - FastAPI app on a Cloudflare Python Worker: `src/entry.py` (entrypoint, ASGI bridge), `src/app.py` (routes, headers, data.json memo), `src/logic.py` (pure functions).
 - Reads `data.json` from jsDelivr pinned to `DATA_VERSION` in `wrangler.jsonc`; bump it after each release.
 - `cd api && uv run pytest` for tests, `uv run pywrangler dev` for a local server. Deploy (`uv run pywrangler deploy`) is the maintainer's call.
-- JSON only, every response `X-Robots-Tag: noindex, nofollow`, CORS `*`, `Cache-Control: public, max-age=86400` (`/random`: `no-store`); `/robots.txt` disallows all.
+- JSON only, every response `X-Robots-Tag: noindex, nofollow`, CORS `*`, `Cache-Control: public, max-age=86400` (`/random`: `no-store`); `/robots.txt` disallows all. `/llms.txt` and `/llms-full.txt` (built in `src/logic.py`) describe the API for LLMs.
 - Never proxy or store images: return the jsDelivr URLs from `data.json`.
 - Versions are pinned in `pyproject.toml` (`fastapi`, `workers-py`, `workers-runtime-sdk`) and locked in `uv.lock`.

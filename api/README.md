@@ -10,6 +10,7 @@ A small read-only JSON API over `logos/data.json`, as a [Cloudflare Python Worke
 | `GET /search?q=` | case-insensitive match on name or slug, at most 50 |
 | `GET /random?count=` | 1 to 20 random brands |
 | `GET /docs`, `GET /openapi.json` | FastAPI docs |
+| `GET /llms.txt`, `GET /llms-full.txt` | [llms.txt](https://llmstxt.org/) summary and endpoint reference |
 | `GET /robots.txt` | `Disallow: /` |
 
 Every response carries `X-Robots-Tag: noindex, nofollow`, `Access-Control-Allow-Origin: *` and `Cache-Control: public, max-age=86400` (`/random`: `no-store`).

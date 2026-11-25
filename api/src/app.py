@@ -102,6 +102,16 @@ async def random(count: int = Query(1, ge=1, le=logic.RANDOM_MAX), logos: list =
     return {"items": logic.pick(logos, count)}
 
 
+@app.get("/llms.txt", include_in_schema=False)
+async def llms(request: Request):
+    return PlainTextResponse(logic.llms_txt(str(request.base_url), data_version(request)))
+
+
+@app.get("/llms-full.txt", include_in_schema=False)
+async def llms_full(request: Request):
+    return PlainTextResponse(logic.llms_full_txt(str(request.base_url), data_version(request)))
+
+
 @app.get("/robots.txt", include_in_schema=False)
 async def robots():
     return PlainTextResponse("User-agent: *\nDisallow: /\n")

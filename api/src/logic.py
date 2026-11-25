@@ -72,3 +72,77 @@ def index(base: str, version: str, total: int) -> dict:
         "source": f"Logos from {SOURCE} and local sources listed in the repository; each brand's image.source links the original.",
         "notice": "Logos are trademarks of their respective owners, for identification only.",
     }
+
+
+def llms_txt(base: str, version: str) -> str:
+    """llms.txt (llmstxt.org): H1, blockquote summary, then sections of links."""
+    base = base.rstrip("/")
+    v = version.lstrip("v")
+    return f"""# Car Logos Dataset API
+
+> Read-only JSON API over a dataset of car manufacturer logos (data release v{v}). Each brand has a name, a slug and image URLs (thumb, optimized, original) served by jsDelivr; this API never serves images.
+
+Logos come from {SOURCE} and a few local sources; each brand's `image.source` links the original. Logos are trademarks of their respective owners, for identification only. Code and metadata are MIT licensed.
+
+## API
+
+- [OpenAPI schema]({base}/openapi.json): machine-readable reference of every endpoint
+- [Interactive docs]({base}/docs): Swagger UI
+- [List brands]({base}/brands?limit=20&offset=0): paged list, `limit` 1 to 500, `offset` from 0
+- [One brand]({base}/brands/skoda): by slug, 404 JSON when missing
+- [Search]({base}/search?q=mer): case-insensitive match on name or slug, at most 50
+- [Random]({base}/random?count=3): 1 to 20 random brands
+
+## Data
+
+- [data.json on jsDelivr]({data_url(v)}): the whole dataset as one static JSON file, pinned to v{v}
+- [GitHub repository](https://github.com/{REPO}): source, README and license
+
+## Optional
+
+- [Full endpoint reference]({base}/llms-full.txt): every endpoint, parameter and response shape
+- [carlogos.org]({SOURCE}): main source of the logos
+"""
+
+
+def llms_full_txt(base: str, version: str) -> str:
+    base = base.rstrip("/")
+    v = version.lstrip("v")
+    return f"""# Car Logos Dataset API: endpoint reference
+
+> Read-only JSON over the car logos dataset, data release v{v}. All endpoints are GET, return JSON (except the .txt files), send `Access-Control-Allow-Origin: *` and `X-Robots-Tag: noindex, nofollow`, and are cached for a day except `/random` (`no-store`).
+
+A brand looks like:
+
+```json
+{{"name": "Škoda", "slug": "skoda", "image": {{"thumb": "https://cdn.jsdelivr.net/gh/{REPO}@v{v}/logos/thumb/skoda.png", "optimized": "...", "original": "...", "source": "https://www.carlogos.org/..."}}}}
+```
+
+## GET {base}/
+
+Index: data version, brand count, links, source attribution.
+
+## GET {base}/brands
+
+Query: `limit` (1 to 500, all when omitted), `offset` (from 0). Returns `{{"total", "offset", "limit", "items": [brand]}}`.
+
+## GET {base}/brands/{{slug}}
+
+Returns one brand. Missing slug: 404 `{{"error": "not found", "slug": "..."}}`.
+
+## GET {base}/search?q=
+
+Case-insensitive substring match on name or slug, in dataset order, at most 50. Returns `{{"query", "count", "items": [brand]}}`. Missing `q`: 422.
+
+## GET {base}/random?count=
+
+`count` 1 to 20 (default 1). Returns `{{"items": [brand]}}`.
+
+## Errors
+
+422 for invalid query parameters (FastAPI validation JSON), 405 for non-GET, 502 `{{"error": "dataset unavailable"}}` when jsDelivr cannot be reached.
+
+## Without this API
+
+Fetch {data_url(v)} directly and filter it yourself. Logos are trademarks of their respective owners, for identification only; source {SOURCE}.
+"""
