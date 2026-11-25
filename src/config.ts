@@ -1,9 +1,19 @@
+import fs from "fs";
 import path from "path";
 
 export const BASE_URL = "https://www.carlogos.org";
 
-export const BASE_PUBLIC_ACCESS_URL =
-  "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master";
+// Image URLs in data.json point to jsDelivr pinned to the release tag (v<package.json version>),
+// so a published data.json never changes under its users. `npm version` regenerates them.
+export const VERSION: string = JSON.parse(fs.readFileSync(path.resolve("package.json"), "utf-8")).version;
+
+export const CDN_BASE_URL = (version = VERSION) =>
+  `https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v${version}`;
+
+export const BASE_PUBLIC_ACCESS_URL = CDN_BASE_URL();
+
+// local-logos/ source links stay on GitHub raw master: they are attribution, not served images.
+const RAW_MASTER_URL = "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master";
 
 export const THUMB_HEIGHT = 256;
 
@@ -27,7 +37,7 @@ export const PublicAccessUrl = {
     `${BASE_PUBLIC_ACCESS_URL}/logos/original/${file}`,
   Optimized: (file: string) =>
     `${BASE_PUBLIC_ACCESS_URL}/logos/optimized/${file}`,
-  Local: (file: string) => `${BASE_PUBLIC_ACCESS_URL}/local-logos/${file}`,
+  Local: (file: string) => `${RAW_MASTER_URL}/local-logos/${file}`,
 };
 
 export const Url = {

@@ -17,6 +17,8 @@ Maintained by [Digitaliko](https://www.digitaliko.com/work/car-logos-dataset), a
 
 ## What's new
 
+**v2.7.1**: image URLs in `data.json` now point to jsDelivr pinned to the release tag, and the dataset works as a static CDN API (see [Use as an API (CDN)](#use-as-an-api-cdn)). No logo changed.
+
 **November 2026** (v2.7.0): crawler fixed for the redesigned source site, 48 new brands, 15 brands updated to their current logo.
 
 - New: AITO, Aion, Ankai, Aria, ATS, Aurus, AVATR, Brockway, Czinger, Dallara, Deepal, Denza, Devalliet, Fangchengbao, Galaxy, GMA, Hofele, iCAR, IM, INEOS, INKAS, Isotta Fraschini, Italdesign, Jaecoo, Kaiyi, KGM, KrAZ, Livan, Luxeed, Maextro, MHERO, Onvo, ORA, Oshkosh, Puritalia, Rising, Rox, SANY, SCG, Scout, Sitrak, Stelato, Tank, Trumpchi, Voyah, XCMG, Xiaomi, Yangwang
@@ -78,21 +80,56 @@ Download the repository and use images with their relative paths:
 
 ### 2. Remote Usage
 
-Embed logos directly using GitHub raw URLs:
+Every image URL in `data.json` points to [jsDelivr](https://www.jsdelivr.com/), pinned to the release the file came from:
 
 ```json
 {
   "name": "Volkswagen",
   "slug": "volkswagen",
   "image": {
-    "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/volkswagen.png",
-    "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/volkswagen.png",
-    "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/volkswagen.png"
+    "thumb": "https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.7.1/logos/thumb/volkswagen.png",
+    "optimized": "https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.7.1/logos/optimized/volkswagen.png",
+    "original": "https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.7.1/logos/original/volkswagen.png"
   }
 }
 ```
 
 Most originals are PNG, a few older ones are JPG. Always take the file name from `data.json` instead of building it from the slug.
+
+The old `raw.githubusercontent.com/.../master/logos/...` links keep working: files are never renamed or removed.
+
+## Use as an API (CDN)
+
+No server needed: jsDelivr serves the whole dataset as a static, read-only JSON API.
+
+```
+https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.7.1/logos/data.json
+```
+
+- **Pinned** (`@v2.7.1`): the file and every image URL in it never change. Use this in production.
+- **Latest** (`@latest`, or no tag): follows the newest release, but jsDelivr caches it for up to 7 days and a new release can add or replace logos under you. The image URLs inside always stay pinned to their own release.
+
+JavaScript:
+
+```js
+const res = await fetch("https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.7.1/logos/data.json");
+const logos = await res.json();
+const skoda = logos.find((l) => l.slug === "skoda");
+console.log(skoda.image.optimized);
+```
+
+Python:
+
+```python
+import json, urllib.request
+
+URL = "https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.7.1/logos/data.json"
+logos = json.load(urllib.request.urlopen(URL))
+skoda = next(l for l in logos if l["slug"] == "skoda")
+print(skoda["image"]["optimized"])
+```
+
+Fair use: the logos are trademarks of their owners, for identification only (see [License](#-license)). The main source is [carlogos.org](https://www.carlogos.org/); each entry's `source` field links the original image. Cache the JSON on your side instead of fetching it on every request.
 
 ## 🤝 Contributing
 
