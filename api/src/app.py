@@ -59,6 +59,8 @@ async def common_headers(request: Request, call_next):
     resp = await call_next(request)
     for k, v in HEADERS.items():
         resp.headers[k] = v
+    if request.url.path == "/random":  # a cached pick would repeat for a day
+        resp.headers["Cache-Control"] = "no-store"
     return resp
 
 

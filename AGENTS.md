@@ -49,6 +49,6 @@ Run `npm run validate` and `npm test` before every commit.
 - FastAPI app on a Cloudflare Python Worker: `src/entry.py` (entrypoint, ASGI bridge), `src/app.py` (routes, headers, data.json memo), `src/logic.py` (pure functions).
 - Reads `data.json` from jsDelivr pinned to `DATA_VERSION` in `wrangler.jsonc`; bump it after each release.
 - `cd api && uv run pytest` for tests, `uv run pywrangler dev` for a local server. Deploy (`uv run pywrangler deploy`) is the maintainer's call.
-- JSON only, every response `X-Robots-Tag: noindex, nofollow`, CORS `*`, `Cache-Control: public, max-age=86400`; `/robots.txt` disallows all.
+- JSON only, every response `X-Robots-Tag: noindex, nofollow`, CORS `*`, `Cache-Control: public, max-age=86400` (`/random`: `no-store`); `/robots.txt` disallows all.
 - Never proxy or store images: return the jsDelivr URLs from `data.json`.
 - Versions are pinned in `pyproject.toml` (`fastapi`, `workers-py`, `workers-runtime-sdk`) and locked in `uv.lock`.

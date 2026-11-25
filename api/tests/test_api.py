@@ -86,7 +86,8 @@ def test_every_response_has_headers(client):
         r = client.get(path)
         assert r.headers["x-robots-tag"] == "noindex, nofollow", path
         assert r.headers["access-control-allow-origin"] == "*", path
-        assert r.headers["cache-control"] == "public, max-age=86400", path
+        want = "no-store" if path == "/random" else "public, max-age=86400"
+        assert r.headers["cache-control"] == want, path
 
 
 def test_index_links_and_source(client):

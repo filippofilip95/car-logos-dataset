@@ -12,7 +12,7 @@ A small read-only JSON API over `logos/data.json`, as a [Cloudflare Python Worke
 | `GET /docs`, `GET /openapi.json` | FastAPI docs |
 | `GET /robots.txt` | `Disallow: /` |
 
-Every response carries `X-Robots-Tag: noindex, nofollow`, `Access-Control-Allow-Origin: *` and `Cache-Control: public, max-age=86400`.
+Every response carries `X-Robots-Tag: noindex, nofollow`, `Access-Control-Allow-Origin: *` and `Cache-Control: public, max-age=86400` (`/random`: `no-store`).
 
 ## Develop
 
