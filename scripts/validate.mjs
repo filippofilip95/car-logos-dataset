@@ -35,8 +35,15 @@ for (const logo of data) {
 
 for (const dir of ["thumb", "optimized", "original"]) {
   for (const f of fs.readdirSync(path.join(root, "logos", dir))) {
+    if (f.startsWith(".")) continue; // .DS_Store and friends
     if (!referenced.has(`logos/${dir}/${f}`)) err(`logos/${dir}/${f} is not in data.json`);
   }
+}
+
+const meta = JSON.parse(fs.readFileSync(path.join(root, "local-logos/metadata.json"), "utf8"));
+for (const entry of meta) {
+  if (!fs.existsSync(path.join(root, "local-logos", entry.fileName || ""))) err(`local-logos/metadata.json: ${entry.slug}: file ${entry.fileName} does not exist`);
+  if (!slugs.has(entry.slug)) err(`local-logos/metadata.json: ${entry.slug} is not in data.json`);
 }
 
 const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
