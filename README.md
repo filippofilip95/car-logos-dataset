@@ -13,7 +13,7 @@ Maintained by [Digitaliko](https://www.digitaliko.com/work/car-logos-dataset), a
     - Thumbnails (256px height)
 - Detailed JSON metadata for each logo
 - MIT licensed (logos remain property of respective owners)
-- Regular updates (Last crawled: August 27, 2025)
+- Last full crawl: August 27, 2025. Since then updated by hand (new local logos, fixes like the 2021 Kia emblem). The crawler needs an update after the source site's redesign, see the issues.
 
 ## 📂 Repository Structure
 
@@ -40,6 +40,9 @@ npm install
 
 # Run the crawler and processor
 npm start
+
+# Check that data.json and the files on disk match
+npm run validate
 ```
 
 **⚠️ Processing Time:** The script processes 387 logos through image optimization which takes 3-8 minutes. The Node.js memory has been optimized for this workload. If running through automation tools, ensure sufficient timeout allowance.
@@ -57,8 +60,8 @@ Download the repository and use images with their relative paths:
   "image": {
     "localThumb": "./thumb/volkswagen.png",
     "localOptimized": "./optimized/volkswagen.png",
-    "localOriginal": "./original/volkswagen.jpg",
-    "source": "https://www.carlogos.org/logo/Volkswagen-logo-2019-640x500.jpg"
+    "localOriginal": "./original/volkswagen.png",
+    "source": "https://www.carlogos.org/logo/Volkswagen-logo-2019-1500x1500.png"
   }
 }
 ```
@@ -74,28 +77,22 @@ Embed logos directly using GitHub raw URLs:
   "image": {
     "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/volkswagen.png",
     "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/volkswagen.png",
-    "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/volkswagen.jpg"
+    "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/volkswagen.png"
   }
 }
 ```
 
+Most originals are PNG, a few older ones are JPG. Always take the file name from `data.json` instead of building it from the slug.
+
 ## 🤝 Contributing
 
-We welcome contributions! The crawler and optimization scripts are written in TypeScript and located in the `/src/` directory.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-For major changes, please open an issue first to discuss what you would like to change.
+Missing or outdated logo? See [CONTRIBUTING.md](CONTRIBUTING.md). In short: add it as a local logo with a source link, run the normal pipeline and `npm run validate`, then open a pull request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The code and metadata are MIT licensed, see [LICENSE](LICENSE).
 
-**Note:** All logo images are the property of their respective owners and are subject to their own licensing terms.
+**Note:** All logo images are trademarks of their respective owners and are subject to their own terms. They are included for identification only.
 
 ## 🔍 Data Source
 
