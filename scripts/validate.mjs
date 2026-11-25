@@ -1,6 +1,7 @@
 // Checks logos/data.json against the files on disk. Run: npm run validate
 import fs from "fs";
 import path from "path";
+import { checkMetadata, coverage, META_KEYS } from "./metadata-rules.mjs";
 
 const root = process.cwd();
 const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
@@ -19,6 +20,7 @@ for (const logo of data) {
   if (!logo.name || !logo.slug) err(`${id}: missing name or slug`);
   if (slugs.has(logo.slug)) err(`${id}: duplicate slug`);
   slugs.add(logo.slug);
+  for (const m of checkMetadata(logo)) err(`${id}: ${m}`);
   const img = logo.image || {};
   if (!/^https:\/\/(?!localhost|127\.)/.test(img.source || "")) err(`${id}: source is not a public URL: ${img.source}`);
   for (const [remote, local, dir] of [
@@ -61,4 +63,6 @@ if (errors.length) {
   console.error(`\nvalidate: ${errors.length} problem(s) in ${n} logos`);
   process.exit(1);
 }
+const cov = coverage(data);
 console.log(`validate: ok, ${n} logos`);
+console.log(`metadata coverage: ${META_KEYS.map((k) => `${k} ${cov[k]}/${n} (${((100 * cov[k]) / n).toFixed(1)} %)`).join(", ")}`);

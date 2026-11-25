@@ -8,11 +8,12 @@ A dataset of 435 car manufacturer logos (original, optimized, 256 px thumb) plus
 
 ## Layout
 
-- `logos/data.json`: one entry per brand: `name`, `slug`, `image.source` (attribution), `thumb`/`optimized`/`original` (jsDelivr URLs pinned to the release tag), `localThumb`/`localOptimized`/`localOriginal`.
+- `logos/data.json`: one entry per brand: `name`, `slug`, brand metadata `wikidataId` / `country` / `founded` / `nhtsaMakeId` (null when unknown), `image.source` (attribution), `thumb`/`optimized`/`original` (jsDelivr URLs pinned to the release tag), `localThumb`/`localOptimized`/`localOriginal`.
 - `logos/original/`, `logos/optimized/`, `logos/thumb/`: the image files.
 - `local-logos/`: logos the source does not publish, with `metadata.json` (source link per file).
 - `src/`: TypeScript run with `tsx`. Crawler (`index.ts`, `LogoScrapper.ts`), diff report (`report.ts`, `diff.ts`), apply into `logos/` (`apply.ts`), image processing (`ImageOptimizer.ts`), URL generator (`urls.ts`, `config.ts`), shrink guard (`guard.ts`), tests (`*.test.ts`).
-- `scripts/validate.mjs`: checks `data.json` against the files on disk. `scripts/sync-r2.mjs`: uploads a tagged release's images to R2.
+- `metadata/sources.json`: lock file of the resolved Wikidata item and vPIC make per slug (reruns reuse it). `metadata/overrides.json`: hand-reviewed fixes with a `reason` and `evidence` (Wikidata label: description). `src/metadata.ts` writes both into `data.json`; `cache/metadata/` (gitignored) keeps the raw responses.
+- `scripts/validate.mjs`: checks `data.json` against the files on disk and the metadata formats (`scripts/metadata-rules.mjs`), prints coverage. `scripts/sync-r2.mjs`: uploads a tagged release's images to R2.
 - `llms.txt`: llmstxt.org summary of the dataset with the pinned CDN URL; bump its version with each release (validate checks it).
 - `api/`: the hosted read-only API (FastAPI on a Cloudflare Python Worker), its own uv project.
 
@@ -24,6 +25,7 @@ npm start -- <tmpDir>                            # crawl into a temp folder + re
 npm run apply -- <tmpDir> --add a,b --replace c  # take chosen logos into logos/ and data.json
 npm run apply -- --local <slug>                  # add a logo from local-logos/
 npm run urls                                     # regenerate image URLs from package.json version
+npm run metadata                                 # brand metadata from Wikidata + NHTSA vPIC (--refresh, --offline)
 npm run validate
 npm test
 ```
@@ -32,7 +34,10 @@ Run `npm run validate` and `npm test` before every commit.
 
 ## Rules
 
-- Never hand-edit `logos/data.json`; it is written by `npm run apply` and `npm run urls`.
+- Never hand-edit `logos/data.json`; it is written by `npm run apply`, `npm run urls` and `npm run metadata`.
+- Brand metadata is never guessed: a value is null unless the source has exactly one. A wrong or ambiguous match is fixed in `metadata/overrides.json` with a reason and the Wikidata label and description as evidence, never in `data.json`.
+- After `npm run apply` adds a brand, run `npm run metadata` (validate fails while its metadata keys are missing). Wikidata: identify with the repo URL in the User-Agent, keep requests sequential, back off on 429.
+- Never scrape carlogos.org for metadata; it is only the logo source.
 - Never crawl into `logos/` directly; crawl into a temp folder, then `apply`.
 - Never rename, move or delete a file under `logos/` or `local-logos/`, and never change an existing slug: apps link these paths directly.
 - A local logo needs a public source URL in `local-logos/metadata.json` and a PNG with a transparent background.
@@ -53,7 +58,8 @@ Run `npm run validate` and `npm test` before every commit.
 - Reads `data.json` from jsDelivr pinned to `DATA_VERSION`, 5 s timeout, 1 h memo, last good copy kept when a refresh fails.
 - Image URLs come from `IMAGE_BASE` (`{version}` = `DATA_VERSION`): jsDelivr by default; `https://img.harborix.com/v{version}` once the R2 bucket `car-logos` has its custom domain. jsDelivr stays the fallback.
 - `cd api && uv run pytest` for tests, `uv run pywrangler dev` for a local server. Deploy, bucket creation and Cloudflare login are the maintainer's call.
-- Params are validated by Pydantic (limit 1 to 100, offset 0 to 10000, q 1 to 64, count 1 to 20, slug `^[a-z0-9-]{1,64}$`); every error is `{"error": {"code", "message"}}`; GET/HEAD/OPTIONS only; query strings over 1 KB get 414; 60 requests a minute per IP (Rate Limiting binding `RATE_LIMITER`), 429 above.
+- Brands carry `wikidataId`, `country`, `founded`, `nhtsaMakeId` (null for data releases before v2.8.0); `/brands?country=XX` filters by ISO 3166-1 alpha-2.
+- Params are validated by Pydantic (limit 1 to 100, offset 0 to 10000, country `^[A-Z]{2}$`, q 1 to 64, count 1 to 20, slug `^[a-z0-9-]{1,64}$`); every error is `{"error": {"code", "message"}}`; GET/HEAD/OPTIONS only; query strings over 1 KB get 414; 60 requests a minute per IP (Rate Limiting binding `RATE_LIMITER`), 429 above.
 - Every response: `X-Robots-Tag: noindex, nofollow`, CORS `*`, nosniff, `Referrer-Policy: no-referrer`, a strict CSP (relaxed only on `/docs`), `Cache-Control: public, max-age=86400` (`no-store` on `/random`, 429, 5xx). `/robots.txt` disallows all; `/llms.txt` and `/llms-full.txt` describe the API for LLMs.
 - Never proxy or store images in the Worker: return CDN URLs.
 - Versions are pinned in `pyproject.toml` (`fastapi`, `workers-py`, `workers-runtime-sdk`) and locked in `uv.lock`.

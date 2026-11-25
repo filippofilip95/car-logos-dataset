@@ -51,6 +51,10 @@ class Image(BaseModel):
 class Brand(BaseModel):
     name: str
     slug: str
+    wikidataId: str | None = Field(None, description="Wikidata item, e.g. Q29637 (CC0)", examples=["Q29637"])
+    country: str | None = Field(None, description="ISO 3166-1 alpha-2 country of origin, from Wikidata", examples=["CZ"])
+    founded: int | None = Field(None, description="Year founded (Wikidata inception)", examples=[1895])
+    nhtsaMakeId: int | None = Field(None, description="NHTSA vPIC Make_ID", examples=[448])
     image: Image
 
 
@@ -94,6 +98,7 @@ class Error(BaseModel):
 class PageParams(BaseModel):
     limit: int = Field(50, ge=1, le=100)
     offset: int = Field(0, ge=0, le=10000)
+    country: str | None = Field(None, pattern=r"^[A-Z]{2}$", description="ISO 3166-1 alpha-2, e.g. DE")
 
 
 class SearchParams(BaseModel):
@@ -288,7 +293,7 @@ async def root(request: Request, logos: list = Depends(get_logos)):
 
 @app.get("/brands", response_model=BrandPage, responses=ERRORS)
 async def brands(request: Request, params: Annotated[PageParams, Query()], logos: list = Depends(get_logos)):
-    return logic.page(logos, params.limit, params.offset, images(request))
+    return logic.page(logos, params.limit, params.offset, images(request), params.country)
 
 
 @app.get("/brands/{slug}", response_model=Brand, responses={404: {"model": Error}, **ERRORS})
