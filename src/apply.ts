@@ -3,7 +3,7 @@ import * as path from "path";
 import sharp from "sharp";
 import ImageOptimizer from "./ImageOptimizer";
 import { LocalAccessPath, LogosTargetLocation, META_JSON_PATH, PublicAccessUrl } from "./config";
-import { assertNoShrink, currentLogoCount } from "./guard";
+import { assertNoShrink, currentLogoCount, upsert } from "./guard";
 import { ManufacturerLogos } from "./types";
 
 // npm run apply -- <crawlDir> [--add a,b] [--replace c,d] [--local e,f]
@@ -17,11 +17,6 @@ const arg = (flag: string) => {
   const i = process.argv.indexOf(flag);
   return i > -1 ? process.argv[i + 1].split(",").filter(Boolean) : [];
 };
-
-export function upsert(data: ManufacturerLogos, entry: ManufacturerLogos[number]): ManufacturerLogos {
-  const rest = data.filter((l) => l.slug !== entry.slug);
-  return [...rest, entry].sort((a, b) => a.name.localeCompare(b.name));
-}
 
 async function main() {
   const crawl = process.argv[2] && !process.argv[2].startsWith("--") ? path.resolve(process.argv[2]) : "";

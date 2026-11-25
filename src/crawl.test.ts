@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import * as cheerio from "cheerio";
 import { pickLogoUrl } from "./LogoScrapper";
-import { upsert } from "./apply";
+import { upsert } from "./guard";
 
 test("picks the newest dated history logo", () => {
   const $ = cheerio.load(`
