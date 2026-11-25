@@ -1,0 +1,16 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "car-logos-api",
+	"main": "src/entry.py",
+	"compatibility_date": "2026-11-23",
+	"compatibility_flags": [
+		"python_workers"
+	],
+	"vars": {
+		// release tag of data.json on jsDelivr (without the leading v); bump with each dataset release
+		"DATA_VERSION": "2.7.1"
+	},
+	"observability": {
+		"enabled": true
+	}
+}

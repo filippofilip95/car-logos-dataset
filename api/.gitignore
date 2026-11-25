@@ -1,0 +1,10 @@
+node_modules/
+.wrangler/
+.dev.vars*
+.env*
+.venv/
+.venv-workers/
+python_modules/
+pylock.toml
+__pycache__/
+.pytest_cache/
