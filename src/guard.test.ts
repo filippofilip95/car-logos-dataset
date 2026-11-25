@@ -23,11 +23,14 @@ test("missing data.json counts as 0, so a first run is allowed", () => {
   assert.doesNotThrow(() => assertNoShrink(4, currentLogoCount(path.join(os.tmpdir(), "no-such-car-logos.json"))));
 });
 
-test("the pipeline checks before optimizing and before writing", () => {
-  const index = fs.readFileSync(path.resolve("src/index.ts"), "utf-8");
-  const finalizer = fs.readFileSync(path.resolve("src/DataFinalizer.ts"), "utf-8");
+test("apply checks before it writes data.json", () => {
+  const apply = fs.readFileSync(path.resolve("src/apply.ts"), "utf-8");
   // match the call, not the import line
   const call = "assertNoShrink(";
-  assert.ok(index.indexOf(call) > -1 && index.indexOf(call) < index.indexOf("new ImageOptimizer"));
-  assert.ok(finalizer.indexOf(call) > -1 && finalizer.indexOf(call) < finalizer.indexOf("writeJsonFileSync(META_JSON_PATH"));
+  assert.ok(apply.indexOf(call) > -1 && apply.indexOf(call) < apply.indexOf("writeFileSync(META_JSON_PATH"));
+});
+
+test("the crawl entry never writes into logos/", () => {
+  const index = fs.readFileSync(path.resolve("src/index.ts"), "utf-8");
+  assert.ok(!/META_JSON_PATH|LogosTargetLocation|ImageOptimizer/.test(index));
 });
