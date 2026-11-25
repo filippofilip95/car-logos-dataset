@@ -18,7 +18,7 @@ for (const logo of data) {
   if (slugs.has(logo.slug)) err(`${id}: duplicate slug`);
   slugs.add(logo.slug);
   const img = logo.image || {};
-  if (!/^https?:\/\//.test(img.source || "")) err(`${id}: source is not a public URL: ${img.source}`);
+  if (!/^https:\/\/(?!localhost|127\.)/.test(img.source || "")) err(`${id}: source is not a public URL: ${img.source}`);
   for (const [remote, local, dir] of [
     ["thumb", "localThumb", "thumb"],
     ["optimized", "localOptimized", "optimized"],
@@ -41,7 +41,7 @@ for (const dir of ["thumb", "optimized", "original"]) {
 
 const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
 const n = data.length;
-if (!pkg.description.includes(`${n} `)) err(`package.json description does not say ${n} logos`);
+if (!new RegExp(`\\b${n} car manufacturer logos`).test(pkg.description)) err(`package.json description does not say ${n} logos`);
 const readme = fs.readFileSync(path.join(root, "README.md"), "utf8");
 if (!readme.includes(`**${n} car manufacturer logos**`)) err(`README.md does not say ${n} logos`);
 
