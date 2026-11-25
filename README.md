@@ -131,6 +131,22 @@ print(skoda["image"]["optimized"])
 
 Fair use: the logos are trademarks of their owners, for identification only (see [License](#-license)). The main source is [carlogos.org](https://www.carlogos.org/); each entry's `source` field links the original image. Cache the JSON on your side instead of fetching it on every request.
 
+## Hosted API (Cloudflare Worker)
+
+`api/` holds a small read-only JSON API over the same data: a Cloudflare Python Worker with FastAPI. It reads `data.json` from jsDelivr (pinned to `DATA_VERSION` in `api/wrangler.jsonc`) and returns brands with image URLs on a CDN (jsDelivr by default, or an R2 bucket behind your own domain via `IMAGE_BASE`); it never serves the images itself.
+
+Endpoints: `/brands` (`?limit&offset`), `/brands/{slug}`, `/search?q=`, `/random?count=1..20`, `/docs`, `/llms.txt`. Responses are JSON, CORS open, `noindex`, rate limited to 60 requests a minute per IP.
+
+Run your own copy:
+
+```bash
+cd api
+uv run pywrangler dev      # local, http://localhost:8787
+uv run pywrangler deploy   # to your Cloudflare account (asks you to log in)
+```
+
+No secrets are needed. The Workers free plan allows 100,000 requests a day; for more, use the CDN URLs above directly. Details in [api/README.md](api/README.md).
+
 ## 🤝 Contributing
 
 Missing or outdated logo? See [CONTRIBUTING.md](CONTRIBUTING.md). In short: add it as a local logo with a source link, generate the optimized and thumb versions, run `npm run validate`, then open a pull request.

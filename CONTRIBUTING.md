@@ -31,7 +31,7 @@ Thousands of apps link the files directly from raw.githubusercontent.com and jsD
 
 ## Releases
 
-Image URLs in `logos/data.json` are pinned to the release tag (`@v<version>` on jsDelivr), taken from `package.json`. Bump with `npm version <x.y.z> --no-git-tag-version`: its `version` script runs `npm run urls`, which rewrites every URL to the new tag. `npm run validate` fails when a URL does not match the version.
+Image URLs in `logos/data.json` are pinned to the release tag (`@v<version>` on jsDelivr), taken from `package.json`. Bump with `npm version <x.y.z> --no-git-tag-version`: its `version` script runs `npm run urls`, which rewrites every URL to the new tag. `npm run validate` fails when a URL does not match the version. Bump the version in `llms.txt` by hand; validate checks it too.
 
 ## Code changes
 

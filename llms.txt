@@ -1,0 +1,21 @@
+# Car Logos Dataset
+
+> 435 car manufacturer logos (original, optimized, 256 px thumb) with JSON metadata. Use it as a static, read-only API through jsDelivr: one data.json, image URLs pinned to the release tag.
+
+Logos come from https://www.carlogos.org/ and a few local sources; each brand's `image.source` links the original. Logos are trademarks of their respective owners, for identification only. Code and metadata are MIT licensed.
+
+## Data
+
+- [data.json (v2.7.1)](https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.7.1/logos/data.json): every brand with `name`, `slug` and `image` (`thumb`, `optimized`, `original` on jsDelivr, `source`)
+- [Use as an API (CDN)](https://github.com/filippofilip95/car-logos-dataset#use-as-an-api-cdn): pinned vs `@latest`, fetch examples in JavaScript and Python
+
+## Docs
+
+- [README](https://github.com/filippofilip95/car-logos-dataset/blob/master/README.md): features, structure, usage, license
+- [Hosted API (Cloudflare Worker)](https://github.com/filippofilip95/car-logos-dataset#hosted-api-cloudflare-worker): the optional JSON API in `api/` (brands, search, random) and how to deploy it
+- [CONTRIBUTING](https://github.com/filippofilip95/car-logos-dataset/blob/master/CONTRIBUTING.md): adding or updating a logo, releases
+
+## Optional
+
+- [AGENTS.md](https://github.com/filippofilip95/car-logos-dataset/blob/master/AGENTS.md): notes for coding agents working in the repo
+- [carlogos.org](https://www.carlogos.org/): main source of the logos

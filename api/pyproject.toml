@@ -1,0 +1,21 @@
+[project]
+name = "car-logos-api"
+version = "0.1.0"
+description = "Read-only JSON API over the car logos dataset, a Cloudflare Python Worker"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.141.1",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+    "workers-py==1.17.9",
+    "workers-runtime-sdk==1.9.7",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
