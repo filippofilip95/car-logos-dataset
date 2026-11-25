@@ -13,7 +13,7 @@ Maintained by [Digitaliko](https://www.digitaliko.com/work/car-logos-dataset), a
     - Thumbnails (256px height)
 - Detailed JSON metadata for each logo
 - MIT licensed (logos remain property of respective owners)
-- Last full crawl: August 27, 2025. Since then updated by hand (new local logos, fixes like the 2021 Kia emblem). The crawler needs an update after the source site's redesign, see the issues.
+- Last full crawl: August 27, 2025. Since then updated by hand (new local logos, fixes like the 2021 Kia emblem). The crawler is broken since the source site's redesign ([#35](https://github.com/filippofilip95/car-logos-dataset/issues/35)), so new logos come in through `local-logos/`.
 
 ## 📂 Repository Structure
 
@@ -39,6 +39,7 @@ git clone https://github.com/filippofilip95/car-logos-dataset.git
 npm install
 
 # Run the crawler and processor
+# (broken until #35 is fixed: it stops without writing anything)
 npm start
 
 # Check that data.json and the files on disk match
@@ -86,13 +87,13 @@ Most originals are PNG, a few older ones are JPG. Always take the file name from
 
 ## 🤝 Contributing
 
-Missing or outdated logo? See [CONTRIBUTING.md](CONTRIBUTING.md). In short: add it as a local logo with a source link, run the normal pipeline and `npm run validate`, then open a pull request.
+Missing or outdated logo? See [CONTRIBUTING.md](CONTRIBUTING.md). In short: add it as a local logo with a source link, generate the optimized and thumb versions, run `npm run validate`, then open a pull request.
 
 ## 📄 License
 
 The code and metadata are MIT licensed, see [LICENSE](LICENSE).
 
-**Note:** All logo images are trademarks of their respective owners and are subject to their own terms. They are included for identification only.
+**Trademark note:** the MIT license covers the code, the metadata and the way the dataset is put together. The logos themselves are trademarks of their respective owners. They are included for identification only, and the license grants no rights to them. Check the owner's terms before you use a logo in your own product.
 
 ## 🔍 Data Source
 

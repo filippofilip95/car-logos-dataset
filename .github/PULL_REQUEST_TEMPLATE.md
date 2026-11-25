@@ -8,6 +8,6 @@
 
 ## Checklist
 
-- [ ] Images went through the normal pipeline (`npm start`): original, optimized and thumb are generated, not copied
+- [ ] Optimized and thumb are generated with the `ImageOptimizer` settings, not copies of the original
 - [ ] `npm run validate` passes
 - [ ] No existing file under `logos/` was renamed, moved or deleted
