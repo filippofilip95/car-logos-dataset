@@ -31,16 +31,15 @@ export const PublicAccessUrl = {
 };
 
 export const Url = {
-  AllManufacturers: `${BASE_URL}/car-brands-a-z`,
+  AllManufacturers: `${BASE_URL}/car-brands-a-z/`,
   Manufacturer: (url: string) => `${BASE_URL}/${url}`,
 };
 
+// carlogos.org after its 2026 redesign: the A-Z list is `section.az`, a brand page
+// shows the current mark as `#bd-logo` (240 px) and its history as
+// /car-logos/<brand>-logo-<year>.png (640 px). The newest year is the current mark.
 export const Selectors = {
-  AllManufacturers: ".a-z dd a",
-  Logos: {
-    ManufacturerLogo: `div.logo-content a img`,
-    ManufacturerLogoAlt: `div.logo-art div.content p img`,
-    ManufacturerLogoWithHistory: `div.logo-art div.present a img`,
-    ManufacturerLogoCurrent: `div.logo-art div.current p.shadow a img`,
-  }
+  AllManufacturers: "section.az dd a",
+  CurrentLogo: "#bd-logo",
+  HistoryLogos: 'img[src^="/car-logos/"]',
 };
