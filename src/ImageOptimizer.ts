@@ -70,6 +70,20 @@ class ImageOptimizer extends BaseClass {
     console.log("Thumbnails created.");
   }
 
+  // Optimized + thumb for one original, same settings as a full run.
+  public async processOne(originalFile: string): Promise<string> {
+    const [name] = originalFile.split(".");
+    const targetFile = `${name}.png`;
+    await sharp(`${LogosTargetLocation.Original}/${originalFile}`)
+      .png(this.optimizeOpts)
+      .toFile(`${LogosTargetLocation.Optimized}/${targetFile}`);
+    await sharp(`${LogosTargetLocation.Optimized}/${targetFile}`)
+      .png(this.optimizeOpts)
+      .resize(this.resizeOpts)
+      .toFile(`${LogosTargetLocation.Thumbs}/${targetFile}`);
+    return targetFile;
+  }
+
   public async run() {
     try {
       console.log("Started image processing.");

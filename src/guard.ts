@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import { META_JSON_PATH } from "./config";
+import { ManufacturerLogos } from "./types";
 
 // Number of logos in the committed data.json (0 when it does not exist yet).
 export function currentLogoCount(metaPath: string = META_JSON_PATH): number {
@@ -18,4 +19,10 @@ export function assertNoShrink(next: number, current: number): void {
         `Add missing logos via local-logos/ instead, see CONTRIBUTING.md.`
     );
   }
+}
+
+// Adds or replaces one entry by slug and keeps data.json sorted by name.
+export function upsert(data: ManufacturerLogos, entry: ManufacturerLogos[number]): ManufacturerLogos {
+  const rest = data.filter((l) => l.slug !== entry.slug);
+  return [...rest, entry].sort((a, b) => a.name.localeCompare(b.name));
 }

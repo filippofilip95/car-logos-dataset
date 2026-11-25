@@ -18,5 +18,40 @@
     "name": "SEV",
     "slug": "sev",
     "fileName": "sev.png"
+  },
+  {
+    "name": "Jaecoo",
+    "slug": "jaecoo",
+    "fileName": "jaecoo.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Jaecoo_wordmark.svg",
+    "license": "Public domain (Wikimedia Commons)"
+  },
+  {
+    "name": "INEOS",
+    "slug": "ineos",
+    "fileName": "ineos.png",
+    "source": "https://commons.wikimedia.org/wiki/File:INEOS_logo.svg",
+    "license": "Public domain (Wikimedia Commons)"
+  },
+  {
+    "name": "Scout",
+    "slug": "scout",
+    "fileName": "scout.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Scout_Mark_2025.svg",
+    "license": "Public domain (Wikimedia Commons)"
+  },
+  {
+    "name": "KGM",
+    "slug": "kgm",
+    "fileName": "kgm.png",
+    "source": "https://commons.wikimedia.org/wiki/File:KG_Mobility_brand_logo.svg",
+    "license": "Public domain (Wikimedia Commons)"
+  },
+  {
+    "name": "Onvo",
+    "slug": "onvo",
+    "fileName": "onvo.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Onvo_logo.svg",
+    "license": "Public domain (Wikimedia Commons)"
   }
 ]
