@@ -24,6 +24,9 @@ LOGOS = [
     }
     for n, s in [("Mercedes-Benz", "mercedes-benz"), ("Skoda", "skoda"), ("Smart", "smart"), ("Merkur", "merkur")]
 ]
+# v2.8.0 metadata on two brands; the others look like a pre-2.8.0 data.json (no keys at all).
+LOGOS[0].update(wikidataId="Q36008", country="DE", founded=1926, nhtsaMakeId=449)
+LOGOS[1].update(wikidataId="Q29637", country="CZ", founded=1895, nhtsaMakeId=None)
 JSDELIVR = "https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.7.1/logos"
 
 
@@ -99,6 +102,20 @@ def test_page_limit_offset():
     p = logic.page(LOGOS, 2, 1)
     assert p["total"] == 4 and [b["slug"] for b in p["items"]] == ["skoda", "smart"]
     assert logic.page(LOGOS, 5, 10)["items"] == []
+
+
+def test_brand_metadata_and_nulls_for_old_data():
+    b = logic.brand(LOGOS[1])
+    assert (b["wikidataId"], b["country"], b["founded"], b["nhtsaMakeId"]) == ("Q29637", "CZ", 1895, None)
+    assert list(b) == ["name", "slug", "wikidataId", "country", "founded", "nhtsaMakeId", "image"]
+    old = logic.brand(LOGOS[2])
+    assert all(old[k] is None for k in logic.META_KEYS)
+
+
+def test_page_country_filter():
+    p = logic.page(LOGOS, 50, 0, country="CZ")
+    assert p["total"] == 1 and [b["slug"] for b in p["items"]] == ["skoda"]
+    assert logic.page(LOGOS, 50, 0, country="FR")["total"] == 0
 
 
 def test_search_case_insensitive_name_or_slug():
@@ -197,11 +214,24 @@ def test_index_links_and_source(client):
 def test_brands_default_page_and_paging(client):
     body = client.get("/brands").json()
     assert body["total"] == 4 and body["limit"] == 50 and body["offset"] == 0
-    assert set(body["items"][0]) == {"name", "slug", "image"}
+    assert set(body["items"][0]) == {"name", "slug", "wikidataId", "country", "founded", "nhtsaMakeId", "image"}
     assert [b["slug"] for b in client.get("/brands?limit=1&offset=1").json()["items"]] == ["skoda"]
 
 
-@pytest.mark.parametrize("query", ["limit=0", "limit=101", "limit=x", "offset=-1", "offset=10001"])
+def test_brands_country_filter_route(client):
+    body = client.get("/brands?country=DE").json()
+    assert body["total"] == 1 and body["items"][0]["slug"] == "mercedes-benz" and body["items"][0]["founded"] == 1926
+    assert client.get("/brands?country=US").json() == {"total": 0, "offset": 0, "limit": 50, "items": []}
+
+
+def test_brand_by_slug_has_metadata(client):
+    b = client.get("/brands/mercedes-benz").json()
+    assert b["wikidataId"] == "Q36008" and b["country"] == "DE" and b["nhtsaMakeId"] == 449
+    assert client.get("/brands/smart").json()["country"] is None
+
+
+@pytest.mark.parametrize("query", ["limit=0", "limit=101", "limit=x", "offset=-1", "offset=10001",
+                                   "country=de", "country=DEU", "country=D", "country=1A", "country="])
 def test_brands_param_bounds(client, query):
     assert_error(client.get(f"/brands?{query}"), 422, "invalid_request")
 
@@ -312,7 +342,9 @@ def test_openapi_has_response_models(client):
     for path in ["/", "/brands", "/brands/{slug}", "/search", "/random"]:
         ok = spec["paths"][path]["get"]["responses"]["200"]["content"]["application/json"]["schema"]
         assert "$ref" in ok, path
-    assert {"limit", "offset"} <= {p["name"] for p in spec["paths"]["/brands"]["get"]["parameters"]}
+    assert {"limit", "offset", "country"} <= {p["name"] for p in spec["paths"]["/brands"]["get"]["parameters"]}
+    brand = spec["components"]["schemas"]["Brand"]["properties"]
+    assert {"wikidataId", "country", "founded", "nhtsaMakeId"} <= set(brand)
 
 
 def test_robots(client):

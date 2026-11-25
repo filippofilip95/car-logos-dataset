@@ -1,6 +1,6 @@
 {
   "name": "car-logos-dataset",
-  "version": "2.7.1",
+  "version": "2.8.0",
   "description": "A comprehensive collection of 435 car manufacturer logos with multiple size variations and metadata",
   "repository": {
     "type": "git",
@@ -14,6 +14,7 @@
     "report": "tsx src/report.ts",
     "apply": "tsx src/apply.ts",
     "urls": "tsx src/urls.ts",
+    "metadata": "tsx src/metadata.ts",
     "sync:r2": "node scripts/sync-r2.mjs",
     "version": "npm run urls && git add logos/data.json",
     "test": "tsx --test src/*.test.ts",

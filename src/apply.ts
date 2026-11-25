@@ -65,6 +65,11 @@ async function main() {
     data = upsert(data, {
       name: existing ? existing.name : p.name,
       slug: p.slug,
+      // Brand metadata survives a logo replace; a new brand starts empty until npm run metadata.
+      wikidataId: existing?.wikidataId ?? null,
+      country: existing?.country ?? null,
+      founded: existing?.founded ?? null,
+      nhtsaMakeId: existing?.nhtsaMakeId ?? null,
       image: {
         source: p.source,
         thumb: PublicAccessUrl.Thumb(derived),

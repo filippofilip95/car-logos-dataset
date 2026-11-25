@@ -15,7 +15,15 @@ export type CoreManufacturerLogo = {
 
 export type ManufacturersLogos = CoreManufacturerLogo[];
 
-export type ManufacturerLogo = {
+// Open brand metadata (npm run metadata); null when the source has no single value.
+export type BrandMetadata = {
+  wikidataId?: string | null;
+  country?: string | null;
+  founded?: number | null;
+  nhtsaMakeId?: number | null;
+};
+
+export type ManufacturerLogo = BrandMetadata & {
   image: {
     original: string;
     localOriginal: string;

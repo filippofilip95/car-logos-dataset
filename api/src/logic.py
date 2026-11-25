@@ -20,6 +20,7 @@ def is_fresh(entry: dict, version: str, now: float, ttl: float) -> bool:
 
 DEFAULT_IMAGE_BASE = "https://cdn.jsdelivr.net/gh/" + REPO + "@v{version}/logos"
 IMAGE_DIRS = (("thumb", "localThumb"), ("optimized", "localOptimized"), ("original", "localOriginal"))
+META_KEYS = ("wikidataId", "country", "founded", "nhtsaMakeId")
 
 
 def image_base(template: str | None, version: str) -> str:
@@ -28,7 +29,7 @@ def image_base(template: str | None, version: str) -> str:
 
 
 def brand(logo: dict, base: str | None = None) -> dict:
-    """The public shape of one brand: name, slug and image URLs, with the source link.
+    """The public shape of one brand: name, slug, open metadata (null when unknown) and image URLs with the source link.
 
     With `base`, image URLs are `<base>/<dir>/<file>` from the local paths in data.json
     (R2 or jsDelivr); without it, the URLs in data.json as they are.
@@ -39,10 +40,14 @@ def brand(logo: dict, base: str | None = None) -> dict:
         rel = (img.get(local) or "").removeprefix("./")
         out[key] = f"{base}/{rel}" if base and rel else img.get(key)
     out["source"] = img.get("source")
-    return {"name": logo["name"], "slug": logo["slug"], "image": out}
+    meta = {k: logo.get(k) for k in META_KEYS}  # data releases before v2.8.0 have no metadata: all null
+    return {"name": logo["name"], "slug": logo["slug"], **meta, "image": out}
 
 
-def page(logos: list, limit: int, offset: int, base: str | None = None) -> dict:
+def page(logos: list, limit: int, offset: int, base: str | None = None, country: str | None = None) -> dict:
+    """One page of brands; with `country` (ISO 3166-1 alpha-2) only brands from that country, `total` counts those."""
+    if country:
+        logos = [l for l in logos if l.get("country") == country.upper()]
     items = logos[offset : offset + limit]
     return {"total": len(logos), "offset": offset, "limit": limit, "items": [brand(l, base) for l in items]}
 
@@ -100,7 +105,7 @@ def llms_txt(base: str, version: str) -> str:
     v = version.lstrip("v")
     return f"""# Car Logos Dataset API
 
-> Read-only JSON API over a dataset of car manufacturer logos (data release v{v}). Each brand has a name, a slug and image URLs (thumb, optimized, original) served by a CDN (jsDelivr, or the project's R2 domain); this API never serves images.
+> Read-only JSON API over a dataset of car manufacturer logos (data release v{v}). Each brand has a name, a slug, open metadata (Wikidata id, country, year founded, NHTSA make id) and image URLs (thumb, optimized, original) served by a CDN (jsDelivr, or the project's R2 domain); this API never serves images.
 
 Logos come from {SOURCE} and a few local sources; each brand's `image.source` links the original. Logos are trademarks of their respective owners, for identification only. Code and metadata are MIT licensed.
 
@@ -108,7 +113,7 @@ Logos come from {SOURCE} and a few local sources; each brand's `image.source` li
 
 - [OpenAPI schema]({base}/openapi.json): machine-readable reference of every endpoint
 - [Interactive docs]({base}/docs): Swagger UI
-- [List brands]({base}/brands?limit=20&offset=0): paged list, `limit` 1 to 100 (default 50), `offset` 0 to 10000
+- [List brands]({base}/brands?limit=20&offset=0): paged list, `limit` 1 to 100 (default 50), `offset` 0 to 10000, optional `country` (ISO code like `DE`)
 - [One brand]({base}/brands/skoda): by slug, 404 JSON when missing
 - [Search]({base}/search?q=mer): case-insensitive match on name or slug, at most 50
 - [Random]({base}/random?count=3): 1 to 20 random brands
@@ -135,10 +140,10 @@ def llms_full_txt(base: str, version: str) -> str:
 A brand looks like:
 
 ```json
-{{"name": "Škoda", "slug": "skoda", "image": {{"thumb": "https://cdn.jsdelivr.net/gh/{REPO}@v{v}/logos/thumb/skoda.png", "optimized": "...", "original": "...", "source": "https://www.carlogos.org/..."}}}}
+{{"name": "Škoda", "slug": "skoda", "wikidataId": "Q29637", "country": "CZ", "founded": 1895, "nhtsaMakeId": null, "image": {{"thumb": "https://cdn.jsdelivr.net/gh/{REPO}@v{v}/logos/thumb/skoda.png", "optimized": "...", "original": "...", "source": "https://www.carlogos.org/..."}}}}
 ```
 
-Image URLs come from the image CDN (jsDelivr or the project's own R2 domain); the API never serves images.
+`wikidataId` (Wikidata item), `country` (ISO 3166-1 alpha-2), `founded` (year) and `nhtsaMakeId` (NHTSA vPIC Make_ID) are null when unknown; they come from Wikidata (CC0) and NHTSA vPIC (public domain) since data release v2.8.0. Image URLs come from the image CDN (jsDelivr or the project's own R2 domain); the API never serves images.
 
 ## GET {base}/
 
@@ -146,7 +151,7 @@ Index: data version, brand count, links, source attribution.
 
 ## GET {base}/brands
 
-Query: `limit` (1 to 100, default 50), `offset` (0 to 10000). Returns `{{"total", "offset", "limit", "items": [brand]}}`.
+Query: `limit` (1 to 100, default 50), `offset` (0 to 10000), optional `country` (ISO 3166-1 alpha-2 in capitals, e.g. `DE`; only brands from that country, `total` counts them). Returns `{{"total", "offset", "limit", "items": [brand]}}`.
 
 ## GET {base}/brands/{{slug}}
 

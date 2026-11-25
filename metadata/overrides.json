@@ -1,0 +1,143 @@
+{
+  "apollo": {
+    "wikidataId": null,
+    "reason": "Logo is Apollo Automobil (the Gumpert successor); the three exact-label matches are older Apollo makers and no item for Apollo Automobil was found",
+    "evidence": "Q618968 Apollo: German automobile; Q4780258 Apollo: 1906 American automobile; Q31836839 Apollo (no description)"
+  },
+  "ats": {
+    "wikidataId": null,
+    "reason": "Auto match was a SARA ATS car model; the logo (2012) is the revived ATS marque, and it is unclear whether Q173229 covers it",
+    "evidence": "Q55098629 SARA ATS: automobile; Q173229 Automobili Turismo e Sport: Italian auto racing constructor and team"
+  },
+  "austin": {
+    "country": null,
+    "reason": "Wikidata P17 of Austin Motor Company is Morocco, which contradicts its description; left null instead of trusting it",
+    "evidence": "Q781156 Austin: defunct English manufacturer of motor vehicles (P17 Morocco)"
+  },
+  "brammo": {
+    "wikidataId": "Q4956201",
+    "reason": "Only automotive candidate; the Brammo electric vehicle company",
+    "evidence": "Q4956201 Brammo: American producer of electric traction motors and traction batteries"
+  },
+  "brockway": {
+    "wikidataId": "Q2925915",
+    "reason": "Only candidate, the Brockway truck maker",
+    "evidence": "Q2925915 Brockway Motor Company: builder of custom heavy-duty trucks in Cortland, New York"
+  },
+  "dayun": {
+    "wikidataId": "Q3817810",
+    "reason": "Only candidate, the Dayun vehicle group",
+    "evidence": "Q3817810 Dayun Group: Chinese vehicle manufacturing conglomerate"
+  },
+  "devel-sixteen": {
+    "wikidataId": "Q30924062",
+    "reason": "Only candidate; the logo is the Devel Sixteen car",
+    "evidence": "Q30924062 Devel Sixteen: hypercar prototype"
+  },
+  "eicher": {
+    "wikidataId": "Q1301821",
+    "reason": "Auto match was the German tractor maker Eicher; the logo is the Indian Eicher Motors (trucks and buses)",
+    "evidence": "Q1301821 Eicher Motors: Indian automaker company (rejected Q540281 Eicher: manufacturer of tractors, agricultural machinery and engines)"
+  },
+  "exeed": {
+    "wikidataId": "Q109546700",
+    "reason": "Only candidate, the Chery marque",
+    "evidence": "Q109546700 Exeed: premium SUV marque by Chery Automobile"
+  },
+  "fso": {
+    "wikidataId": "Q27786",
+    "reason": "Two makers share the FSO label; the logo is the FSO company, not the Polski Fiat brand",
+    "evidence": "Q27786 Fabryka Samochodów Osobowych: Polish automobile manufacturer (rejected Q618466 Polski FIAT)"
+  },
+  "galaxy": {
+    "wikidataId": "Q122783577",
+    "reason": "Exact label only matched ships; the logo (2023) is Geely Galaxy",
+    "evidence": "Q122783577 Geely Galaxy: Electric Car Brand"
+  },
+  "golden-dragon": {
+    "wikidataId": "Q4039559",
+    "reason": "Only candidate, the bus maker",
+    "evidence": "Q4039559 Golden Dragon: Chinese bus manfacturer"
+  },
+  "hudson": {
+    "wikidataId": "Q1313428",
+    "reason": "Exact label matched two small Hudson makers; the logo is the Hudson Motor Car Company",
+    "evidence": "Q1313428 Hudson Motor Car Company: defunct auto manufacturer"
+  },
+  "karma": {
+    "wikidataId": "Q22671741",
+    "reason": "Exact label only matched a card game",
+    "evidence": "Q22671741 Karma Automotive: automaker owned by Wanxiang Group and based in Costa Mesa, California"
+  },
+  "kraz": {
+    "wikidataId": "Q783036",
+    "reason": "Only candidate, the KrAZ truck plant",
+    "evidence": "Q783036 KrAZ: Kremenchuk Automobile Plant"
+  },
+  "lincoln": {
+    "wikidataId": "Q216796",
+    "reason": "Auto match was a 1914 Lincoln two-seater; the logo is the Ford luxury brand",
+    "evidence": "Q216796 Lincoln Motor Company: luxury division of Ford Motor Company (rejected Q6550445 Lincoln: light two-seater built by the Lincoln Motor Car Company in Detroit)"
+  },
+  "mack": {
+    "wikidataId": "Q950650",
+    "reason": "Exact label only matched a Cars character",
+    "evidence": "Q950650 Mack Trucks: American company"
+  },
+  "marcos": {
+    "wikidataId": "Q1637323",
+    "reason": "Exact label only matched a ship",
+    "evidence": "Q1637323 Marcos Engineering: Defunct British sports car manufacturer"
+  },
+  "mercedes-amg": {
+    "founded": null,
+    "reason": "Wikidata P571 for Mercedes-AMG is 1812, which is not the founding of AMG; left null",
+    "evidence": "Q26966 Mercedes-AMG: subsidiary and sub-brand of Mercedes-Benz AG (P571 1812-06-01)"
+  },
+  "mev": {
+    "wikidataId": null,
+    "reason": "Logo is Mills Extreme Vehicles (UK); the only candidate is a different start-up; the vPIC make MEV is not shown to be the same company, so nhtsaMakeId is null too",
+    "evidence": "Q96391205 MEV Automobiles: start up electric vehicle manufacturer",
+    "nhtsaMakeId": null
+  },
+  "mk": {
+    "wikidataId": "Q1881582",
+    "reason": "Exact label only matched a registration code; the logo is MK Sportscars",
+    "evidence": "Q1881582 MK Sportscars: English sportscar kit manufacturer"
+  },
+  "nio": {
+    "wikidataId": "Q29921278",
+    "reason": "Auto match was Onvo (its item has the alias NIO), which made nio and onvo share one item",
+    "evidence": "Q29921278 Nio Inc.: Chinese car company (rejected Q125967298 Onvo: Chinese electric vehicle brand by NIO)"
+  },
+  "smart": {
+    "wikidataId": "Q156490",
+    "reason": "The item's label is lower-case 'smart', so the exact match on 'Smart' only found ships",
+    "evidence": "Q156490 smart: German automotive manufacturer"
+  },
+  "tata": {
+    "founded": null,
+    "reason": "The matched item now describes the 2024 demerged commercial vehicle company, so its inception (2024) is not the brand's founding",
+    "evidence": "Q188514 Tata Motors Limited: Indian multinational commercial vehicle manufacturer (P571 2024-06-23)"
+  },
+  "toyota-alphard": {
+    "wikidataId": "Q1582046",
+    "reason": "Three minivan models share the label; the logo is the Alphard",
+    "evidence": "Q1582046 Toyota Alphard: minivan model"
+  },
+  "volkswagen": {
+    "wikidataId": "Q246",
+    "reason": "Brand and group both match; the logo is the Volkswagen brand, not the group",
+    "evidence": "Q246 Volkswagen: German automotive brand; manufacturing subsidiary of Volkswagen Group (rejected Q156578 Volkswagen Group)"
+  },
+  "western-star": {
+    "wikidataId": "Q1370660",
+    "reason": "Exact label only matched a ship",
+    "evidence": "Q1370660 Western Star Trucks: American truck manufacturer"
+  },
+  "westfield": {
+    "wikidataId": "Q2095422",
+    "reason": "Auto match was an American maker that has Westfield as an alias; the logo is the British Westfield Sportscars",
+    "evidence": "Q2095422 Westfield Sportscars: UK business (rejected Q63347834 C. J. Moore Manufacturing Company: American vehicle manufacturer)"
+  }
+}

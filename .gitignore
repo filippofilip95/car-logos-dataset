@@ -39,3 +39,6 @@ node_modules
 yarn-error.log
 
 # End of https://www.gitignore.io/api/macos
+
+# npm run metadata response cache
+cache/

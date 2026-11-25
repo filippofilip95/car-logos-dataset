@@ -1,0 +1,3009 @@
+{
+  "9ff": {
+    "wikidataId": "Q277502",
+    "label": "9ff",
+    "description": "car tuning company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "abadal": {
+    "wikidataId": "Q26794",
+    "label": "Abadal",
+    "description": "Spanish car manufacturer between 1912 and 1923",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "abarth": {
+    "wikidataId": "Q26823",
+    "label": "Abarth",
+    "description": "Italian automotive company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "abbott-detroit": {
+    "wikidataId": "Q26865",
+    "label": "Abbott-Detroit",
+    "description": "American luxury automobile manufactured between 1909 and 1919",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "abt": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "ac": {
+    "wikidataId": "Q26893",
+    "label": "AC Cars",
+    "description": "British specialist automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "acura": {
+    "wikidataId": "Q53097",
+    "label": "Acura",
+    "description": "car brand and luxury vehicle division of Japanese automaker Honda Motor Company",
+    "via": "label",
+    "nhtsaMakeId": 475,
+    "nhtsaName": "ACURA"
+  },
+  "aion": {
+    "wikidataId": "Q85740196",
+    "label": "GAC Aion",
+    "description": "Chinese electric vehicle company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "aito": {
+    "wikidataId": "Q111660349",
+    "label": "AITO",
+    "description": "Chinese car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "aiways": {
+    "wikidataId": "Q65158716",
+    "label": "Aiways",
+    "description": "Chinese EV manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "aixam": {
+    "wikidataId": "Q6751",
+    "label": "Aixam",
+    "description": "French automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "alfa-romeo": {
+    "wikidataId": "Q26921",
+    "label": "Alfa Romeo",
+    "description": "Italian automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 493,
+    "nhtsaName": "ALFA ROMEO"
+  },
+  "alpina": {
+    "wikidataId": "Q203550",
+    "label": "Alpina",
+    "description": "German automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "alpine": {
+    "wikidataId": "Q26944",
+    "label": "Alpine",
+    "description": "French car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "alta": {
+    "wikidataId": "Q433446",
+    "label": "Alta",
+    "description": "Greek automobiles manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "alvis": {
+    "wikidataId": "Q26952",
+    "label": "Alvis Car and Engineering Company Ltd",
+    "description": "British manufacturing company in Coventry, England",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "amc": {
+    "wikidataId": "Q202708",
+    "label": "American Motors Corporation",
+    "description": "American automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ankai": {
+    "wikidataId": "Q82467",
+    "label": "Ankai",
+    "description": "automobile company based in Anhui, China",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "apollo": {
+    "wikidataId": null,
+    "via": "override",
+    "nhtsaMakeId": null
+  },
+  "arash": {
+    "wikidataId": "Q626414",
+    "label": "Arash Motor Company",
+    "description": "automobile company based in the U.K.",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "arcfox": {
+    "wikidataId": "Q95786931",
+    "label": "Arcfox",
+    "description": "Chinese EV brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "aria": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "ariel": {
+    "wikidataId": "Q132544044",
+    "label": "Ariel Motor Company",
+    "description": "defunct American automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "aro": {
+    "wikidataId": "Q27061",
+    "label": "ARO",
+    "description": "Romanian off-road vehicle manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "arrinera": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "arrival": {
+    "wikidataId": "Q28405615",
+    "label": "Arrival",
+    "description": "electric vehicle designer and manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "artega": {
+    "wikidataId": "Q706453",
+    "label": "Artega Automobile",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ascari": {
+    "wikidataId": "Q202819",
+    "label": "Ascari Cars",
+    "description": "British automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "askam": {
+    "wikidataId": "Q4807118",
+    "label": "Askam",
+    "description": "Turkish truck manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "aspark": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "aston-martin": {
+    "wikidataId": "Q27074",
+    "label": "Aston Martin Lagonda",
+    "description": "British luxury sports car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 440,
+    "nhtsaName": "ASTON MARTIN"
+  },
+  "atalanta": {
+    "wikidataId": "Q753296",
+    "label": "Atalanta Motors",
+    "description": "English automobile",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ats": {
+    "wikidataId": null,
+    "via": "override",
+    "nhtsaMakeId": null
+  },
+  "auburn": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "audi": {
+    "wikidataId": "Q23317",
+    "label": "Audi AG",
+    "description": "German automotive manufacturing subsidiary of Volkswagen Group",
+    "via": "label",
+    "nhtsaMakeId": 582,
+    "nhtsaName": "AUDI"
+  },
+  "audi-sport": {
+    "wikidataId": "Q265618",
+    "label": "Audi Sport",
+    "description": "German high-performance automobile brand owned by Audi",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "aurus": {
+    "wikidataId": "Q52834700",
+    "label": "Aurus",
+    "description": "Russian car model",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "austin": {
+    "wikidataId": "Q781156",
+    "label": "Austin",
+    "description": "defunct English manufacturer of motor vehicles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "autobacs": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "autobianchi": {
+    "wikidataId": "Q27110",
+    "label": "Autobianchi",
+    "description": "Italian automobile manufacturer active from 1955 to 1995",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "avatr": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "axon": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "bac": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "baic-motor": {
+    "wikidataId": "Q33111848",
+    "label": "BAIC Motor",
+    "description": "Chinese car manufacturer based in Beijing",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "baojun": {
+    "wikidataId": "Q2883616",
+    "label": "Baojun",
+    "description": "Chinese automobile marque of SAIC-GM-Wuling",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "beiben": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "bentley": {
+    "wikidataId": "Q27224",
+    "label": "Bentley",
+    "description": "British automotive brand manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 583,
+    "nhtsaName": "BENTLEY"
+  },
+  "berkeley": {
+    "wikidataId": "Q16830614",
+    "label": "Berkeley",
+    "description": "UK automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "berliet": {
+    "wikidataId": "Q6750",
+    "label": "Berliet",
+    "description": "1901-1978 automotive manufacturer now owned by Renault",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "bertone": {
+    "wikidataId": "Q27325",
+    "label": "Bertone",
+    "description": "Italian automobile company",
+    "via": "label",
+    "nhtsaMakeId": 13026,
+    "nhtsaName": "BERTONE"
+  },
+  "bestune": {
+    "wikidataId": "Q830664",
+    "label": "Bestune",
+    "description": "automotive marque of the FAW Group",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "bharatbenz": {
+    "wikidataId": "Q1107991",
+    "label": "BharatBenz",
+    "description": "Daimler Truck's subsidiary under Daimler India Commercial Vehicles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "bitter": {
+    "wikidataId": "Q27334",
+    "label": "Bitter Automobile",
+    "description": "Premium sports-luxury automobile marque.",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "bizzarrini": {
+    "wikidataId": "Q1425751",
+    "label": "Bizzarrini",
+    "description": "Italian automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "bmw": {
+    "wikidataId": "Q26678",
+    "label": "BMW",
+    "description": "German automobile manufacturer, and conglomerate",
+    "via": "label",
+    "nhtsaMakeId": 452,
+    "nhtsaName": "BMW"
+  },
+  "bmw-m": {
+    "wikidataId": "Q173339",
+    "label": "BMW M",
+    "description": "high-performance cars manufacturer owned by BMW",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "borgward": {
+    "wikidataId": "Q27377",
+    "label": "Borgward",
+    "description": "German automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "bowler": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "brabus": {
+    "wikidataId": "Q321785",
+    "label": "Brabus",
+    "description": "German aftermarket tuning company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "brammo": {
+    "wikidataId": "Q4956201",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Brammo",
+    "description": "American producer of electric traction motors and traction batteries"
+  },
+  "brilliance": {
+    "wikidataId": "Q917192",
+    "label": "Brilliance Auto",
+    "description": "Chinese state-owned automotive manufacturing company and parent of Brilliance Auto",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "bristol": {
+    "wikidataId": "Q27392",
+    "label": "Bristol Cars",
+    "description": "Manufacturer of hand-built luxury cars",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "brockway": {
+    "wikidataId": "Q2925915",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Brockway Motor Company",
+    "description": "builder of custom heavy-duty trucks in Cortland, New York"
+  },
+  "brooke": {
+    "wikidataId": "Q928803",
+    "label": "Brooke Cars",
+    "description": "automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "bufori": {
+    "wikidataId": "Q1002164",
+    "label": "Bufori",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "bugatti": {
+    "wikidataId": "Q2308012",
+    "label": "Bugatti",
+    "description": "French high-performance luxury automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 454,
+    "nhtsaName": "BUGATTI"
+  },
+  "buick": {
+    "wikidataId": "Q27415",
+    "label": "Buick",
+    "description": "luxury car brand of General Motors",
+    "via": "label",
+    "nhtsaMakeId": 468,
+    "nhtsaName": "BUICK"
+  },
+  "byd": {
+    "wikidataId": "Q2608329",
+    "label": "BYD",
+    "description": "Chinese battery and electric vehicles manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 1991,
+    "nhtsaName": "BYD"
+  },
+  "byton": {
+    "wikidataId": "Q47313237",
+    "label": "Byton",
+    "description": "Chinese car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "cadillac": {
+    "wikidataId": "Q27436",
+    "label": "Cadillac",
+    "description": "division of General Motors",
+    "via": "label",
+    "nhtsaMakeId": 469,
+    "nhtsaName": "CADILLAC"
+  },
+  "camc": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "canoo": {
+    "wikidataId": "Q99482082",
+    "label": "Canoo",
+    "description": "American manufacturer of electric vehicles",
+    "via": "label",
+    "nhtsaMakeId": 12144,
+    "nhtsaName": "CANOO"
+  },
+  "caparo": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "carlsson": {
+    "wikidataId": "Q690124",
+    "label": "Carlsson",
+    "description": "German car tuning manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "caterham": {
+    "wikidataId": "Q132656719",
+    "label": "Caterham",
+    "description": "car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "changan": {
+    "wikidataId": "Q29366",
+    "label": "Changan Automobile",
+    "description": "Chinese state-owned automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "changfeng": {
+    "wikidataId": "Q615440",
+    "label": "Changfeng Motor",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "chery": {
+    "wikidataId": "Q591001",
+    "label": "Chery",
+    "description": "Chinese automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "chevrolet": {
+    "wikidataId": "Q29570",
+    "label": "Chevrolet",
+    "description": "American automobile division of GM",
+    "via": "label",
+    "nhtsaMakeId": 467,
+    "nhtsaName": "CHEVROLET"
+  },
+  "chevrolet-corvette": {
+    "wikidataId": "Q56166",
+    "label": "Chevrolet Corvette",
+    "description": "sports car by the Chevrolet division of General Motors (GM)",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "chrysler": {
+    "wikidataId": "Q29610",
+    "label": "Chrysler",
+    "description": "American automotive brand",
+    "via": "label",
+    "nhtsaMakeId": 477,
+    "nhtsaName": "CHRYSLER"
+  },
+  "cisitalia": {
+    "wikidataId": "Q1093218",
+    "label": "Cisitalia",
+    "description": "Italian carmaker",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "citroen": {
+    "wikidataId": "Q6746",
+    "label": "Citroën",
+    "description": "French automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 12455,
+    "nhtsaName": "CITROEN"
+  },
+  "cizeta": {
+    "wikidataId": "Q203084",
+    "label": "Cizeta",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "cole": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "corre-la-licorne": {
+    "wikidataId": "Q954827",
+    "label": "Corre La Licorne",
+    "description": "1907-1950 automotive brand manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "cupra": {
+    "wikidataId": "Q8352675",
+    "label": "Cupra",
+    "description": "Spanish automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "czinger": {
+    "wikidataId": "Q99670567",
+    "label": "Czinger",
+    "description": "American car company",
+    "via": "label",
+    "nhtsaMakeId": 10256,
+    "nhtsaName": "CZINGER"
+  },
+  "dacia": {
+    "wikidataId": "Q27460",
+    "label": "Dacia",
+    "description": "brand and romanian car manufacturer from Renault",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "daewoo": {
+    "wikidataId": "Q27483",
+    "label": "Daewoo Motors",
+    "description": "defunct South Korean automotive company (1972-2007)",
+    "via": "label",
+    "nhtsaMakeId": 1077,
+    "nhtsaName": "DAEWOO"
+  },
+  "daf": {
+    "wikidataId": "Q27489",
+    "label": "DAF",
+    "description": "Netherlands branch of American manufacturer Paccar",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "daihatsu": {
+    "wikidataId": "Q27511",
+    "label": "Daihatsu",
+    "description": "Japanese automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 847,
+    "nhtsaName": "DAIHATSU"
+  },
+  "daimler": {
+    "wikidataId": "Q27530",
+    "label": "Mercedes-Benz Group",
+    "description": "German automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 10285,
+    "nhtsaName": "DAIMLER"
+  },
+  "dallara": {
+    "wikidataId": "Q1157975",
+    "label": "Dallara",
+    "description": "automobile chassis manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "dartz": {
+    "wikidataId": "Q4037047",
+    "label": "Dartz",
+    "description": "Latvian manufacturer of armored vehicles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "datsun": {
+    "wikidataId": "Q27543",
+    "label": "Datsun",
+    "description": "automobile brand of Nissan",
+    "via": "label",
+    "nhtsaMakeId": 5657,
+    "nhtsaName": "DATSUN"
+  },
+  "david-brown": {
+    "wikidataId": "Q16954644",
+    "label": "David Brown Automotive",
+    "description": "British Coach Builder (Aston Martin Mini)",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "dayun": {
+    "wikidataId": "Q3817810",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Dayun Group",
+    "description": "Chinese vehicle manufacturing conglomerate"
+  },
+  "de-tomaso": {
+    "wikidataId": "Q173085",
+    "label": "De Tomaso",
+    "description": "Italian car-manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "deepal": {
+    "wikidataId": "Q112874951",
+    "label": "Deepal",
+    "description": "Chinese NEV car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "delage": {
+    "wikidataId": "Q27550",
+    "label": "Delage",
+    "description": "French car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "denza": {
+    "wikidataId": "Q2381970",
+    "label": "Denza",
+    "description": "Chinese EV / PHEV car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "desoto": {
+    "wikidataId": "Q27558",
+    "label": "DeSoto",
+    "description": "American automobile brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "detroit-electric": {
+    "wikidataId": "Q1201537",
+    "label": "Detroit Electric",
+    "description": "car company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "devalliet": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "devel-sixteen": {
+    "wikidataId": "Q30924062",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Devel Sixteen",
+    "description": "hypercar prototype"
+  },
+  "diatto": {
+    "wikidataId": "Q1209227",
+    "label": "Diatto",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "dina": {
+    "wikidataId": null,
+    "via": "ambiguous",
+    "nhtsaMakeId": null
+  },
+  "dkw": {
+    "wikidataId": "Q639268",
+    "label": "DKW",
+    "description": "German car and motorcycle marque, now Audi",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "dmc": {
+    "wikidataId": "Q1241608",
+    "label": "DeLorean Motor Company",
+    "description": "American former automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "dodge": {
+    "wikidataId": "Q27564",
+    "label": "Dodge",
+    "description": "US automotive company",
+    "via": "label",
+    "nhtsaMakeId": 476,
+    "nhtsaName": "DODGE"
+  },
+  "dodge-viper": {
+    "wikidataId": "Q644430",
+    "label": "Dodge Viper",
+    "description": "sports car produced by Dodge",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "dongfeng": {
+    "wikidataId": "Q1138452",
+    "label": "Dongfeng Motor Corporation",
+    "description": "Chinese state-owned automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 10623,
+    "nhtsaName": "DONGFENG"
+  },
+  "donkervoort": {
+    "wikidataId": "Q27571",
+    "label": "Donkervoort",
+    "description": "Dutch car manufacturer and its brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "drako": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "ds": {
+    "wikidataId": "Q16040593",
+    "label": "DS Automobiles",
+    "description": "French premium car marque of Stellantis",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "duesenberg": {
+    "wikidataId": "Q27582",
+    "label": "Duesenberg",
+    "description": "American manufacturer of luxury automobiles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "eagle": {
+    "wikidataId": "Q1203417",
+    "label": "Eagle",
+    "description": "automobile marque",
+    "via": "label",
+    "nhtsaMakeId": 2408,
+    "nhtsaName": "EAGLE"
+  },
+  "edag": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "edsel": {
+    "wikidataId": "Q1287696",
+    "label": "Edsel",
+    "description": "brand of automobile marketed by the Ford Motor Company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "eicher": {
+    "wikidataId": "Q1301821",
+    "label": "Eicher Motors",
+    "description": "Indian automaker company rq",
+    "via": "override",
+    "nhtsaMakeId": null
+  },
+  "elemental": {
+    "wikidataId": "Q123256634",
+    "label": "Elemental Motor Company",
+    "description": "British car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "elfin": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "elva": {
+    "wikidataId": "Q731862",
+    "label": "Elva",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "englon": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "erf": {
+    "wikidataId": "Q473611",
+    "label": "ERF",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "eterniti": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "exeed": {
+    "wikidataId": "Q109546700",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Exeed",
+    "description": "premium SUV marque by Chery Automobile"
+  },
+  "facel-vega": {
+    "wikidataId": "Q743344",
+    "label": "Facel Vega",
+    "description": "French automotive brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "fangchengbao": {
+    "wikidataId": "Q123556040",
+    "label": "Fangchengbao",
+    "description": "Chinese luxury electric car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "faraday-future": {
+    "wikidataId": "Q21562062",
+    "label": "Faraday Future",
+    "description": "American electric vehicle company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "faw": {
+    "wikidataId": "Q12012840",
+    "label": "First Automobile Works",
+    "description": "Chinese car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "faw-jiefang": {
+    "wikidataId": "Q5424519",
+    "label": "FAW Jie Fang",
+    "description": "Chinese truck manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ferrari": {
+    "wikidataId": "Q27586",
+    "label": "Ferrari",
+    "description": "Italian luxury sports car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 603,
+    "nhtsaName": "FERRARI"
+  },
+  "fiat": {
+    "wikidataId": "Q27597",
+    "label": "Fiat",
+    "description": "Italian automotive company",
+    "via": "label",
+    "nhtsaMakeId": 492,
+    "nhtsaName": "FIAT"
+  },
+  "fioravanti": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "fisker": {
+    "wikidataId": "Q1420893",
+    "label": "Fisker",
+    "description": "American automotive company",
+    "via": "label",
+    "nhtsaMakeId": 11856,
+    "nhtsaName": "FISKER"
+  },
+  "foden": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "force-motors": {
+    "wikidataId": "Q1436646",
+    "label": "Force Motors",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ford": {
+    "wikidataId": "Q44294",
+    "label": "Ford Motor Company",
+    "description": "American multinational automotive company",
+    "via": "label",
+    "nhtsaMakeId": 460,
+    "nhtsaName": "FORD"
+  },
+  "ford-mustang": {
+    "wikidataId": "Q183476",
+    "label": "Ford Mustang",
+    "description": "American muscle car model",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "foton": {
+    "wikidataId": "Q814825",
+    "label": "Foton Motor",
+    "description": "Vehicle manufacturing company based in Changping, Beijing, China",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "fpv": {
+    "wikidataId": "Q1436952",
+    "label": "Ford Performance Vehicles",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "franklin": {
+    "wikidataId": "Q5491225",
+    "label": "Franklin",
+    "description": "American manufacturer of automobiles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "freightliner": {
+    "wikidataId": "Q1420724",
+    "label": "Freightliner",
+    "description": "American truck brand",
+    "via": "label",
+    "nhtsaMakeId": 450,
+    "nhtsaName": "FREIGHTLINER"
+  },
+  "fso": {
+    "wikidataId": "Q27786",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Fabryka Samochodów Osobowych",
+    "description": "Polish automobile manufacturer"
+  },
+  "gac-group": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "galaxy": {
+    "wikidataId": "Q122783577",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Geely Galaxy",
+    "description": "Electric Car Brand"
+  },
+  "gardner-douglas": {
+    "wikidataId": "Q5522595",
+    "label": "Gardner Douglas",
+    "description": "motor vehicle",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "gaz": {
+    "wikidataId": "Q28616",
+    "label": "GAZ",
+    "description": "manufacturer of commercial vehicles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "geely": {
+    "wikidataId": "Q739000",
+    "label": "Geely",
+    "description": "Chinese automotive manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "general-motors": {
+    "wikidataId": "Q81965",
+    "label": "General Motors",
+    "description": "American multinational automotive company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "genesis": {
+    "wikidataId": "Q21451523",
+    "label": "Genesis Motor",
+    "description": "South Korean luxury brand",
+    "via": "label",
+    "nhtsaMakeId": 5083,
+    "nhtsaName": "GENESIS"
+  },
+  "geo": {
+    "wikidataId": "Q1502806",
+    "label": "Geo",
+    "description": "marque of small cars made by General Motors",
+    "via": "label",
+    "nhtsaMakeId": 1146,
+    "nhtsaName": "GEO"
+  },
+  "geometry": {
+    "wikidataId": "Q65064934",
+    "label": "Geometry",
+    "description": "Chinese EV brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "gilbern": {
+    "wikidataId": "Q646832",
+    "label": "Gilbern",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "gillet": {
+    "wikidataId": "Q674555",
+    "label": "Gillet",
+    "description": "Belgian automaker",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ginetta": {
+    "wikidataId": "Q167016",
+    "label": "Ginetta Cars",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "gma": {
+    "wikidataId": "Q65129456",
+    "label": "Gordon Murray Automotive",
+    "description": "British car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "gmc": {
+    "wikidataId": "Q28993",
+    "label": "GMC",
+    "description": "division of General Motors",
+    "via": "label",
+    "nhtsaMakeId": 472,
+    "nhtsaName": "GMC"
+  },
+  "golden-dragon": {
+    "wikidataId": "Q4039559",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Golden Dragon",
+    "description": "Chinese bus manfacturer"
+  },
+  "gonow": {
+    "wikidataId": "Q197541",
+    "label": "Gonow",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "great-wall": {
+    "wikidataId": "Q1117001",
+    "label": "Great Wall Motor",
+    "description": "Chinese vehicle manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "grinnall": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "gumpert": {
+    "wikidataId": "Q688366",
+    "label": "Gumpert",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hafei": {
+    "wikidataId": "Q1494782",
+    "label": "Hafei Motor Co.",
+    "description": "Chinese car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "haima": {
+    "wikidataId": "Q25381963",
+    "label": "Hainan Mazda",
+    "description": "automobile brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "haval": {
+    "wikidataId": "Q28223947",
+    "label": "Haval",
+    "description": "Chinese automotive brand owned by Great Wall Motor",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hawtai": {
+    "wikidataId": "Q905009",
+    "label": "Hawtai",
+    "description": "Chinese company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hennessey": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "higer": {
+    "wikidataId": "Q1617677",
+    "label": "Higer",
+    "description": "Chinese manufacturer of buses and coaches",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hillman": {
+    "wikidataId": "Q1544816",
+    "label": "Hillman",
+    "description": "British automobile marque",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hindustan-motors": {
+    "wikidataId": "Q1422710",
+    "label": "Hindustan Motors",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hino": {
+    "wikidataId": "Q867667",
+    "label": "Hino Motors",
+    "description": "Japanese commercial vehicle and diesel engine company",
+    "via": "label",
+    "nhtsaMakeId": 514,
+    "nhtsaName": "HINO"
+  },
+  "hiphi": {
+    "wikidataId": "Q99479670",
+    "label": "HiPhi",
+    "description": "Chinese EV startup",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hispano-suiza": {
+    "wikidataId": "Q29068",
+    "label": "Hispano-Suiza",
+    "description": "automotive, engine, and armament manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hofele": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "holden": {
+    "wikidataId": "Q29281",
+    "label": "Holden",
+    "description": "Australian subsidiary of General Motors, an automaker",
+    "via": "label",
+    "nhtsaMakeId": 470,
+    "nhtsaName": "HOLDEN"
+  },
+  "hommell": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "honda": {
+    "wikidataId": "Q9584",
+    "label": "Honda",
+    "description": "manufacturer of automobiles, motorcycles, and power equipment",
+    "via": "label",
+    "nhtsaMakeId": 474,
+    "nhtsaName": "HONDA"
+  },
+  "hongqi": {
+    "wikidataId": "Q1611731",
+    "label": "Hongqi",
+    "description": "Chinese luxury car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hongyan": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "horch": {
+    "wikidataId": "Q29296",
+    "label": "Horch",
+    "description": "car brand manufactured in Germany by August Horch & Cie",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hsv": {
+    "wikidataId": "Q1624372",
+    "label": "Holden Special Vehicles",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hudson": {
+    "wikidataId": "Q1313428",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Hudson Motor Car Company",
+    "description": "defunct auto manufacturer"
+  },
+  "hummer": {
+    "wikidataId": "Q213487",
+    "label": "Hummer",
+    "description": "American car brand",
+    "via": "label",
+    "nhtsaMakeId": 951,
+    "nhtsaName": "HUMMER"
+  },
+  "hupmobile": {
+    "wikidataId": "Q1638351",
+    "label": "Hupmobile",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "hyundai": {
+    "wikidataId": "Q55931",
+    "label": "Hyundai Motor Company",
+    "description": "South Korean multinational automaker",
+    "via": "label",
+    "nhtsaMakeId": 498,
+    "nhtsaName": "HYUNDAI"
+  },
+  "ic-bus": {
+    "wikidataId": "Q5969834",
+    "label": "Integrated Coach Corporation",
+    "description": "School bus manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 524,
+    "nhtsaName": "IC BUS"
+  },
+  "icar": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "ih": {
+    "wikidataId": "Q263800",
+    "label": "International Harvester",
+    "description": "U.S. manufacturer of agricultural machinery and construction equipment",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ikco": {
+    "wikidataId": "Q1343045",
+    "label": "Iran Khodro",
+    "description": "Iranian automotive brand manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "im": {
+    "wikidataId": "Q106617594",
+    "label": "IM Motors",
+    "description": "Chinese automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ineos": {
+    "wikidataId": "Q108757682",
+    "label": "Ineos Automotive",
+    "description": "British car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 12360,
+    "nhtsaName": "INEOS"
+  },
+  "infiniti": {
+    "wikidataId": "Q29714",
+    "label": "Infiniti",
+    "description": "Japanese luxury vehicle brand owned by Nissan",
+    "via": "label",
+    "nhtsaMakeId": 480,
+    "nhtsaName": "INFINITI"
+  },
+  "inkas": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "innocenti": {
+    "wikidataId": "Q1664128",
+    "label": "Innocenti",
+    "description": "1947-1996 Italian vehicle maker",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "intermeccanica": {
+    "wikidataId": "Q162434",
+    "label": "Intermeccanica",
+    "description": "car manufacturer and company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "international": {
+    "wikidataId": "Q29739",
+    "label": "International",
+    "description": "motor vehicle manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": 526,
+    "nhtsaName": "INTERNATIONAL"
+  },
+  "irizar": {
+    "wikidataId": "Q2418054",
+    "label": "Irizar",
+    "description": "Spanish bus and coach manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": 10370,
+    "nhtsaName": "IRIZAR"
+  },
+  "isdera": {
+    "wikidataId": "Q704981",
+    "label": "Isdera",
+    "description": "German manufacturer of cars",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "iso": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "isotta-fraschini": {
+    "wikidataId": "Q1674581",
+    "label": "Isotta Fraschini",
+    "description": "automotive and engine manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "isuzu": {
+    "wikidataId": "Q29803",
+    "label": "Isuzu",
+    "description": "Japanese company manufacturing motor vehicles",
+    "via": "label",
+    "nhtsaMakeId": 542,
+    "nhtsaName": "ISUZU"
+  },
+  "italdesign": {
+    "wikidataId": "Q283754",
+    "label": "Italdesign Giugiaro",
+    "description": "Italian design and engineering company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "iveco": {
+    "wikidataId": "Q29913",
+    "label": "Iveco",
+    "description": "Italian industrial vehicle manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": 5744,
+    "nhtsaName": "IVECO"
+  },
+  "jac": {
+    "wikidataId": "Q545579",
+    "label": "JAC Group",
+    "description": "Chinese state-owned automobile and commercial vehicle manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "jaecoo": {
+    "wikidataId": "Q124255702",
+    "label": "Jaecoo",
+    "description": "Chinese automotive brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "jaguar": {
+    "wikidataId": "Q30055",
+    "label": "Jaguar Cars",
+    "description": "former British car company",
+    "via": "label",
+    "nhtsaMakeId": 442,
+    "nhtsaName": "JAGUAR"
+  },
+  "jawa": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "jba-motors": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "jeep": {
+    "wikidataId": "Q30113",
+    "label": "Jeep",
+    "description": "US automotive company",
+    "via": "label",
+    "nhtsaMakeId": 483,
+    "nhtsaName": "JEEP"
+  },
+  "jensen": {
+    "wikidataId": "Q30348",
+    "label": "Jensen Motors",
+    "description": "British manufacturer of sports cars and commercial vehicles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "jetour": {
+    "wikidataId": "Q98145436",
+    "label": "Jetour",
+    "description": "Chinese automotive brand owned by Chery",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "jetta": {
+    "wikidataId": "Q63124631",
+    "label": "Jetta",
+    "description": "car brand of the VW Group",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "jmc": {
+    "wikidataId": "Q1065539",
+    "label": "Jiangling Motors",
+    "description": "Chinese manufacturer of JMC vehicles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "kaiser": {
+    "wikidataId": "Q1339929",
+    "label": "Kaiser Motors",
+    "description": "automotive industry",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "kaiyi": {
+    "wikidataId": "Q50379347",
+    "label": "Kaiyi Auto",
+    "description": "car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "kamaz": {
+    "wikidataId": "Q30378",
+    "label": "Kamaz",
+    "description": "Russian truck and bus manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "karlmann-king": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "karma": {
+    "wikidataId": "Q22671741",
+    "via": "override",
+    "nhtsaMakeId": 5122,
+    "nhtsaName": "KARMA",
+    "label": "Karma Automotive",
+    "description": "automaker owned by Wanxiang Group and based in Costa Mesa, California"
+  },
+  "keating": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "kenworth": {
+    "wikidataId": "Q774830",
+    "label": "Kenworth",
+    "description": "American truck manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 532,
+    "nhtsaName": "KENWORTH"
+  },
+  "kgm": {
+    "wikidataId": "Q221869",
+    "label": "KG Mobility",
+    "description": "South Korean automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "kia": {
+    "wikidataId": "Q35349",
+    "label": "Kia",
+    "description": "South Korean automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 499,
+    "nhtsaName": "KIA"
+  },
+  "king-long": {
+    "wikidataId": "Q3273406",
+    "label": "King Long",
+    "description": "bus manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "koenigsegg": {
+    "wikidataId": "Q35594",
+    "label": "Koenigsegg",
+    "description": "Swedish manufacturer of high-performance sports cars",
+    "via": "label",
+    "nhtsaMakeId": 1896,
+    "nhtsaName": "KOENIGSEGG"
+  },
+  "kraz": {
+    "wikidataId": "Q783036",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "KrAZ",
+    "description": "Kremenchuk Automobile Plant"
+  },
+  "ktm": {
+    "wikidataId": "Q215657",
+    "label": "KTM",
+    "description": "Austrian motorcycle and sports car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "lada": {
+    "wikidataId": "Q35676",
+    "label": "Lada",
+    "description": "Russian automobile brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "lagonda": {
+    "wikidataId": "Q35879",
+    "label": "Lagonda",
+    "description": "British luxury car marque",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "lamborghini": {
+    "wikidataId": "Q35886",
+    "label": "Lamborghini",
+    "description": "Italian car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 502,
+    "nhtsaName": "LAMBORGHINI"
+  },
+  "lancia": {
+    "wikidataId": "Q35896",
+    "label": "Lancia",
+    "description": "Italian automotive company",
+    "via": "label",
+    "nhtsaMakeId": 497,
+    "nhtsaName": "LANCIA"
+  },
+  "land-rover": {
+    "wikidataId": "Q35907",
+    "label": "Land Rover",
+    "description": "former British car company",
+    "via": "label",
+    "nhtsaMakeId": 444,
+    "nhtsaName": "LAND ROVER"
+  },
+  "landwind": {
+    "wikidataId": "Q16241919",
+    "label": "Landwind",
+    "description": "Chinese automobile marque",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "laraki": {
+    "wikidataId": "Q1126499",
+    "label": "Laraki",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "leapmotor": {
+    "wikidataId": "Q99510294",
+    "label": "Leapmotor",
+    "description": "Chinese automotive company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "levc": {
+    "wikidataId": "Q47036698",
+    "label": "London EV Company",
+    "description": "British electric vehicle producer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "lexus": {
+    "wikidataId": "Q35919",
+    "label": "Lexus",
+    "description": "Japanese brand of luxury vehicle owned by Toyota Motor Corporation",
+    "via": "label",
+    "nhtsaMakeId": 515,
+    "nhtsaName": "LEXUS"
+  },
+  "leyland": {
+    "wikidataId": "Q1126617",
+    "label": "Leyland Motors",
+    "description": "British vehicle manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "li-auto": {
+    "wikidataId": "Q98139925",
+    "label": "Li Auto",
+    "description": "Chinese car company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "lifan": {
+    "wikidataId": "Q1465351",
+    "label": "Lifan Group",
+    "description": "Chinese motorcycle and automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ligier": {
+    "wikidataId": "Q35931",
+    "label": "Ligier",
+    "description": "French automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "lincoln": {
+    "wikidataId": "Q216796",
+    "label": "Lincoln Motor Company",
+    "description": "luxury division of Ford Motor Company",
+    "via": "override",
+    "nhtsaMakeId": 464,
+    "nhtsaName": "LINCOLN"
+  },
+  "lister": {
+    "wikidataId": "Q1864949",
+    "label": "Lister Cars",
+    "description": "British sports car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "livan": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "lloyd": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "lobini": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "lordstown": {
+    "wikidataId": "Q86681792",
+    "label": "Lordstown Motors",
+    "description": "electric truck startup",
+    "via": "label",
+    "nhtsaMakeId": 10768,
+    "nhtsaName": "LORDSTOWN"
+  },
+  "lotus": {
+    "wikidataId": "Q125097536",
+    "label": "Lotus",
+    "description": "car brand",
+    "via": "label",
+    "nhtsaMakeId": 466,
+    "nhtsaName": "LOTUS"
+  },
+  "lucid": {
+    "wikidataId": "Q28027517",
+    "label": "Lucid Motors",
+    "description": "California-based EV company founded in 2007",
+    "via": "label",
+    "nhtsaMakeId": 10919,
+    "nhtsaName": "LUCID"
+  },
+  "luxeed": {
+    "wikidataId": "Q123575158",
+    "label": "Luxeed",
+    "description": "Chinese EV brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "luxgen": {
+    "wikidataId": "Q711545",
+    "label": "Luxgen",
+    "description": "Taiwan automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "lynk-and-co": {
+    "wikidataId": "Q27555283",
+    "label": "Lynk & Co",
+    "description": "Chinese automobile brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mack": {
+    "wikidataId": "Q950650",
+    "via": "override",
+    "nhtsaMakeId": 490,
+    "nhtsaName": "MACK",
+    "label": "Mack Trucks",
+    "description": "American company"
+  },
+  "maextro": {
+    "wikidataId": "Q131329000",
+    "label": "Maextro",
+    "description": "Chinese luxury vehicle brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mahindra": {
+    "wikidataId": "Q848059",
+    "label": "Mahindra & Mahindra",
+    "description": "Indian multinational automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 2146,
+    "nhtsaName": "MAHINDRA"
+  },
+  "man": {
+    "wikidataId": "Q708667",
+    "label": "MAN Truck & Bus",
+    "description": "leading international provider of commercial vehicles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mansory": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "marcos": {
+    "wikidataId": "Q1637323",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Marcos Engineering",
+    "description": "Defunct British sports car manufacturer"
+  },
+  "marlin": {
+    "wikidataId": "Q1504025",
+    "label": "Marlin",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "maserati": {
+    "wikidataId": "Q35962",
+    "label": "Maserati",
+    "description": "Italian luxury car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 443,
+    "nhtsaName": "MASERATI"
+  },
+  "mastretta": {
+    "wikidataId": "Q1724639",
+    "label": "Mastretta",
+    "description": "premium Mexican car maker and design studio",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "maxus": {
+    "wikidataId": "Q3302845",
+    "label": "Maxus",
+    "description": "automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "maybach": {
+    "wikidataId": "Q35989",
+    "label": "Maybach",
+    "description": "automobile brand of Germany",
+    "via": "label",
+    "nhtsaMakeId": 533,
+    "nhtsaName": "MAYBACH"
+  },
+  "maz": {
+    "wikidataId": "Q1251215",
+    "label": "Minsk Automobile Plant",
+    "description": "Belarusian automotive industry manufacturer of commercial vehicles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mazda": {
+    "wikidataId": "Q35996",
+    "label": "Mazda",
+    "description": "Japanese multinational automaker",
+    "via": "label",
+    "nhtsaMakeId": 473,
+    "nhtsaName": "MAZDA"
+  },
+  "mazzanti": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "mclaren": {
+    "wikidataId": "Q1351854",
+    "label": "McLaren Automotive",
+    "description": "British automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 2236,
+    "nhtsaName": "MCLAREN"
+  },
+  "melkus": {
+    "wikidataId": "Q458959",
+    "label": "Melkus",
+    "description": "automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mercedes-amg": {
+    "wikidataId": "Q26966",
+    "label": "Mercedes-AMG",
+    "description": "subsidiary and sub-brand of Mercedes-Benz AG",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mercedes-benz": {
+    "wikidataId": "Q36008",
+    "label": "Mercedes-Benz",
+    "description": "German automobile brand owned by Mercedes-Benz AG",
+    "via": "label",
+    "nhtsaMakeId": 449,
+    "nhtsaName": "MERCEDES-BENZ"
+  },
+  "mercury": {
+    "wikidataId": "Q613883",
+    "label": "Mercury",
+    "description": "automobile marque of the Ford Motor Company",
+    "via": "label",
+    "nhtsaMakeId": 465,
+    "nhtsaName": "MERCURY"
+  },
+  "merkur": {
+    "wikidataId": "Q179622",
+    "label": "Merkur",
+    "description": "automobile brand used by the Ford Motor Company",
+    "via": "label",
+    "nhtsaMakeId": 5468,
+    "nhtsaName": "MERKUR"
+  },
+  "mev": {
+    "wikidataId": null,
+    "via": "override",
+    "nhtsaMakeId": 12115,
+    "nhtsaName": "MEV"
+  },
+  "mg": {
+    "wikidataId": "Q26777796",
+    "label": "MG marque",
+    "description": "British car marque",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mhero": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "microcar": {
+    "wikidataId": "Q2299839",
+    "label": "Microcar",
+    "description": "Automobile brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mini": {
+    "wikidataId": "Q116232",
+    "label": "Mini",
+    "description": "British automotive marque",
+    "via": "label",
+    "nhtsaMakeId": 456,
+    "nhtsaName": "MINI"
+  },
+  "mitsubishi": {
+    "wikidataId": "Q63118791",
+    "label": "Mitsubishi",
+    "description": "brand of cars",
+    "via": "label",
+    "nhtsaMakeId": 481,
+    "nhtsaName": "MITSUBISHI"
+  },
+  "mitsuoka": {
+    "wikidataId": "Q1544189",
+    "label": "Mitsuoka Motor",
+    "description": "automobile manufacturer based in Toyama, Toyama, Japan",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mk": {
+    "wikidataId": "Q1881582",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "MK Sportscars",
+    "description": "English sportscar kit manufacturer"
+  },
+  "morgan": {
+    "wikidataId": "Q1165625",
+    "label": "Morgan Motor Company",
+    "description": "British motor vehicle manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 539,
+    "nhtsaName": "MORGAN"
+  },
+  "morris": {
+    "wikidataId": "Q776997",
+    "label": "Morris Motors",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "mosler": {
+    "wikidataId": "Q1806804",
+    "label": "Mosler Automotive",
+    "description": "American supercar and race car company",
+    "via": "label",
+    "nhtsaMakeId": 4764,
+    "nhtsaName": "MOSLER"
+  },
+  "navistar": {
+    "wikidataId": "Q29739",
+    "label": "International",
+    "description": "motor vehicle manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": 491,
+    "nhtsaName": "NAVISTAR"
+  },
+  "nevs": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "nikola": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": 10697,
+    "nhtsaName": "NIKOLA "
+  },
+  "nio": {
+    "wikidataId": "Q29921278",
+    "label": "Nio Inc.",
+    "description": "Chinese car company",
+    "via": "override",
+    "nhtsaMakeId": null
+  },
+  "nissan": {
+    "wikidataId": "Q20165",
+    "label": "Nissan",
+    "description": "Japanese automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 478,
+    "nhtsaName": "NISSAN"
+  },
+  "nissan-gt-r": {
+    "wikidataId": "Q499109",
+    "label": "Nissan GT-R",
+    "description": "sports car model by Nissan",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "nissan-nismo": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "noble": {
+    "wikidataId": "Q1542124",
+    "label": "Noble Automotive",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "oldsmobile": {
+    "wikidataId": "Q204327",
+    "label": "Oldsmobile",
+    "description": "former division of General Motors",
+    "via": "label",
+    "nhtsaMakeId": 4162,
+    "nhtsaName": "OLDSMOBILE"
+  },
+  "oltcit": {
+    "wikidataId": "Q40963",
+    "label": "Oltcit",
+    "description": "automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "omoda": {
+    "wikidataId": "Q118646009",
+    "label": "Omoda",
+    "description": "Chinese automotive brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "onvo": {
+    "wikidataId": "Q125967298",
+    "label": "Onvo",
+    "description": "Chinese electric vehicle brand by NIO",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "opel": {
+    "wikidataId": "Q40966",
+    "label": "Opel",
+    "description": "German automobile manufacturer, subsidiary of Stellantis",
+    "via": "label",
+    "nhtsaMakeId": 471,
+    "nhtsaName": "OPEL"
+  },
+  "ora": {
+    "wikidataId": "Q97014020",
+    "label": "Ora",
+    "description": "Chinese car marque",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "osca": {
+    "wikidataId": "Q936574",
+    "label": "OSCA",
+    "description": "Italian automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "oshkosh": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": 517,
+    "nhtsaName": "OSHKOSH"
+  },
+  "paccar": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "packard": {
+    "wikidataId": "Q40971",
+    "label": "Packard",
+    "description": "defunct automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "pagani": {
+    "wikidataId": "Q132560748",
+    "label": "Pagani",
+    "description": "car brand owned by Pagani Automobili S.p.A.",
+    "via": "label",
+    "nhtsaMakeId": 4767,
+    "nhtsaName": "PAGANI"
+  },
+  "panhard": {
+    "wikidataId": "Q731471",
+    "label": "Panhard",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "panoz": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": 4220,
+    "nhtsaName": "PANOZ"
+  },
+  "pegaso": {
+    "wikidataId": "Q1477881",
+    "label": "Pegaso",
+    "description": "Spanish make of trucks, buses, tractors, armored vehicles and sports cars",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "perodua": {
+    "wikidataId": "Q1476369",
+    "label": "Perodua",
+    "description": "Car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "peterbilt": {
+    "wikidataId": "Q944640",
+    "label": "Peterbilt",
+    "description": "American manufacturer of medium- and heavy-duty trucks",
+    "via": "label",
+    "nhtsaMakeId": 495,
+    "nhtsaName": "PETERBILT"
+  },
+  "peugeot": {
+    "wikidataId": "Q6742",
+    "label": "Peugeot",
+    "description": "French automotive brand of Stellantis",
+    "via": "label",
+    "nhtsaMakeId": 5554,
+    "nhtsaName": "PEUGEOT"
+  },
+  "pgo": {
+    "wikidataId": "Q708985",
+    "label": "PGO",
+    "description": "French car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "pierce-arrow": {
+    "wikidataId": "Q40978",
+    "label": "Pierce-Arrow",
+    "description": "American automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "pininfarina": {
+    "wikidataId": "Q40987",
+    "label": "Pininfarina",
+    "description": "Italian car design firm and coachbuilder",
+    "via": "label",
+    "nhtsaMakeId": 5661,
+    "nhtsaName": "PININFARINA"
+  },
+  "plymouth": {
+    "wikidataId": "Q1124857",
+    "label": "Plymouth",
+    "description": "American vehicle brand",
+    "via": "label",
+    "nhtsaMakeId": 2409,
+    "nhtsaName": "PLYMOUTH"
+  },
+  "polestar": {
+    "wikidataId": "Q4047174",
+    "label": "Polestar",
+    "description": "Swedish automotive brand",
+    "via": "label",
+    "nhtsaMakeId": 10224,
+    "nhtsaName": "POLESTAR"
+  },
+  "pontiac": {
+    "wikidataId": "Q40990",
+    "label": "Pontiac",
+    "description": "automobile brand of General Motors",
+    "via": "label",
+    "nhtsaMakeId": 536,
+    "nhtsaName": "PONTIAC"
+  },
+  "porsche": {
+    "wikidataId": "Q40993",
+    "label": "Porsche",
+    "description": "German automobile manufacturer specializing in high-performance sports cars, SUVs and sedans, owned by Volkswagen AG",
+    "via": "label",
+    "nhtsaMakeId": 584,
+    "nhtsaName": "PORSCHE"
+  },
+  "praga": {
+    "wikidataId": "Q40996",
+    "label": "Praga",
+    "description": "Czech automobile brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "premier": {
+    "wikidataId": null,
+    "via": "ambiguous",
+    "nhtsaMakeId": null
+  },
+  "prodrive": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "proton": {
+    "wikidataId": "Q827306",
+    "label": "Proton",
+    "description": "Automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "puritalia": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "qoros": {
+    "wikidataId": "Q4231991",
+    "label": "Qoros",
+    "description": "automotive manufacturing company headquartered in Shanghai",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "radical": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "ram": {
+    "wikidataId": "Q165708",
+    "label": "Ram Trucks",
+    "description": "American brand of light to mid-weight commercial vehicles",
+    "via": "label",
+    "nhtsaMakeId": 496,
+    "nhtsaName": "RAM"
+  },
+  "rambler": {
+    "wikidataId": "Q2034074",
+    "label": "Rambler",
+    "description": "automobile brand name",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ranz": {
+    "wikidataId": "Q17053166",
+    "label": "Ranz",
+    "description": "automotive marque",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "renault": {
+    "wikidataId": "Q6686",
+    "label": "Renault",
+    "description": "automotive conglomerate",
+    "via": "label",
+    "nhtsaMakeId": 13647,
+    "nhtsaName": "RENAULT"
+  },
+  "renault-samsung": {
+    "wikidataId": "Q494168",
+    "label": "Renault Korea Motors",
+    "description": "South Korean car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "rezvani": {
+    "wikidataId": "Q19481194",
+    "label": "Rezvani Motors",
+    "description": "American car company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "riley": {
+    "wikidataId": "Q747594",
+    "label": "Riley Motor",
+    "description": "British motorcar and bicycle manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "rimac": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": 11921,
+    "nhtsaName": "RIMAC"
+  },
+  "rinspeed": {
+    "wikidataId": "Q269311",
+    "label": "Rinspeed",
+    "description": "automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "rising": {
+    "wikidataId": "Q112162285",
+    "label": "Rising Auto",
+    "description": "Chinese producent of high-end all-electric cars",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "rivian": {
+    "wikidataId": "Q7338847",
+    "label": "Rivian Automotive",
+    "description": "American automaker and automotive technology company",
+    "via": "label",
+    "nhtsaMakeId": 10887,
+    "nhtsaName": "RIVIAN"
+  },
+  "roewe": {
+    "wikidataId": "Q1637227",
+    "label": "Roewe",
+    "description": "car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "rolls-royce": {
+    "wikidataId": "Q234803",
+    "label": "Rolls-Royce Motor Cars",
+    "description": "English car company (1998-present)",
+    "via": "label",
+    "nhtsaMakeId": 445,
+    "nhtsaName": "ROLLS-ROYCE"
+  },
+  "ronart": {
+    "wikidataId": "Q7365486",
+    "label": "Ronart Cars",
+    "description": "UK automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "rossion": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "rover": {
+    "wikidataId": "Q848620",
+    "label": "Rover",
+    "description": "former British car company",
+    "via": "label",
+    "nhtsaMakeId": 10652,
+    "nhtsaName": "ROVER"
+  },
+  "rox": {
+    "wikidataId": "Q122980012",
+    "label": "Rox Motor",
+    "description": "Chinese automobile company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ruf": {
+    "wikidataId": "Q559608",
+    "label": "Ruf Automobile",
+    "description": "German automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 12550,
+    "nhtsaName": "RUF"
+  },
+  "saab": {
+    "wikidataId": "Q48957",
+    "label": "Saab Automobile",
+    "description": "defunct Swedish car manufacturer (1945-2016)",
+    "via": "label",
+    "nhtsaMakeId": 572,
+    "nhtsaName": "SAAB"
+  },
+  "saic-motor": {
+    "wikidataId": "Q910401",
+    "label": "SAIC Motor",
+    "description": "Chinese state-owned automotive company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "saipa": {
+    "wikidataId": "Q116234",
+    "label": "Saipa",
+    "description": "Iranian automaker",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "saleen": {
+    "wikidataId": "Q1361906",
+    "label": "Saleen",
+    "description": "American automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 4355,
+    "nhtsaName": "SALEEN"
+  },
+  "sany": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": 13157,
+    "nhtsaName": "SANY"
+  },
+  "saturn": {
+    "wikidataId": "Q125552548",
+    "label": "Saturn",
+    "description": "discontinued car brand",
+    "via": "label",
+    "nhtsaMakeId": 1056,
+    "nhtsaName": "SATURN"
+  },
+  "scania": {
+    "wikidataId": "Q219960",
+    "label": "Scania",
+    "description": "Swedish truck and bus manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 5107,
+    "nhtsaName": "SCANIA"
+  },
+  "scg": {
+    "wikidataId": "Q108187217",
+    "label": "Scuderia Cameron Glickenhaus",
+    "description": "car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "scion": {
+    "wikidataId": "Q503487",
+    "label": "Scion",
+    "description": "discontinued marque of Toyota",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "scout": {
+    "wikidataId": "Q112077124",
+    "label": "Scout",
+    "description": "division of the Volkswagen Group",
+    "via": "label",
+    "nhtsaMakeId": 12642,
+    "nhtsaName": "SCOUT"
+  },
+  "seat": {
+    "wikidataId": "Q188217",
+    "label": "SEAT",
+    "description": "Spanish automotive company based in Martorell, subsidiary of Volkswagen Group",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "setra": {
+    "wikidataId": "Q938615",
+    "label": "Setra",
+    "description": "German bus and coach brand built by Daimer Buses, formerly by Kässbohrer Fahrzeugwerke",
+    "via": "label",
+    "nhtsaMakeId": 4849,
+    "nhtsaName": "SETRA"
+  },
+  "sev": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "shacman": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "simca": {
+    "wikidataId": "Q173357",
+    "label": "Simca",
+    "description": "automobile company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "singer": {
+    "wikidataId": "Q2001596",
+    "label": "Singer Motors",
+    "description": "British motor vehicle manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "singulato": {
+    "wikidataId": "Q65074566",
+    "label": "Singulato",
+    "description": "Chinese automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "sinotruk": {
+    "wikidataId": "Q995970",
+    "label": "Sinotruk (Hong Kong) Limited",
+    "description": "listed automobile manufacturer incorporated in Hong Kong, China",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "sisu": {
+    "wikidataId": "Q1388470",
+    "label": "Sisu Auto",
+    "description": "Finnish vehicle manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "sitrak": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "skoda": {
+    "wikidataId": "Q29637",
+    "label": "Škoda Auto",
+    "description": "automotive manufacturing subsidiary of Volkswagen Group",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "smart": {
+    "wikidataId": "Q156490",
+    "via": "override",
+    "nhtsaMakeId": 504,
+    "nhtsaName": "SMART",
+    "label": "smart",
+    "description": "German automotive manufacturer"
+  },
+  "soueast": {
+    "wikidataId": "Q1855184",
+    "label": "Soueast",
+    "description": "Chinese automobile manufacturing company based in Fuzhou, Fujian",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "spania-gta": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "spirra": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "spyker": {
+    "wikidataId": "Q257815",
+    "label": "Spyker",
+    "description": "defunct Dutch carriage, automobile and aircraft manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 3766,
+    "nhtsaName": "SPYKER"
+  },
+  "ssangyong": {
+    "wikidataId": "Q221869",
+    "label": "KG Mobility",
+    "description": "South Korean automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ssc": {
+    "wikidataId": "Q125552869",
+    "label": "SSC",
+    "description": "American car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "stelato": {
+    "wikidataId": "Q125157307",
+    "label": "Stelato",
+    "description": "Chinese NEV brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "sterling": {
+    "wikidataId": null,
+    "via": "ambiguous",
+    "nhtsaMakeId": null
+  },
+  "studebaker": {
+    "wikidataId": "Q938876",
+    "label": "Studebaker",
+    "description": "former car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "stutz": {
+    "wikidataId": "Q1465524",
+    "label": "Stutz Motor Company",
+    "description": "company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "subaru": {
+    "wikidataId": "Q172741",
+    "label": "Subaru",
+    "description": "Japanese automobile manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": 523,
+    "nhtsaName": "SUBARU"
+  },
+  "suffolk": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "suzuki": {
+    "wikidataId": "Q181642",
+    "label": "Suzuki Motor Corporation",
+    "description": "Japanese multinational automotive corporation",
+    "via": "label",
+    "nhtsaMakeId": 509,
+    "nhtsaName": "SUZUKI"
+  },
+  "talbot": {
+    "wikidataId": "Q173151",
+    "label": "Talbot",
+    "description": "automotive brand of various corporations",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "tank": {
+    "wikidataId": "Q106620909",
+    "label": "TANK",
+    "description": "automotive marque owned by Great Wall Motor",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "tata": {
+    "wikidataId": "Q188514",
+    "label": "Tata Motors Limited",
+    "description": "Indian multinational commercial vehicle manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "tatra": {
+    "wikidataId": "Q45464",
+    "label": "Tatra",
+    "description": "Czech manufacturer of heavy-duty trucks",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "tauro": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "techart": {
+    "wikidataId": "Q7692111",
+    "label": "TechArt",
+    "description": "German automobile tuner",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "tesla": {
+    "wikidataId": "Q478214",
+    "label": "Tesla",
+    "description": "American automotive and clean energy company",
+    "via": "label",
+    "nhtsaMakeId": 441,
+    "nhtsaName": "TESLA"
+  },
+  "toyota": {
+    "wikidataId": "Q53268",
+    "label": "Toyota",
+    "description": "Japanese multinational automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 448,
+    "nhtsaName": "TOYOTA"
+  },
+  "toyota-alphard": {
+    "wikidataId": "Q1582046",
+    "via": "override",
+    "nhtsaMakeId": null,
+    "label": "Toyota Alphard",
+    "description": "minivan model"
+  },
+  "toyota-century": {
+    "wikidataId": "Q1165401",
+    "label": "Toyota Century",
+    "description": "flagship car model from Toyota",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "toyota-crown": {
+    "wikidataId": "Q573411",
+    "label": "Toyota Crown",
+    "description": "executive car manufactured by Toyota since 1955",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "tramontana": {
+    "wikidataId": "Q2527544",
+    "label": "Tramontana",
+    "description": "motor vehicle",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "trion": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "triumph": {
+    "wikidataId": "Q1140388",
+    "label": "Triumph",
+    "description": "defunct British car and motor manufacturing company",
+    "via": "label",
+    "nhtsaMakeId": 565,
+    "nhtsaName": "TRIUMPH"
+  },
+  "troller": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "trumpchi": {
+    "wikidataId": "Q5404497",
+    "label": "Trumpchi",
+    "description": "car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "tucker": {
+    "wikidataId": "Q18396211",
+    "label": "Tucker Corporation",
+    "description": "former American automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "tvr": {
+    "wikidataId": "Q46937",
+    "label": "TVR",
+    "description": "independent British manufacturer of sports cars",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "uaz": {
+    "wikidataId": "Q658242",
+    "label": "UAZ",
+    "description": "automobile manufacturer based in Ulyanovsk, Russia",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "ud": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": 518,
+    "nhtsaName": "UD"
+  },
+  "ultima": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "vandenbrink": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "vauxhall": {
+    "wikidataId": "Q59187",
+    "label": "Vauxhall",
+    "description": "English car company, subsidiary of Stellantis",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "vector": {
+    "wikidataId": "Q1969669",
+    "label": "Vector Motors",
+    "description": "American automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "vencer": {
+    "wikidataId": "Q2546967",
+    "label": "Vencer",
+    "description": "Dutch manufacturer of sports cars",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "venturi": {
+    "wikidataId": "Q137177484",
+    "label": "Venturi",
+    "description": "car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "venucia": {
+    "wikidataId": "Q7920470",
+    "label": "Venucia",
+    "description": "Chinese Brand by Dongfeng Nissan",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "vinfast": {
+    "wikidataId": "Q56660561",
+    "label": "VinFast",
+    "description": "Vietnamese automotive manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 11366,
+    "nhtsaName": "VINFAST"
+  },
+  "vlf": {
+    "wikidataId": "Q17107844",
+    "label": "VLF Automotive",
+    "description": "American car brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "volkswagen": {
+    "wikidataId": "Q246",
+    "via": "override",
+    "nhtsaMakeId": 482,
+    "nhtsaName": "VOLKSWAGEN",
+    "label": "Volkswagen",
+    "description": "German automotive brand; manufacturing subsidiary of Volkswagen Group"
+  },
+  "volvo": {
+    "wikidataId": "Q215293",
+    "label": "Volvo Cars",
+    "description": "Swedish automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": 485,
+    "nhtsaName": "VOLVO"
+  },
+  "voyah": {
+    "wikidataId": "Q107121376",
+    "label": "Voyah Automobiles Technology Co., Ltd.",
+    "description": "Chinese electric vehicle manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "w-motors": {
+    "wikidataId": "Q5827792",
+    "label": "W Motors",
+    "description": "Lebanese-Emirati car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "wanderer": {
+    "wikidataId": "Q59183",
+    "label": "Wanderer",
+    "description": "German manufacturer of bicycles, motorcycles and automobiles",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "wartburg": {
+    "wikidataId": "Q59181",
+    "label": "Wartburg",
+    "description": "1956-1991 automobile brand of VEB Automobilwerk Eisenach",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "weltmeister": {
+    "wikidataId": "Q64797075",
+    "label": "Weltmeister",
+    "description": "Chinese car company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "western-star": {
+    "wikidataId": "Q1370660",
+    "via": "override",
+    "nhtsaMakeId": 4512,
+    "nhtsaName": "WESTERN STAR",
+    "label": "Western Star Trucks",
+    "description": "American truck manufacturer"
+  },
+  "westfield": {
+    "wikidataId": "Q2095422",
+    "label": "Westfield Sportscars",
+    "description": "UK business",
+    "via": "override",
+    "nhtsaMakeId": null
+  },
+  "wey": {
+    "wikidataId": "Q31842448",
+    "label": "Wey",
+    "description": "automotive marque owned by Great Wall Motor",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "wiesmann": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "willys-overland": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "workhorse": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": 525,
+    "nhtsaName": "WORKHORSE"
+  },
+  "wuling": {
+    "wikidataId": "Q3817853",
+    "label": "Wuling Motors",
+    "description": "Chinese brand car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "xcmg": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "xiaomi": {
+    "wikidataId": "Q123574937",
+    "label": "Xiaomi Auto",
+    "description": "Chinese automotive division of Xiaomi",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "xpeng": {
+    "wikidataId": "Q63035278",
+    "label": "XPeng",
+    "description": "Chinese automobile manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "yangwang": {
+    "wikidataId": "Q116257300",
+    "label": "Yangwang",
+    "description": "Chinese BYD Auto's electric vehicle brand",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "yulon": {
+    "wikidataId": "Q711523",
+    "label": "Yulon Motor",
+    "description": "Taiwanese company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "yutong": {
+    "wikidataId": "Q2389456",
+    "label": "Yutong",
+    "description": "Chinese bus manufacturer based in Zhengzhou, Henan, China",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "zarooq-motors": {
+    "wikidataId": null,
+    "via": "none",
+    "nhtsaMakeId": null
+  },
+  "zastava": {
+    "wikidataId": "Q15770",
+    "label": "Zastava Automobiles",
+    "description": "1953-2008 Serbian vehicle manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "zaz": {
+    "wikidataId": "Q71233",
+    "label": "ZAZ",
+    "description": "Ukrainian car manufacturer",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "zeekr": {
+    "wikidataId": "Q106621124",
+    "label": "Zeekr",
+    "description": "Chinese high-end EV brand",
+    "via": "label",
+    "nhtsaMakeId": 13271,
+    "nhtsaName": "ZEEKR"
+  },
+  "zenos": {
+    "wikidataId": "Q25168642",
+    "label": "Zenos Cars",
+    "description": "British car maker",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "zenvo": {
+    "wikidataId": "Q2557186",
+    "label": "Zenvo",
+    "description": "car manufacturer from Denmark",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "zhongtong": {
+    "wikidataId": "Q197914",
+    "label": "Zhong Tong Bus",
+    "description": "Chinese bus company",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "zinoro": {
+    "wikidataId": "Q16041304",
+    "label": "Zinoro",
+    "description": "luxury automobile marque owned by BMW Brilliance",
+    "via": "label",
+    "nhtsaMakeId": null
+  },
+  "zotye": {
+    "wikidataId": "Q11705500",
+    "label": "Zotye",
+    "description": "Chinese motor company",
+    "via": "label",
+    "nhtsaMakeId": null
+  }
+}

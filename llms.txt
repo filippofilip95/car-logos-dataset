@@ -6,7 +6,7 @@ Logos come from https://www.carlogos.org/ and a few local sources; each brand's 
 
 ## Data
 
-- [data.json (v2.7.1)](https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.7.1/logos/data.json): every brand with `name`, `slug` and `image` (`thumb`, `optimized`, `original` on jsDelivr, `source`)
+- [data.json (v2.8.0)](https://cdn.jsdelivr.net/gh/filippofilip95/car-logos-dataset@v2.8.0/logos/data.json): every brand with `name`, `slug`, `wikidataId`, `country` (ISO 3166-1 alpha-2), `founded` (year), `nhtsaMakeId` (null when unknown; Wikidata CC0, NHTSA vPIC public domain) and `image` (`thumb`, `optimized`, `original` on jsDelivr, `source`)
 - [Use as an API (CDN)](https://github.com/filippofilip95/car-logos-dataset#use-as-an-api-cdn): pinned vs `@latest`, fetch examples in JavaScript and Python
 
 ## Docs

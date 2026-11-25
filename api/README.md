@@ -5,8 +5,10 @@ A small read-only JSON API over `logos/data.json`, as a [Cloudflare Python Worke
 | Endpoint | Returns |
 |---|---|
 | `GET /` | index with links, image base and the source attribution |
-| `GET /brands?limit=&offset=` | `{total, offset, limit, items}`; `limit` 1 to 100 (default 50), `offset` 0 to 10000 |
+| `GET /brands?limit=&offset=&country=` | `{total, offset, limit, items}`; `limit` 1 to 100 (default 50), `offset` 0 to 10000, optional `country` ISO 3166-1 alpha-2 in capitals (`^[A-Z]{2}$`, e.g. `DE`) |
 | `GET /brands/{slug}` | one brand; `slug` matches `^[a-z0-9-]{1,64}$`; 404 when missing |
+
+A brand is `{name, slug, wikidataId, country, founded, nhtsaMakeId, image}`; the four metadata fields are null when unknown (and always null for data releases before v2.8.0).
 | `GET /search?q=` | `q` 1 to 64 characters (trimmed); case-insensitive match on name or slug, at most 50 |
 | `GET /random?count=` | 1 to 20 random brands (default 1) |
 | `GET /docs`, `GET /openapi.json` | FastAPI docs and schema (response models on every route) |
