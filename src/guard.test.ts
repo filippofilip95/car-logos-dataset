@@ -26,6 +26,8 @@ test("missing data.json counts as 0, so a first run is allowed", () => {
 test("the pipeline checks before optimizing and before writing", () => {
   const index = fs.readFileSync(path.resolve("src/index.ts"), "utf-8");
   const finalizer = fs.readFileSync(path.resolve("src/DataFinalizer.ts"), "utf-8");
-  assert.ok(index.indexOf("assertNoShrink") > -1 && index.indexOf("assertNoShrink") < index.indexOf("new ImageOptimizer"));
-  assert.ok(finalizer.indexOf("assertNoShrink") > -1 && finalizer.indexOf("assertNoShrink") < finalizer.indexOf("writeJsonFileSync(META_JSON_PATH"));
+  // match the call, not the import line
+  const call = "assertNoShrink(";
+  assert.ok(index.indexOf(call) > -1 && index.indexOf(call) < index.indexOf("new ImageOptimizer"));
+  assert.ok(finalizer.indexOf(call) > -1 && finalizer.indexOf(call) < finalizer.indexOf("writeJsonFileSync(META_JSON_PATH"));
 });
