@@ -11,6 +11,13 @@ test("picks the newest dated history logo", () => {
   assert.equal(pickLogoUrl($), "https://www.carlogos.org/car-logos/kia-logo-2021.png");
 });
 
+test("ignores other brands' images on the page", () => {
+  const $ = cheerio.load(`
+    <img src="/car-logos/denza-logo.png" id="bd-logo">
+    <img src="/car-logos/denza-logo-2024.png"><img src="/car-logos/byd-logo-2025.png">`);
+  assert.equal(pickLogoUrl($), "https://www.carlogos.org/car-logos/denza-logo-2024.png");
+});
+
 test("falls back to the header logo", () => {
   const $ = cheerio.load(`<img src="/car-logos/onvo-logo.png" id="bd-logo">`);
   assert.equal(pickLogoUrl($), "https://www.carlogos.org/car-logos/onvo-logo.png");

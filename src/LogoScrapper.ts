@@ -8,13 +8,18 @@ import { BASE_URL, LogosTargetLocation, Selectors, Url } from "./config";
 // Picks the current mark on a carlogos.org brand page: the newest dated
 // history image (640 px), else the small header logo (240 px).
 export function pickLogoUrl(document: CheerioAPI): string | undefined {
+  const header = document(Selectors.CurrentLogo).attr("src");
+  // Only this brand's own history (/car-logos/kia-logo-2021.png for kia-logo.png),
+  // never a related brand's thumbnail elsewhere on the page.
+  const prefix = header ? header.replace(/\.(png|jpg|svg)$/, "-") : undefined;
   let best: { year: number; src: string } | undefined;
   document(Selectors.HistoryLogos).each((_, el) => {
     const src = document(el).attr("src") || "";
+    if (prefix && !src.startsWith(prefix)) return;
     const m = src.match(/-logo-(\d{4})\.(png|jpg|svg)$/);
     if (m && (!best || Number(m[1]) > best.year)) best = { year: Number(m[1]), src };
   });
-  const src = best?.src || document(Selectors.CurrentLogo).attr("src");
+  const src = best?.src || header;
   if (!src) return undefined;
   return src.startsWith("http") ? src : `${BASE_URL}${src}`;
 }
