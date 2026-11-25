@@ -2,14 +2,23 @@
 
 Thanks for helping. Most contributions are a missing or outdated logo.
 
-## Add or update a logo
+## Refresh from the source (crawler)
 
-The crawler is broken since the source site's redesign ([#35](https://github.com/filippofilip95/car-logos-dataset/issues/35)). Until it is fixed, `npm start` stops before it writes anything, so add every new or updated logo as a local logo:
+The crawler reads carlogos.org. It never writes into `logos/` directly:
+
+1. `npm start -- <tmpDir>` crawls into `<tmpDir>` (the default is a new temp folder) and writes `report.md` there. The report lists new brands, logos that changed upstream, brands that vanished upstream and name/slug mismatches.
+2. Look at the report and pick what to take. Take a changed logo only when the upstream one is clearly the brand's current official mark. Upstream files are at most 640 px wide, often smaller than ours.
+3. `npm run apply -- <tmpDir> --add a,b --replace c,d` copies those logos in and generates the optimized and thumb versions. `--replace` keeps the existing file name, so every URL stays the same. A run that would leave fewer logos than `data.json` has stops before writing anything.
+4. Run `npm run validate` and `npm test`.
+
+## Add or update a logo by hand
+
+For a brand the source does not publish, add a local logo:
 
 1. Put a PNG with a transparent background in `local-logos/`, named after the slug (`checker.png`). Use the largest clean version you can find.
-2. Add an entry to `local-logos/metadata.json` with `name`, `slug`, `fileName` and `source`, a public link to where the image came from.
-3. Generate `logos/original`, `logos/optimized` and `logos/thumb` with the same sharp settings as `src/ImageOptimizer.ts` (png quality 50, compression level 5; thumb 256 px high, `fit: contain`), so the optimized file is really optimized. Add the entry to `logos/data.json` in alphabetical order, with the same fields as the other logos.
-4. Run `npm run validate` and `npm test`. It checks that `logos/data.json` and the files on disk match.
+2. Add an entry to `local-logos/metadata.json` with `name`, `slug`, `fileName`, `source` (a public link to where the image came from) and `license` if the source states one.
+3. `npm run apply -- --local <slug>` generates original, optimized and thumb and adds the brand to `logos/data.json`.
+4. Run `npm run validate` and `npm test`.
 5. Open a pull request and say where the image comes from.
 
 ## Rules that keep existing users working

@@ -1,19 +1,26 @@
 # Car Logos Dataset 🚗
 
-A comprehensive collection of **387 car manufacturer logos** with multiple size variations and metadata. This dataset provides high-quality logos in different formats, making it perfect for automotive-related applications, research, or design projects.
+A comprehensive collection of **435 car manufacturer logos** with multiple size variations and metadata. This dataset provides high-quality logos in different formats, making it perfect for automotive-related applications, research, or design projects.
 
 Maintained by [Digitaliko](https://www.digitaliko.com/work/car-logos-dataset), a Slovak studio building custom software and AI agents.
 
 ## 📦 Features
 
-- 387 unique car manufacturer logos
+- 435 unique car manufacturer logos
 - Three size variations for each logo:
     - Original high-resolution images
     - Optimized versions (smaller file size, maintained quality)
     - Thumbnails (256px height)
 - Detailed JSON metadata for each logo
 - MIT licensed (logos remain property of respective owners)
-- Last full crawl: August 27, 2025. Since then updated by hand (new local logos, fixes like the 2021 Kia emblem). The crawler is broken since the source site's redesign ([#35](https://github.com/filippofilip95/car-logos-dataset/issues/35)), so new logos come in through `local-logos/`.
+- Last full crawl: November 25, 2026 (see [What's new](#whats-new))
+
+## What's new
+
+**November 2026** (v2.7.0): crawler fixed for the redesigned source site, 48 new brands, 15 brands updated to their current logo.
+
+- New: AITO, Aion, Ankai, Aria, ATS, Aurus, AVATR, Brockway, Czinger, Dallara, Deepal, Denza, Devalliet, Fangchengbao, Galaxy, GMA, Hofele, iCAR, IM, INEOS, INKAS, Isotta Fraschini, Italdesign, Jaecoo, Kaiyi, KGM, KrAZ, Livan, Luxeed, Maextro, MHERO, Onvo, ORA, Oshkosh, Puritalia, Rising, Rox, SANY, SCG, Scout, Sitrak, Stelato, Tank, Trumpchi, Voyah, XCMG, Xiaomi, Yangwang
+- Current logo, same file name: BYD, Buick, Citroen, Dacia, Fiat, Geely, Infiniti, Iveco, Lada, Opel, Peugeot, Renault, Skoda, Smart, Volvo
 
 ## 📂 Repository Structure
 
@@ -25,7 +32,7 @@ Maintained by [Digitaliko](https://www.digitaliko.com/work/car-logos-dataset), a
   data.json     # Metadata for all logos
 /local-logos    # Custom/local logos with metadata
   metadata.json # Local logos metadata
-  *.png         # Local logo files (Cupra, Jetour, Omoda, SEV)
+  *.png         # Local logo files (brands the crawl source does not publish)
 /src            # Source code for crawler and processing
 ```
 
@@ -38,15 +45,17 @@ git clone https://github.com/filippofilip95/car-logos-dataset.git
 # Install dependencies
 npm install
 
-# Run the crawler and processor
-# (broken until #35 is fixed: it stops without writing anything)
-npm start
+# Crawl into a temp folder and write a diff report (never touches logos/)
+npm start -- /tmp/car-logos-crawl
+
+# Take chosen logos from the crawl, see CONTRIBUTING.md
+npm run apply -- /tmp/car-logos-crawl --add <slug,...>
 
 # Check that data.json and the files on disk match
 npm run validate
 ```
 
-**⚠️ Processing Time:** The script processes 387 logos through image optimization which takes 3-8 minutes. The Node.js memory has been optimized for this workload. If running through automation tools, ensure sufficient timeout allowance.
+**⚠️ Processing Time:** a crawl downloads about 400 brand pages and takes a few minutes.
 
 ## 📝 Usage Examples
 
@@ -98,7 +107,7 @@ The code and metadata are MIT licensed, see [LICENSE](LICENSE).
 ## 🔍 Data Source
 
 - **Main Dataset**: Logo images are crawled from [Carlogos.org](https://www.carlogos.org/) and processed for optimal usage
-- **Local Logos**: Custom logos are added directly to the repository in the `local-logos/` directory for brands not available in the main crawl source
+- **Local Logos**: logos for brands the main source does not publish, in `local-logos/` with a source link per file (several from [Wikimedia Commons](https://commons.wikimedia.org/), public domain)
 
 ## 📫 Support
 
