@@ -1017,7 +1017,7 @@
     "name": "Cupra",
     "slug": "cupra",
     "image": {
-      "source": "/Users/filip.popranec/Develop/car-logos-dataset/local-logos/cupra.png",
+      "source": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/local-logos/cupra.png",
       "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/cupra.png",
       "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/cupra.png",
       "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/cupra.png",
@@ -2460,7 +2460,7 @@
     "name": "Jetour",
     "slug": "jetour",
     "image": {
-      "source": "/Users/filip.popranec/Develop/car-logos-dataset/local-logos/jetour.png",
+      "source": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/local-logos/jetour.png",
       "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/jetour.png",
       "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/jetour.png",
       "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/jetour.png",
@@ -3435,7 +3435,7 @@
     "name": "Omoda",
     "slug": "omoda",
     "image": {
-      "source": "/Users/filip.popranec/Develop/car-logos-dataset/local-logos/omoda.png",
+      "source": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/local-logos/omoda.png",
       "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/omoda.png",
       "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/omoda.png",
       "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/omoda.png",
@@ -4085,7 +4085,7 @@
     "name": "SEV",
     "slug": "sev",
     "image": {
-      "source": "/Users/filip.popranec/Develop/car-logos-dataset/local-logos/sev.png",
+      "source": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/local-logos/sev.png",
       "thumb": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/sev.png",
       "optimized": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/sev.png",
       "original": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/original/sev.png",

@@ -2,12 +2,14 @@ import * as fs from "fs";
 import * as path from "path";
 import { ManufacturersLogos } from "./types";
 import BaseClass from "./BaseClass";
-import { LogosTargetLocation } from "./config";
+import { LogosTargetLocation, PublicAccessUrl } from "./config";
 
 interface LocalLogoEntry {
   name: string;
   slug: string;
   fileName: string;
+  // Where the logo came from (a public link). Falls back to the file in this repo.
+  source?: string;
 }
 
 class LocalLogosLoader extends BaseClass {
@@ -66,7 +68,7 @@ class LocalLogosLoader extends BaseClass {
         this.logos.push({
           name: entry.name,
           slug: entry.slug,
-          image: { source: sourceFile }
+          image: { source: entry.source || PublicAccessUrl.Local(entry.fileName) }
         });
 
         console.log(`${this.chalk.green("Processed local logo:")} ${entry.name}`);

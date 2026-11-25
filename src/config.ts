@@ -27,6 +27,7 @@ export const PublicAccessUrl = {
     `${BASE_PUBLIC_ACCESS_URL}/logos/original/${file}`,
   Optimized: (file: string) =>
     `${BASE_PUBLIC_ACCESS_URL}/logos/optimized/${file}`,
+  Local: (file: string) => `${BASE_PUBLIC_ACCESS_URL}/local-logos/${file}`,
 };
 
 export const Url = {
